@@ -1,7 +1,6 @@
 include ../config.mk
 
 .DEFAULT_GOAL := run
-
 .PHONY: kill run
 
 kill:

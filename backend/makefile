@@ -1,8 +1,8 @@
 include ../config.mk
 
+.DEFAULT_GOAL := run
 .PHONY: kill install dev run
 
-.DEFAULT_GOAL := run
 ENV_VARS := FRONTEND_IP=$(IP) FRONTEND_PORT=$(FRONTEND_PORT)
 
 kill:
