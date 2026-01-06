@@ -40,6 +40,7 @@ La page doit valoriser la richesse du Web de données (Linked Open Data) en rév
       Date de découverte
 
 3. Relations que la page web souhaite mettre en évidence
+
   3.1 Relations hiérarchiques
 
     rdfs:subClassOf → lien entre types de corps célestes
