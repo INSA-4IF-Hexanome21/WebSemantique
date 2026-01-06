@@ -7,9 +7,9 @@ app = FastAPI()
 # Redirect root to frontend server
 @app.get("/")
 async def root():
-    frontend_ip = os.getenv("FRONTEND_IP", "0.0.0.0")
-    frontend_port = os.getenv("FRONTEND_PORT", "0")
-    if frontend_port != "0" and frontend_ip != "0.0.0.0":
+    frontend_ip = os.getenv("FRONTEND_IP")
+    frontend_port = os.getenv("FRONTEND_PORT")
+    if frontend_ip and frontend_port:
         return RedirectResponse(url=f"http://{frontend_ip}:{frontend_port}")
     else:
         return { "status": 0, "input": {}, "output": {} }
