@@ -1,0 +1,65 @@
+Etoile de la constellation choisi ici Ursa Minor
+SELECT ?etoile ?constellation
+WHERE {
+?etoile a dbo:Star .
+?etoile dbp:constell ?constellation.
+FILTER( ?constellation = dbr:Ursa_Minor)
+} LIMIT 100
+
+Etoile appartenant à la même constellation que l'étoile choisi
+
+SELECT DISTINCT ?etoile ?name ?constellation ?star 
+WHERE {
+?etoile a dbo:Star .
+?star a dbo:Star.
+?star dbp:constell ?const.
+?etoile dbp:constell ?constellation.
+?star rdfs:label ?name.
+FILTER( ?constellation = ?const)
+FILTER (lang(?name)="en")
+FILTER (?star != ?etoile)
+FILTER contains (?name, "Chi Pegasi")
+
+} LIMIT 100
+
+
+Recherche asteroide 
+SELECT DISTINCT ?lune  
+WHERE {
+?lune a dbo:Planet.
+?lune a dbo:Asteroid
+} LIMIT 100
+
+
+Recherche Planète
+SELECT DISTINCT ?lune  ?des
+WHERE {
+?lune a dbo:Planet.
+?lune dbo:description ?des.
+?lune gold:hypernym dbr:Planet.
+FILTER not exists {?lune a dbo:Asteroid}
+FILTER (lang(?des)="fr")
+} LIMIT 100
+
+
+Recherche lune (ne donne pas toutes les lunes)
+SELECT DISTINCT ?lune  ?planet
+WHERE {
+?lune a dbo:Planet.
+?lune dbp:satelliteOf ?planet.
+?lune dbo:description ?des.
+FILTER (lang(?des)="fr")
+} LIMIT 100
+
+Recherche lunes du système solaire
+SELECT DISTINCT ?lune  ?planet
+WHERE {
+?lune a dbo:Planet.
+?lune dbp:satelliteOf ?planet.
+?lune dbo:description ?des.
+?lune gold:hypernym dbr:Satellite.
+FILTER (lang(?des)="fr")
+} LIMIT 100
+
+
+
