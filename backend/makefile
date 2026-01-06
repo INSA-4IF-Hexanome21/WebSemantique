@@ -1,15 +1,19 @@
 include ../config.mk
 
-.DEFAULT_GOAL := run
+.PHONY: kill install dev run
 
-.PHONY: install dev run
+.DEFAULT_GOAL := run
+ENV_VARS := FRONTEND_IP=$(IP) FRONTEND_PORT=$(FRONTEND_PORT)
+
+kill:
+	lsof -ti :$(BACKEND_PORT) | xargs kill -9 2>/dev/null || true
 
 install:
 	python3 -m venv venv
 	./venv/bin/pip install -q --disable-pip-version-check -r requirements.txt
 
 dev:
-	FRONTEND_IP=$(IP) FRONTEND_PORT=$(FRONTEND_PORT) ./venv/bin/fastapi dev serveur.py --host $(IP) --port $(BACKEND_PORT)
+	$(ENV_VARS) ./venv/bin/fastapi dev serveur.py --host $(IP) --port $(BACKEND_PORT)
 
 run:
-	FRONTEND_IP=$(IP) FRONTEND_PORT=$(FRONTEND_PORT) ./venv/bin/fastapi run serveur.py --host $(IP) --port $(BACKEND_PORT)
+	$(ENV_VARS) ./venv/bin/fastapi run serveur.py --host $(IP) --port $(BACKEND_PORT)
