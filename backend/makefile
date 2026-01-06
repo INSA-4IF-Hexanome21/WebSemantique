@@ -9,7 +9,7 @@ install:
 	./venv/bin/pip install -q --disable-pip-version-check "fastapi[standard]"
 
 dev:
-	./venv/bin/fastapi dev serveur.py --host $(IP) --port $(BACKEND_PORT)
+	FRONTEND_IP=$(IP) FRONTEND_PORT=$(FRONTEND_PORT) ./venv/bin/fastapi dev serveur.py --host $(IP) --port $(BACKEND_PORT)
 
 run:
-	./venv/bin/fastapi run serveur.py --host $(IP) --port $(BACKEND_PORT)
+	FRONTEND_IP=$(IP) FRONTEND_PORT=$(FRONTEND_PORT) ./venv/bin/fastapi run serveur.py --host $(IP) --port $(BACKEND_PORT)
