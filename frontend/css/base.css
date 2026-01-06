@@ -1,0 +1,7 @@
+/* latin */
+@font-face {
+  font-family: 'Nasa';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font-family/nasa.TTF") format("TrueType")
+}
