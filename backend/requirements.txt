@@ -1,0 +1,3 @@
+# FastAPI and its dependencies with pinned versions
+# Generated to ensure reproducible builds and security
+fastapi[standard]==0.115.6
