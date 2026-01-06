@@ -10,7 +10,7 @@ async def root():
     return RedirectResponse(url="http://127.0.0.1:8080")
 
 @app.get("/api/getPlanet")
-async def getPlanet(name: str):
+async def get_planet(name: str):
     return {
         "status": "success",
         "input": {"name": name},
