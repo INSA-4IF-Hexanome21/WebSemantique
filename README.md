@@ -58,6 +58,7 @@ La page doit valoriser la richesse du Web de données (Linked Open Data) en rév
     Similarité entre galaxies (type, taille, distance)
 
 4. Ce que la page web présente concrètement
+
   4.1 Vue “Exploration”
   
   Liste interactive de corps célestes
