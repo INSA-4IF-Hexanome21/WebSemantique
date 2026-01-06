@@ -4,7 +4,7 @@ from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
-# Redirect root to 127.0.0.1:8080
+# Redirect root to frontend server
 @app.get("/")
 async def root():
     return RedirectResponse(url="http://127.0.0.1:8080")
