@@ -6,7 +6,7 @@ include config.mk
 
 # Detect OS for opening browser
 ifeq ($(OS),Windows_NT)
-OPEN_CMD := start
+OPEN_CMD := start ""
 else
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
@@ -14,7 +14,7 @@ OPEN_CMD := open
 else ifeq ($(UNAME_S),Linux)
 OPEN_CMD := xdg-open
 else
-OPEN_CMD := echo "Please open manually:"
+OPEN_CMD := echo "Please open manually: "
 endif
 endif
 
