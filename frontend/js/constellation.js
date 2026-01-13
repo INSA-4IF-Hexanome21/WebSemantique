@@ -29,5 +29,5 @@ async function getStarsInConstellation() {
     resultArea.appendChild(textarea);
     resultArea.hidden = false;
     document.getElementById("constellationsButton").replaceChildren();
-    document.getElementById("constellationsButton").textContent = "Trouver les étoiles dans votre constellation";
+    document.getElementById("constellationsButton").textContent = "Trouvez les étoiles de votre constellation";
 }
