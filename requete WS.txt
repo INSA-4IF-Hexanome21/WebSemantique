@@ -102,15 +102,54 @@ LIMIT 100
 
 ###############Satellites###############
 ## Tous les satellites ##
-SELECT ?body ?label 
-WHERE {
-  ?body rdf:type dbo:CelestialBody ;
-        rdfs:label ?label ;
-        dbo:description ?description .
 
-  FILTER (lang(?label) = "fr")
-  FILTER (lang(?description) = "fr")
-  
-  FILTER(CONTAINS(LCASE(?description), "satellite"))
+SELECT DISTINCT ?body ?label
+WHERE {
+  {
+    # Requête 1 : description contenant "satellite"
+    ?body rdf:type dbo:CelestialBody ;
+          rdfs:label ?label ;
+          dbo:description ?description .
+    FILTER(lang(?label) = "fr")
+    FILTER(lang(?description) = "fr")
+    FILTER(CONTAINS(LCASE(?description), "satellite"))
+  }
+  UNION
+  {
+    # Requête 2 : gold:hypernym
+    ?body gold:hypernym dbr:Satellite ;
+          rdfs:label ?label .
+    FILTER(lang(?label) = "fr")
+  }
 }
 
+## Tous ceux qui sont naturels ##
+SELECT DISTINCT ?satellite ?label
+       (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
+WHERE {
+  {
+    # Satellites détectés via description
+    ?satellite rdf:type dbo:CelestialBody ;
+               rdfs:label ?label ;
+               dbo:description ?description .
+    FILTER(lang(?label) = "fr")
+    FILTER(lang(?description) = "fr")
+    FILTER(CONTAINS(LCASE(?description), "satellite"))
+  }
+  UNION
+  {
+    # Satellites détectés via gold:hypernym
+    ?satellite gold:hypernym dbr:Satellite ;
+               rdfs:label ?label .
+    FILTER(lang(?label) = "fr")
+  }
+}
+## Tous ceux qui sont artificiels ##
+SELECT DISTINCT ?satellite ?label
+WHERE {
+  ?satellite gold:hypernym dbr:Satellite ;
+             rdfs:label ?label .
+
+  FILTER(lang(?label) = "fr")
+  FILTER NOT EXISTS { ?satellite rdf:type dbo:CelestialBody }
+}
