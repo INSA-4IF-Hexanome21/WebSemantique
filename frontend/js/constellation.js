@@ -16,5 +16,10 @@ async function getStarsOnConstellation() {
     var nomConstellation = document.getElementById("listConstellations").value;
     const response = await fetch("http://127.0.0.1:8000/api/get-etoiles-on-constellation?name=" + nomConstellation);
     const json = await response.json();
-    console.log(json)
+    var list = json["output"];
+    var resultArea = document.getElementById("divReponse");
+    var textarea = document.createElement("textarea");
+    textarea.value = list.join("\n");
+    resultArea.replaceChildren();
+    resultArea.appendChild(textarea);
 }
