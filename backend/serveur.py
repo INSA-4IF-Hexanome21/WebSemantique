@@ -53,7 +53,7 @@ async def get_constellations():
     result = []
     for item in raw:
         result.append(item["nameConstellation"]["value"])
-    result.sort()
+        result.sort()
     return {"status": 1, "input": {}, "output": result}
 
 @app.get("/api/get-stars-in-constellation")
@@ -61,7 +61,7 @@ async def get_stars_in_constellation(name: str):
     name = name.replace(" ", "_")
     query = f"""
     {query_prefix}
-    SELECT ?label
+    SELECT *
     WHERE {{
         ?star a dbo:Star.
         ?star dbp:constell ?constellation.
@@ -75,8 +75,8 @@ async def get_stars_in_constellation(name: str):
     raw = sparql.query().convert()["results"]["bindings"]
     result = []
     for item in raw:
-        result.append(item["label"]["value"])
-    result.sort()
+        result.append({"name": item["label"]["value"], "uri": item["star"]["value"]})
+        result.sort(key=lambda x: x["name"])
     return {"status": 1, "input": {"name": name}, "output": result}
 
 @app.get("/api/get-star-details")
