@@ -7,6 +7,14 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 app = FastAPI()
 sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
+query_prefix = """
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+"""
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -28,6 +36,7 @@ async def root():
 @app.get("/api/get-constellations")
 async def get_constellations():
     query = f"""
+    {query_prefix}
     SELECT DISTINCT ?nameConstellation
     WHERE {{
     ?etoile a dbo:Star.
@@ -50,11 +59,14 @@ async def get_constellations():
 async def get_stars_in_constellation(name: str):
     name = name.replace(" ", "_")
     query = f"""
-    SELECT ?etoile ?constellation
+    {query_prefix}
+    SELECT ?label
     WHERE {{
-    ?etoile a dbo:Star .
-    ?etoile dbp:constell ?constellation.
-    FILTER( ?constellation = dbr:{name} )
+    ?star a dbo:Star.
+    ?star dbp:constell ?constellation.
+    ?star rdfs:label ?label.
+    FILTER (?constellation = dbr:{name})
+    FILTER (lang(?label) = "fr")
     }}
     """
     sparql.setQuery(query)
@@ -62,6 +74,27 @@ async def get_stars_in_constellation(name: str):
     raw = sparql.query().convert()["results"]["bindings"]
     results = []
     for result in raw:
-        results.append(result["etoile"]["value"])
+        results.append(result["label"]["value"])
         results.sort()
     return {"status": 1, "input": {"name": name}, "output": results}
+
+@app.get("/api/get-star-details")
+async def get_star_details(name: str):
+    query = f"""
+    {query_prefix}
+    SELECT *
+    WHERE {{
+    ?star rdf:type dbo:Star.
+    ?star rdfs:label ?label.
+    FILTER (lang(?label) = "fr")
+    FILTER (value(?label) = "{name}")
+    }}
+    """
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    raw = sparql.query().convert()["results"]["bindings"]
+    # results = []
+    # for result in raw:
+    #     results.append(result["label"]["value"])
+    #     results.sort()
+    return {"status": 1, "input": {"name": name}, "output": raw}
