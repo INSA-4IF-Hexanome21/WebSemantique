@@ -1,5 +1,3 @@
-
-
 ############################################################################################################
 ####################     Prefix commun (à mettre en tête de chaque requête) : ##############################
 ############################################################################################################
@@ -11,10 +9,16 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
+###############Étoiles###############
+    ## Recherche large ##
+SELECT ?star ?label
+WHERE {
+  ?star rdf:type dbo:Star ;
+        rdfs:label ?label .
+  FILTER (lang(?label) = "fr")
+}
 
-
-
-Etoile de la constellation choisi ici Ursa Minor
+    ## Etoile de la constellation choisi ici Ursa Minor ##
 SELECT ?etoile ?constellation
 WHERE {
 ?etoile a dbo:Star .
@@ -22,8 +26,7 @@ WHERE {
 FILTER( ?constellation = dbr:Ursa_Minor)
 } LIMIT 100
 
-Etoile appartenant à la même constellation que l'étoile choisi
-
+ ## Etoile appartenant à la même constellation que l'étoile choisi ##
 SELECT DISTINCT ?etoile ?name ?constellation ?star 
 WHERE {
 ?etoile a dbo:Star .
@@ -38,8 +41,7 @@ FILTER contains (?name, "Chi Pegasi")
 
 } LIMIT 100
 
-
-Recherche asteroide 
+###############Recherche asteroide############### 
 SELECT DISTINCT ?lune  
 WHERE {
 ?lune a dbo:Planet.
@@ -47,18 +49,19 @@ WHERE {
 } LIMIT 100
 
 
-Recherche Planète
-SELECT DISTINCT ?lune  ?des
+###############Planètes###############
+    ##Recherche Planète##
+SELECT DISTINCT ?planete  ?des
 WHERE {
-?lune a dbo:Planet.
-?lune dbo:description ?des.
-?lune gold:hypernym dbr:Planet.
-FILTER not exists {?lune a dbo:Asteroid}
+?planete a dbo:Planet.
+?planete dbo:description ?des.
+?planete gold:hypernym dbr:Planet.
+FILTER not exists {?planete a dbo:Asteroid}
 FILTER (lang(?des)="fr")
 } LIMIT 100
 
 
-Recherche lune (ne donne pas toutes les lunes)
+    ##Recherche lune (ne donne pas toutes les lunes)##
 SELECT DISTINCT ?lune  ?planet
 WHERE {
 ?lune a dbo:Planet.
@@ -67,7 +70,7 @@ WHERE {
 FILTER (lang(?des)="fr")
 } LIMIT 100
 
-Recherche lunes du système solaire
+    ##Recherche lunes du système solaire##
 SELECT DISTINCT ?lune  ?planet
 WHERE {
 ?lune a dbo:Planet.
@@ -76,11 +79,6 @@ WHERE {
 ?lune gold:hypernym dbr:Satellite.
 FILTER (lang(?des)="fr")
 } LIMIT 100
-
-############################################################################################################
-######################################     Recherches larges :    ##########################################
-############################################################################################################
-
 
 ###############Corps célestes (général)###############
 
@@ -91,26 +89,6 @@ WHERE {
   FILTER (lang(?label) = "fr")
 }
 LIMIT 100
-
-###############Étoiles###############
-
-SELECT ?star ?label
-WHERE {
-  ?star rdf:type dbo:Star ;
-        rdfs:label ?label .
-  FILTER (lang(?label) = "fr")
-}
-
-###############Planètes###############
-
-SELECT ?planet ?label
-WHERE {
-  ?planet rdf:type dbo:Planet ;
-          rdfs:label ?label .
-  FILTER (lang(?label) = "fr")
-
-  FILTER NOT EXISTS { ?planet rdf:type dbo:Asteroid }
-}
 
 ###############Satellites###############
 
