@@ -44,7 +44,7 @@ async def get_constellations():
     for result in raw:
         results.append(result["nameConstellation"]["value"])
         results.sort()
-    return {"status": 1, "input": {}, "output": raw}
+    return {"status": 1, "input": {}, "output": results}
 
 @app.get("/api/get-stars-in-constellation")
 async def get_stars_in_constellation(name: str):
