@@ -26,8 +26,24 @@
 				aria-label="Search"
 			/>
 			<span id="searchButton" class="input-group-text border-0 rounded-end">
-				<i class="fas fa-search" style="cursor:pointer"></i>
+				<i id="searchButton-icon" class="fas fa-search" style="cursor:pointer"></i>
+				<div id="loader" class="spinner-grow" role="status" style="display:none">
+					<span class="visually-hidden">Loading...</span>
+				</div>
 			</span>
+		</div>
+
+		<div id="divReponse" class="row justify-content-center mb-5" style="display:none;">
+			<div class="col-12 col-md-10 col-lg-9">
+				<div class="result-panel fade-in">
+					<div class="result-header">Résultats DBpedia</div>
+
+					<div class="result-scroll">
+						<ul id="resultList" class="result-list"></ul>
+					</div>
+
+				</div>
+			</div>
 		</div>
 
 		<div class="row align-items-start justify-content-center" style="gap: 2rem;">	

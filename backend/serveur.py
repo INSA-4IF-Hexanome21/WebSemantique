@@ -14,7 +14,6 @@ sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 # valide automatiquement les données entrantes et les convertit en objet Python typé.
 class AIRequest(BaseModel): 
     content: str
-sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
 app.add_middleware(
     CORSMiddleware,
@@ -80,14 +79,8 @@ async def ask_ai(payload: AIRequest):
     response = ask_AI(payload.content)
     print(response)
     try :
-        # query = response
-        query = """PREFIX dbo: <http://dbpedia.org/ontology/>
-            SELECT ?constellation
-            WHERE {
-            ?constellation a dbo:CelestialBody ;
-            rdfs:label ?label .
-            FILTER (LANG(?label) = 'en')
-            }"""
+        query = response
+        # query = """PREFIX dbo: <http://dbpedia.org/ontology/> SELECT DISTINCT ?constellation WHERE { ?constellation a dbo:CelestialBody ; rdfs:label ?label . FILTER (LANG(?label) = 'en')}"""
         sparql.setQuery(query)
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()["results"]["bindings"]

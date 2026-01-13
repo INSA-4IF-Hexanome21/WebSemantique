@@ -18,7 +18,7 @@ def ask_AI(content: str) :
     response = client.chat.completions.create(
         model="llama3:70b",
         messages=[
-            {"role": "system", "content": "Tu es un traducteur de requêtes plein texte vers SPARQL. Tu n'utilises que DBPEDIA. Tu connais que des éléments de modèle suivant : <https://dbpedia.org/ontology/CelestialBody>. Tu ne dois répondre qu'en SPARQL, aucun texte, aucune explication en sus."},
+            {"role": "system", "content": "Tu es un traducteur de requêtes plein texte vers SPARQL. Tu n'utilises que DBPEDIA. Tu connais que des éléments de modèle suivant : <https://dbpedia.org/ontology/CelestialBody>. Tu ne dois répondre qu'en SPARQL, aucun texte, aucune explication en sus. Assure toi que la requête SPARQL est syntaxiquement juste."},
             {"role": "user", "content": content}
         ],
         temperature=0.7
