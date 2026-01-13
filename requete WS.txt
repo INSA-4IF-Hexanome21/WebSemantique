@@ -8,26 +8,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-###############Constellation###############
-   ## Recherche des constellations ##
-SELECT DISTINCT ?constellation
-WHERE {
-{
-?constellation a dbo:CelestialBody.
-?constellation gold:hypernym dbr:Constellation.
-?constellation  dbo:description ?des.
-} UNION {
-?constellation a dbo:CelestialBody. 
-?constellation  dbo:description ?des.
-MINUS{?constellation gold:hypernym ?g.}
-}
-FILTER contains (?des, "constellation")
-FILTER (lang(?des) = "fr")
-FILTER NOT EXISTS {?constellation dbp:constell ?x}
-FILTER NOT EXISTS {?constellation a dbo:Galaxy}
-FILTER NOT EXISTS {?constellation a dbo:Star} 
-FILTER NOT EXISTS {?constellation a wikidata:Q634}
-}
+
 
 ###############Étoiles###############
     ## Recherche large ##
