@@ -24,6 +24,8 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+
+
 # Redirect root to frontend server
 @app.get("/")
 async def root():
@@ -33,6 +35,8 @@ async def root():
         return RedirectResponse(url=f"http://{frontend_ip}:{frontend_port}")
     else:
         return {"status": 0, "input": {}, "output": {}}
+
+
 
 @app.get("/api/get-constellations")
 async def get_constellations():
@@ -50,11 +54,14 @@ async def get_constellations():
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     raw = sparql.query().convert()["results"]["bindings"]
+
     result = []
     for item in raw:
         result.append(item["nameConstellation"]["value"])
         result.sort()
     return {"status": 1, "input": {}, "output": result}
+
+
 
 @app.get("/api/get-stars-in-constellation")
 async def get_stars_in_constellation(name: str):
@@ -73,11 +80,14 @@ async def get_stars_in_constellation(name: str):
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     raw = sparql.query().convert()["results"]["bindings"]
+
     result = []
     for item in raw:
         result.append({"name": item["label"]["value"], "uri": item["star"]["value"]})
         result.sort(key=lambda x: x["name"])
     return {"status": 1, "input": {"name": name}, "output": result}
+
+
 
 @app.get("/api/get-star-details")
 async def get_star_details(name: str):
@@ -94,6 +104,10 @@ async def get_star_details(name: str):
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     raw = sparql.query().convert()["results"]["bindings"]
+
+    if not raw:
+        return {"status": 0, "input": {"name": name}, "output": {}}
+
     result = raw[0]["star"]["value"]
     data_url = result.replace("http://dbpedia.org/resource/", "https://dbpedia.org/data/") + ".json"
     response = requests.get(data_url)
