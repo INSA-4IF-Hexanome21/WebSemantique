@@ -12,9 +12,9 @@ async function getConstellations(obj) {
     });
 }
 
-async function getStarsOnConstellation() {
+async function getStarsInConstellation() {
     var nomConstellation = document.getElementById("listConstellations").value;
-    const response = await fetch("http://127.0.0.1:8000/api/get-etoiles-on-constellation?name=" + nomConstellation);
+    const response = await fetch("http://127.0.0.1:8000/api/get-stars-in-constellation?name=" + nomConstellation);
     const json = await response.json();
     console.log(json)
 }
