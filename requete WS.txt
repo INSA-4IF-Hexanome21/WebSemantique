@@ -1,3 +1,19 @@
+
+
+############################################################################################################
+####################     Prefix commun (à mettre en tête de chaque requête) : ##############################
+############################################################################################################
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
 Etoile de la constellation choisi ici Ursa Minor
 SELECT ?etoile ?constellation
 WHERE {
@@ -61,5 +77,46 @@ WHERE {
 FILTER (lang(?des)="fr")
 } LIMIT 100
 
+############################################################################################################
+######################################     Recherches larges :    ##########################################
+############################################################################################################
 
 
+###############Corps célestes (général)###############
+
+SELECT ?body ?label
+WHERE {
+  ?body rdf:type dbo:CelestialBody ;
+        rdfs:label ?label .
+  FILTER (lang(?label) = "fr")
+}
+LIMIT 100
+
+###############Étoiles###############
+
+SELECT ?star ?label
+WHERE {
+  ?star rdf:type dbo:Star ;
+        rdfs:label ?label .
+  FILTER (lang(?label) = "fr")
+}
+
+###############Planètes###############
+
+SELECT ?planet ?label
+WHERE {
+  ?planet rdf:type dbo:Planet ;
+          rdfs:label ?label .
+  FILTER (lang(?label) = "fr")
+
+  FILTER NOT EXISTS { ?planet rdf:type dbo:Asteroid }
+}
+
+###############Satellites###############
+
+SELECT ?satellite ?label
+WHERE {
+  ?satellite rdf:type dbo:Satellite ;
+             rdfs:label ?label .
+  FILTER (lang(?label) = "fr")
+}
