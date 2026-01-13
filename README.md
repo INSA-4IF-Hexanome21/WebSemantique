@@ -27,7 +27,7 @@ La page doit valoriser la richesse du Web de données (Linked Open Data) en rév
     Galaxies
     Nebuleuse
     Constellations
-    Essaims
+    Amas d'étoile
   
   2.2 Classification par propriétés physiques et astronomiques
   

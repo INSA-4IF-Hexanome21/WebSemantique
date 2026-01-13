@@ -1,0 +1,4 @@
+# Configuration variables
+IP := 127.0.0.1
+BACKEND_PORT := 8000
+FRONTEND_PORT := 8080
