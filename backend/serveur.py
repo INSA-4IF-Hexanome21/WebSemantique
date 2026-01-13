@@ -40,9 +40,9 @@ async def get_constellations():
     """
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
-    raw_results = sparql.query().convert()["results"]["bindings"]
+    raw = sparql.query().convert()["results"]["bindings"]
     results = []
-    for result in raw_results:
+    for result in raw:
         results.append(result["nameConstellation"]["value"])
         results.sort()
     return {"status": 1, "input": {}, "output": results}
