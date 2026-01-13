@@ -1,4 +1,5 @@
 import os
+import requests
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
@@ -39,44 +40,44 @@ async def get_constellations():
     {query_prefix}
     SELECT DISTINCT ?nameConstellation
     WHERE {{
-    ?etoile a dbo:Star.
-    ?etoile dbp:constell ?constellation.
-    ?etoile rdfs:label ?label.
-    ?constellation dbp:name ?nameConstellation.
-    FILTER (lang(?label) = "fr")
+        ?etoile a dbo:Star.
+        ?etoile dbp:constell ?constellation.
+        ?etoile rdfs:label ?label.
+        ?constellation dbp:name ?nameConstellation.
+        FILTER (lang(?label) = "fr")
     }}
     """
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     raw = sparql.query().convert()["results"]["bindings"]
-    results = []
-    for result in raw:
-        results.append(result["nameConstellation"]["value"])
-        results.sort()
-    return {"status": 1, "input": {}, "output": results}
+    result = []
+    for item in raw:
+        result.append(item["nameConstellation"]["value"])
+        result.sort()
+    return {"status": 1, "input": {}, "output": result}
 
 @app.get("/api/get-stars-in-constellation")
 async def get_stars_in_constellation(name: str):
     name = name.replace(" ", "_")
     query = f"""
     {query_prefix}
-    SELECT ?label
+    SELECT *
     WHERE {{
-    ?star a dbo:Star.
-    ?star dbp:constell ?constellation.
-    ?star rdfs:label ?label.
-    FILTER (?constellation = dbr:{name})
-    FILTER (lang(?label) = "fr")
+        ?star a dbo:Star.
+        ?star dbp:constell ?constellation.
+        ?star rdfs:label ?label.
+        FILTER (lang(?label) = "fr")
+        FILTER (?constellation = dbr:{name})
     }}
     """
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     raw = sparql.query().convert()["results"]["bindings"]
-    results = []
-    for result in raw:
-        results.append(result["label"]["value"])
-        results.sort()
-    return {"status": 1, "input": {"name": name}, "output": results}
+    result = []
+    for item in raw:
+        result.append({"name": item["label"]["value"], "uri": item["star"]["value"]})
+        result.sort(key=lambda x: x["name"])
+    return {"status": 1, "input": {"name": name}, "output": result}
 
 @app.get("/api/get-star-details")
 async def get_star_details(name: str):
@@ -84,17 +85,16 @@ async def get_star_details(name: str):
     {query_prefix}
     SELECT *
     WHERE {{
-    ?star rdf:type dbo:Star.
-    ?star rdfs:label ?label.
-    FILTER (lang(?label) = "fr")
-    FILTER (value(?label) = "{name}")
+        ?star rdf:type dbo:Star.
+        ?star rdfs:label ?label.
+        FILTER (lang(?label)="en")
+        FILTER contains (?label, "{name}")
     }}
     """
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     raw = sparql.query().convert()["results"]["bindings"]
-    # results = []
-    # for result in raw:
-    #     results.append(result["label"]["value"])
-    #     results.sort()
-    return {"status": 1, "input": {"name": name}, "output": raw}
+    result = raw[0]["star"]["value"]
+    data_url = result.replace("http://dbpedia.org/resource/", "https://dbpedia.org/data/") + ".json"
+    response = requests.get(data_url)
+    return {"status": 1, "input": {"name": name}, "output": response.json()}
