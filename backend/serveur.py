@@ -53,7 +53,7 @@ async def get_constellations():
     for result in raw:
         results.append(result["nameConstellation"]["value"])
         results.sort()
-    return {"status": 1, "input": {}, "output": raw}
+    return {"status": 1, "input": {}, "output": results}
 
 @app.get("/api/get-stars-in-constellation")
 async def get_stars_in_constellation(name: str):
@@ -80,11 +80,19 @@ async def ask_ai(payload: AIRequest):
     response = ask_AI(payload.content)
     print(response)
     try :
-        query = response
+        # query = response
+        query = """PREFIX dbo: <http://dbpedia.org/ontology/>
+            SELECT ?constellation
+            WHERE {
+            ?constellation a dbo:CelestialBody ;
+            rdfs:label ?label .
+            FILTER (LANG(?label) = 'en')
+            }"""
         sparql.setQuery(query)
         sparql.setReturnFormat(JSON)
-        results = sparql.query().convert()
-        return {"status": 1, "input": {}, "output": {"response": results}}
+        results = sparql.query().convert()["results"]["bindings"]
+        print(results)
+        return {"status": 1, "input": {}, "output": results}
     except Exception as e :
         print(e)
         return {"status": 0, "input": {}, "output": {}}
