@@ -18,13 +18,23 @@ WHERE {
   FILTER (lang(?label) = "fr")
 }
 
+   ## Recherche des constellations ##
+SELECT DISTINCT  ?nameConstellation
+WHERE {
+?etoile a dbo:Star.
+?etoile dbp:constell ?constellation.
+?etoile rdfs:label ?label.
+?constellation dbp:name ?nameConstellation.
+FILTER (lang(?label) = "fr")
+}
+
     ## Etoile de la constellation choisi ici Ursa Minor ##
 SELECT ?etoile ?constellation
 WHERE {
 ?etoile a dbo:Star .
 ?etoile dbp:constell ?constellation.
 FILTER( ?constellation = dbr:Ursa_Minor)
-} LIMIT 100
+} 
 
  ## Etoile appartenant à la même constellation que l'étoile choisi ##
 SELECT DISTINCT ?etoile ?name ?constellation ?star 
@@ -39,14 +49,14 @@ FILTER (lang(?name)="en")
 FILTER (?star != ?etoile)
 FILTER contains (?name, "Chi Pegasi")
 
-} LIMIT 100
+}
 
 ###############Recherche asteroide############### 
 SELECT DISTINCT ?lune  
 WHERE {
 ?lune a dbo:Planet.
 ?lune a dbo:Asteroid
-} LIMIT 100
+} 
 
 
 ###############Planètes###############
@@ -58,7 +68,7 @@ WHERE {
 ?planete gold:hypernym dbr:Planet.
 FILTER not exists {?planete a dbo:Asteroid}
 FILTER (lang(?des)="fr")
-} LIMIT 100
+} 
 
 
     ##Recherche lune (ne donne pas toutes les lunes)##
@@ -68,7 +78,7 @@ WHERE {
 ?lune dbp:satelliteOf ?planet.
 ?lune dbo:description ?des.
 FILTER (lang(?des)="fr")
-} LIMIT 100
+} 
 
     ##Recherche lunes du système solaire##
 SELECT DISTINCT ?lune  ?planet
@@ -78,7 +88,7 @@ WHERE {
 ?lune dbo:description ?des.
 ?lune gold:hypernym dbr:Satellite.
 FILTER (lang(?des)="fr")
-} LIMIT 100
+} 
 
 ###############Corps célestes (général)###############
 
