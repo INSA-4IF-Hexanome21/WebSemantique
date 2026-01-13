@@ -2,9 +2,12 @@ import os
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
-from intelligence.ia import askAI
+from SPARQLWrapper import SPARQLWrapper, JSON
+
+from intelligence.ia import ask_AI
 
 app = FastAPI()
+sparql = SPARQLWrapper("https://dbpedia.org/sparql")  
 
 # BaseModel (Pydantic) : définit le schéma du body JSON attendu par l’API,
 # valide automatiquement les données entrantes et les convertit en objet Python typé.
@@ -27,5 +30,14 @@ async def get_planet(name: str):
 
 @app.post("/api/ask-ai")
 async def ask_ai(payload: AIRequest):
-    response = askAI(payload.content)
-    return {"status": 1, "input": {}, "output": {"response": response}}
+    response = ask_AI(payload.content)
+    print(response)
+    try :
+        query = response
+        sparql.setQuery(query)
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+        return {"status": 1, "input": {}, "output": {"response": results}}
+    except Exception as e :
+        print(e)
+        return {"status": 0, "input": {}, "output": {}}
