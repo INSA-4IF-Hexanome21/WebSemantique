@@ -91,10 +91,16 @@ WHERE {
 LIMIT 100
 
 ###############Satellites###############
-
-SELECT ?satellite ?label
+## Tous les satellites ##
+SELECT ?body ?label 
 WHERE {
-  ?satellite rdf:type dbo:Satellite ;
-             rdfs:label ?label .
+  ?body rdf:type dbo:CelestialBody ;
+        rdfs:label ?label ;
+        dbo:description ?description .
+
   FILTER (lang(?label) = "fr")
+  FILTER (lang(?description) = "fr")
+  
+  FILTER(CONTAINS(LCASE(?description), "satellite"))
 }
+
