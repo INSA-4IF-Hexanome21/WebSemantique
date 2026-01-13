@@ -24,21 +24,28 @@ async function getStarsInConstellation() {
     var list = json["output"];
     var resultArea = document.getElementById("divReponseTextuelle");
     var textarea = document.createElement("textarea");
+    var text = "";
     if (list.length === 0) {
-        list.push("Aucune étoile trouvée dans cette constellation.");
+        text += "Aucune étoile trouvée dans cette constellation.";
     }
     else{
-        list.unshift("");
-        list.unshift("Étoiles dans la constellation " + nomConstellation + " :");
-        list.push("");
-        list.push("Nombre total d'étoiles : " + (list.length - 1).toString());
+        text += `Étoiles dans la constellation ${nomConstellation}  :
+
+`;
+        list.forEach(function(item) {
+            text += item["name"] + " : " + item["uri"] + "\n";
+        }
+        );
+        text += "\nNombre total d'étoiles : " + (list.length - 1).toString() + "\n";
     }
-    textarea.textContent = list.join("\n");
+    
+    textarea.textContent = text;
     textarea.style.width = "100%";
     textarea.style.height = "100%";
     resultArea.replaceChildren();
     resultArea.appendChild(textarea);
     resultArea.hidden = false;
+
     document.getElementById("constellationsButton").replaceChildren();
     document.getElementById("constellationsButton").textContent = "Trouvez les étoiles de votre constellation";
 }
