@@ -19,11 +19,12 @@ WHERE {
 }
 
    ## Recherche des constellations ##
-SELECT DISTINCT ?constellation
+SELECT DISTINCT  ?nameConstellation
 WHERE {
 ?etoile a dbo:Star.
 ?etoile dbp:constell ?constellation.
 ?etoile rdfs:label ?label.
+?constellation dbp:name ?nameConstellation.
 FILTER (lang(?label) = "fr")
 }
 
