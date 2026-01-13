@@ -1,6 +1,20 @@
 async function getConstellations(obj) {
+    obj.setAttribute("onclick", "");
     obj.replaceChildren();
     const response = await fetch("http://127.0.0.1:8000/api/get-constellations");
+    const json = await response.json();
+    var list = json["output"];
+    list.forEach(function(item) {
+        var option = document.createElement("option");
+        option.value = item;
+        option.text = item;
+        obj.appendChild(option);
+    });
+}
+
+async function getStarsOnConstellation() {
+    var nomConstellation = document.getElementById("listConstellations").value;
+    const response = await fetch("http://127.0.0.1:8000/api/get-etoiles-on-constellation?name=" + nomConstellation);
     const json = await response.json();
     console.log(json)
 }

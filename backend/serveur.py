@@ -43,9 +43,9 @@ async def get_constellations():
     raw_results = sparql.query().convert()["results"]["bindings"]
     results = []
     for result in raw_results:
-        result["nameConstellation"] = result["nameConstellation"]["value"]
-        results.append(result)
-    return {"status": 1, "input": {}, "output": {"results": results}}
+        results.append(result["nameConstellation"]["value"])
+        results.sort()
+    return {"status": 1, "input": {}, "output": results}
 
 @app.get("/api/get-planet")
 async def get_planet(name: str):
