@@ -26,7 +26,7 @@ async function askAI(content) {
     resultArea.classList.add("fade-in");
 
     if (Array.isArray(data.output) && data.output.length !== 0 ) {
-
+        document.getElementById("result-header").innerHTML += ` (${data.output.length} résultats)` ;
         const values = data.output.map(item => {
             const innerObject = Object.values(item)[0];
             return innerObject.value;
