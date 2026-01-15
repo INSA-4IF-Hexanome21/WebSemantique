@@ -120,9 +120,7 @@ async def get_stars():
     FILTER (lang(?label) = "fr")
     }}
     """
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    raw = sparql.query().convert()["results"]["bindings"]
+    raw = get_sparql_results(query)
     result = []
     for item in raw:
         star = {}
