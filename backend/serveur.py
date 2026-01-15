@@ -129,3 +129,37 @@ async def get_stars():
         result.append(star)
         result.sort(key=lambda x: x["name"])
     return {"status": 1, "input": {}, "output": result}
+
+@app.get("/api/get-stars-in-same-constellation")
+def get_stars_in_constellation(name: str):
+    name = name.replace(" ", "_")
+    query = f"""
+    {query_prefix}
+    SELECT DISTINCT ?etoile ?name ?constellation ?star 
+    WHERE {{
+    ?etoile a dbo:Star .
+    ?star a dbo:Star.
+    ?star dbp:constell ?const.
+    ?etoile dbp:constell ?constellation.
+    ?star rdfs:label ?name.
+    FILTER( ?constellation = ?const)
+    FILTER (lang(?name)="en")
+    FILTER (?star != ?etoile)
+    FILTER contains (?name, "{name}")
+
+    }}
+    """
+    raw = get_sparql_results(query)
+
+    result = {"constellation": {}, "stars": []}
+
+    if len(raw) != 0:
+        result["constellation"] = {"name" : raw[0]["constellation"]["value"].split("/")[-1], "uri": raw[0]["constellation"]["value"]}
+        for item in raw :
+            star = {}
+            star["name"] = item["etoile"]["value"].split("/")[-1]
+            star["uri"] = item["etoile"]["value"]
+            result["stars"].append(star)
+        result["stars"].sort(key=lambda x: x["name"])
+        
+    return {"status": 1, "input": {"name": name}, "output": result}

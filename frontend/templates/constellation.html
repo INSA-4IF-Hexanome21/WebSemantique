@@ -40,7 +40,12 @@
 				<div class="card">
 					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
-						<a href="#" class="btn btn-dark">Repère ton étoile dans sa constellation</a>
+						<div class="mb-3">
+							<label for="inputStarInConstellation" class="form-label">Nom constellation</label>
+						<input type="text" id="inputStarInConstellation" class="form-control" onclick="getConstellations(this)" placeholder="Nom de l'étoile"></input>
+						</div>
+						
+						<button id="buttonStarInConstellation" onclick="getStarsInSameConstellation()" class="btn btn-dark">Repérez ton étoile dans sa constellation</button>
 					</div>
 				</div>
 			</div>
