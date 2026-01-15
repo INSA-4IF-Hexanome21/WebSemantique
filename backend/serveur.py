@@ -6,7 +6,7 @@ import requests
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
-from intelligence.ia import ask_AI
+from intelligence.ai import ask_AI
 from pydantic import BaseModel
 from SPARQLWrapper import SPARQLWrapper, JSON
 
@@ -17,11 +17,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 FRONTEND_IP = os.getenv("FRONTEND_IP")
 FRONTEND_PORT = os.getenv("FRONTEND_PORT")
-FRONTEND_URL = (
-    f"http://{FRONTEND_IP}:{FRONTEND_PORT}"
-    if FRONTEND_IP and FRONTEND_PORT
-    else None
-)
+FRONTEND_URL = (f"http://{FRONTEND_IP}:{FRONTEND_PORT}" if FRONTEND_IP and FRONTEND_PORT else None )
 
 DBPEDIA_SPARQL_ENDPOINT = "https://dbpedia.org/sparql"
 DBPEDIA_RESOURCE_BASE = "http://dbpedia.org/resource/"
@@ -84,18 +80,20 @@ async def root():
 def get_constellations():
     query = f"""
     {SPARQL_PREFIX}
-    SELECT DISTINCT ?nameConstellation
+    SELECT DISTINCT ?name
     WHERE {{
-        ?etoile a dbo:Star.
-        ?etoile dbp:constell ?constellation.
-        ?etoile rdfs:label ?label.
-        ?constellation dbp:name ?nameConstellation.
+        ?star a dbo:Star.
+        ?star dbp:constell ?constellation.
+        ?star rdfs:label ?label.
+        ?constellation dbp:name ?name.
         FILTER (lang(?label) = "fr")
     }}
     """
     raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
 
-    result = [item["nameConstellation"]["value"] for item in raw]
+    result = [item["name"]["value"] for item in raw]
     result.sort()
     return {"status": 1, "input": {}, "output": result}
 
@@ -115,6 +113,13 @@ def get_stars_in_constellation(name: str):
         FILTER (?constellation = dbr:{name})
     }}
     """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {"name": name}, "output": {}}
+
+    result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
+    result.sort(key=lambda x: x["name"])
+    return {"status": 1, "input": {"name": name}, "output": result}
 
 
 
@@ -127,12 +132,14 @@ async def get_stars():
     {SPARQL_PREFIX}
     SELECT ?star ?label
     WHERE {{
-        ?star rdf:type dbo:Star ;
-              rdfs:label ?label .
+        ?star rdf:type dbo:Star.
+        ?star rdfs:label ?label.
         FILTER (lang(?label) = "fr")
     }}
     """
     raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
     
     result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
@@ -163,34 +170,31 @@ def get_star_details(name: str):
 
 @app.get("/api/get-stars-in-same-constellation")
 def get_stars_in_same_constellation(name: str):
-    name = name.replace(" ", "_")
     query = f"""
     {SPARQL_PREFIX}
-    SELECT DISTINCT ?etoile ?name ?constellation ?star 
+    SELECT DISTINCT ?constellation ?constellName ?sibling ?siblingName
     WHERE {{
-        ?etoile a dbo:Star .
         ?star a dbo:Star.
         ?star dbp:constell ?constellation.
-        ?etoile dbp:constell ?constellation.
         ?star rdfs:label ?name.
-        FILTER (?constellation = ?const)
-        FILTER (lang(?name)="en")
-        FILTER (?star != ?etoile)
+        ?sibling a dbo:Star.
+        ?sibling dbp:constell ?siblingConstell.
+        ?sibling rdfs:label ?siblingName.
+        ?constellation dbp:name ?constellName.
+        FILTER (?constellation = ?siblingConstell)
+        FILTER (lang(?siblingName)="en")
         FILTER contains (?name, "{name}")
     }}
     """
     raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {"name": name}, "output": {}}
 
-    result = {"constellation": {}, "stars": []}
-
-    if raw:
-        constellation_uri = raw[0]["constellation"]["value"]
-        result["constellation"] = {"name": constellation_uri.split("/")[-1], "uri": constellation_uri}
-        for item in raw:
-            star = {"name": item["etoile"]["value"].split("/")[-1], "uri": item["etoile"]["value"]}
-            result["stars"].append(star)
-        result["stars"].sort(key=lambda x: x["name"])
-        
+    # retourne toutes les étoiles dont celle en entrée
+    result = {}
+    result["constellation"] = {"name": raw[0]["constellName"]["value"], "uri": raw[0]["constellation"]["value"]}
+    result["stars"] = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"]} for item in raw]
+    result["stars"].sort(key=lambda x: x["name"])
     return {"status": 1, "input": {"name": name}, "output": result}
 
 
