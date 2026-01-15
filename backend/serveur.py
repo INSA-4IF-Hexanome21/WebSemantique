@@ -34,6 +34,7 @@ async def root():
     else:
         return {"status": 0, "input": {}, "output": {}}
 
+##CONSTELLATIONS AND STARS##
 @app.get("/api/get-constellations")
 async def get_constellations():
     query = f"""
@@ -98,3 +99,26 @@ async def get_star_details(name: str):
     data_url = result.replace("http://dbpedia.org/resource/", "https://dbpedia.org/data/") + ".json"
     response = requests.get(data_url)
     return {"status": 1, "input": {"name": name}, "output": response.json()}
+
+@app.get("/api/get-stars")
+async def get_stars():
+    query = f"""
+    {query_prefix}
+    SELECT ?star ?label
+    WHERE {{
+    ?star rdf:type dbo:Star ;
+            rdfs:label ?label .
+    FILTER (lang(?label) = "fr")
+    }}
+    """
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    raw = sparql.query().convert()["results"]["bindings"]
+    result = []
+    for item in raw:
+        star = {}
+        star["name"] = item["label"]["value"]
+        star["uri"] = item["star"]["value"]
+        result.append(star)
+        result.sort(key=lambda x: x["name"])
+    return {"status": 1, "input": {}, "output": result}
