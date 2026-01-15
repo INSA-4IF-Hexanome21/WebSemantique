@@ -6,7 +6,10 @@ from fastapi.responses import RedirectResponse
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 app = FastAPI()
-sparql = SPARQLWrapper("https://dbpedia.org/sparql")
+
+FRONTEND_IP = os.getenv("FRONTEND_IP")
+FRONTEND_PORT = os.getenv("FRONTEND_PORT")
+FRONTEND_URL = f"http://{FRONTEND_IP}:{FRONTEND_PORT}" if FRONTEND_IP and FRONTEND_PORT else None
 
 query_prefix = """
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -24,19 +27,26 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+
+
+def get_sparql_results(query: str):
+    sparql = SPARQLWrapper("https://dbpedia.org/sparql")
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    return sparql.query().convert()["results"]["bindings"]
+
+
+
 # Redirect root to frontend server
 @app.get("/")
 async def root():
-    frontend_ip = os.getenv("FRONTEND_IP")
-    frontend_port = os.getenv("FRONTEND_PORT")
-    if frontend_ip and frontend_port:
-        return RedirectResponse(url=f"http://{frontend_ip}:{frontend_port}")
-    else:
-        return {"status": 0, "input": {}, "output": {}}
+    if FRONTEND_URL:
+        return RedirectResponse(url=FRONTEND_URL)
+    return {"status": 0, "input": {}, "output": {}}
 
 ##CONSTELLATIONS AND STARS##
 @app.get("/api/get-constellations")
-async def get_constellations():
+def get_constellations():
     query = f"""
     {query_prefix}
     SELECT DISTINCT ?nameConstellation
@@ -48,17 +58,16 @@ async def get_constellations():
         FILTER (lang(?label) = "fr")
     }}
     """
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    raw = sparql.query().convert()["results"]["bindings"]
-    result = []
-    for item in raw:
-        result.append(item["nameConstellation"]["value"])
-        result.sort()
+    raw = get_sparql_results(query)
+
+    result = [item["nameConstellation"]["value"] for item in raw]
+    result.sort()
     return {"status": 1, "input": {}, "output": result}
 
+
+
 @app.get("/api/get-stars-in-constellation")
-async def get_stars_in_constellation(name: str):
+def get_stars_in_constellation(name: str):
     name = name.replace(" ", "_")
     query = f"""
     {query_prefix}
@@ -71,17 +80,16 @@ async def get_stars_in_constellation(name: str):
         FILTER (?constellation = dbr:{name})
     }}
     """
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    raw = sparql.query().convert()["results"]["bindings"]
-    result = []
-    for item in raw:
-        result.append({"name": item["label"]["value"], "uri": item["star"]["value"]})
-        result.sort(key=lambda x: x["name"])
+    raw = get_sparql_results(query)
+
+    result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
+    result.sort(key=lambda x: x["name"])
     return {"status": 1, "input": {"name": name}, "output": result}
 
+
+
 @app.get("/api/get-star-details")
-async def get_star_details(name: str):
+def get_star_details(name: str):
     query = f"""
     {query_prefix}
     SELECT *
@@ -92,13 +100,14 @@ async def get_star_details(name: str):
         FILTER contains (?label, "{name}")
     }}
     """
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    raw = sparql.query().convert()["results"]["bindings"]
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {"name": name}, "output": {}}
+
     result = raw[0]["star"]["value"]
     data_url = result.replace("http://dbpedia.org/resource/", "https://dbpedia.org/data/") + ".json"
-    response = requests.get(data_url)
-    return {"status": 1, "input": {"name": name}, "output": response.json()}
+    data = requests.get(data_url)
+    return {"status": 1, "input": {"name": name}, "output": data.json()}
 
 @app.get("/api/get-stars")
 async def get_stars():
