@@ -6,5 +6,8 @@ include ../config.mk
 kill:
 	lsof -ti :$(FRONTEND_PORT) | xargs kill -9 2>/dev/null || true
 
+install:
+
+
 run:
 	python3 -m http.server $(FRONTEND_PORT) --bind $(IP)
