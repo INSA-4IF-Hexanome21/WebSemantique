@@ -117,6 +117,7 @@ def get_stars_in_constellation(name: str):
     """
 
 
+
 # ROUTES - STARS
 # ==============
 
@@ -169,10 +170,10 @@ def get_stars_in_same_constellation(name: str):
     WHERE {{
         ?etoile a dbo:Star .
         ?star a dbo:Star.
-        ?star dbp:constell ?const.
+        ?star dbp:constell ?constellation.
         ?etoile dbp:constell ?constellation.
         ?star rdfs:label ?name.
-        FILTER( ?constellation = ?const)
+        FILTER (?constellation = ?const)
         FILTER (lang(?name)="en")
         FILTER (?star != ?etoile)
         FILTER contains (?name, "{name}")
