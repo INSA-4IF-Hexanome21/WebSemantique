@@ -179,10 +179,7 @@ async def ask_ai(payload: AIRequest):
     try :
         query = response
         # query = """PREFIX dbo: <http://dbpedia.org/ontology/> SELECT DISTINCT ?constellation WHERE { ?constellation a dbo:CelestialBody ; rdfs:label ?label . FILTER (LANG(?label) = 'en')}"""
-        sparql.setQuery(query)
-        sparql.setReturnFormat(JSON)
-        results = sparql.query().convert()["results"]["bindings"]
-        print(results)
+        results = get_sparql_results(query)
         return {"status": 1, "input": {}, "output": results}
     except Exception as e :
         print(e)
