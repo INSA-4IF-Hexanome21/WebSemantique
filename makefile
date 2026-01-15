@@ -11,6 +11,13 @@ install:
 	(cd frontend && make install)
 	(cd backend && make install)
 
+dev:
+	(trap 'kill 0' SIGINT; \
+	 cd frontend && make run & \
+	 cd backend && make run & \
+	 sleep 2 && python3 -c "import webbrowser; webbrowser.open('http://$(IP):$(FRONTEND_PORT)')" & \
+	 wait)
+
 run:
 	(trap 'kill 0' SIGINT; \
 	 cd frontend && make run & \
