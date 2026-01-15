@@ -26,7 +26,7 @@ async function askAI(content) {
     resultArea.classList.add("fade-in");
 
     if (Array.isArray(data.output) && data.output.length !== 0 ) {
-        document.getElementById("result-header").innerHTML += ` (${data.output.length} résultats)` ;
+        document.getElementById("result-header").innerHTML  = ` Résultats DBpedia (${data.output.length} résultats)` ;
         const values = data.output.map(item => {
             const innerObject = Object.values(item)[0];
             return innerObject.value;
@@ -48,6 +48,7 @@ async function askAI(content) {
         });
     } else {
         resultList.innerHTML = '<li style="color: #888; font-style: italic;">Aucune donnée trouvée.</li>';
+        document.getElementById("result-header").innerHTML = ` Résultats DBpedia`;
     }
 }
 
