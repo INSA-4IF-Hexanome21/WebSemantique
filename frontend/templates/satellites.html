@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title>Constellation</title>
-	<link rel="stylesheet" href="../css/constellation.css">
+	<title>Satellites</title>
+	<link rel="stylesheet" href="../css/satellites.css">
 	<!-- Framework Bootstrap -->
 	<!-- https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-	<script src="../js/constellation.js"></script>
+	<!-- <script src="../js/satellites.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 	<!-- Canvas et script fond animé -->
@@ -18,7 +18,7 @@
 	<!-- Canvas pour le fond --> 
 	<canvas id="canvas"></canvas> 
 
-	<h1 style = "color : white; text-align: center; font-size : 5em; font-family:Nasa; margin: 2rem;">En route vers les constellations</h1>
+	<h1 style = "color : white; text-align: center; font-size : 5em; font-family:Nasa; margin: 2rem;">En route vers les satellites</h1>
 
 	<div style="text-align: center; margin: 2rem;">
 		<a href="../index.html" class="btn btn-light">Retour à l'accueil</a>
@@ -29,41 +29,36 @@
 			
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/all-satellite.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
-						<button class="btn btn-dark" onclick="getStars()" id="starButton">Listez toutes les étoiles</button>
-					</div>
+						<button class="btn btn-dark" onclick="getAllSatellites()" id="allSatellitesButton">Listez tous les satellites
+                           
+                        </button>
+                    </div>
 				</div>
 			</div>
 			
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/satellite_naturel.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
-						<div class="mb-3">
-							<label for="inputStarInConstellation" class="form-label">Nom constellation</label>
-						<input type="text" id="inputStarInConstellation" class="form-control" onclick="getConstellations(this)" placeholder="Nom de l'étoile"></input>
-						</div>
-						
-						<button id="buttonStarInConstellation" onclick="getStarsInSameConstellation()" class="btn btn-dark">Repérez ton étoile dans sa constellation</button>
-					</div>
+						<button class="btn btn-dark" onclick="getNaturalSatellites()" id="naturalSatellitesButton">Listez les satellites naturels
+                            
+                        </button>
+                    </div>
 				</div>
 			</div>
 
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/hercule.avif" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/satellite_artificiel.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
-						<div class="mb-3">
-							<label for="listConstellations" class="form-label">Nom constellation</label>
-							<select id="listConstellations" class="form-select" onclick="getConstellations(this)">
-								<option hidden selected>--Choisissez Constellation--</option>
-							</select>
-						</div>
-						<button id="constellationsButton" class="btn btn-dark" onclick="getStarsInConstellation()">Trouvez les étoiles de votre constellation</button>
-					</div>
+						<button class="btn btn-dark" onclick="getArtificialSatellites()" id="artificialSatellitesButton">
+                            Listez les satellites artificiels
+                        </button>
+                    </div>
 				</div>
-			</div>	
+			</div>
 	
 
 		</div>
