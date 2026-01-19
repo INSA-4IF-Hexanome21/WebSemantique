@@ -60,3 +60,47 @@ async function getSatellitesGraph() {
     renderer = new Sigma(graph, container);
 }
 
+async function getGraph(name) {
+    const data = await fetch("http://127.0.0.1:8000/api/get-star-details?name="+name)
+        .then(res => res.json());
+
+    const graph = new graphology.Graph({ multi: true });
+    const rdfData = data["output"];
+    console.log(rdfData);
+
+    Object.entries(rdfData).forEach(([subject, predicat]) => {
+        console.log("Subject:", subject);
+        if (!graph.hasNode(subject)){
+            graph.addNode(subject, {
+                label: subject.split("/").pop(),
+                x: Math.random(),
+                y: Math.random(),
+                size: 8,
+                color: "#FF4136"
+            });
+        }
+        Object.entries(predicat).forEach(([predicate, objects]) => {
+            objects.forEach( (obj, index) => {
+                const objectId = obj.type === "uri" ? obj.value : `${subject}-${predicate}-${index}`;
+                if (!graph.hasNode(objectId)) {
+                    graph.addNode(objectId, {
+                        label: obj.value,
+                        x: Math.random(),
+                        y: Math.random(),
+                        size: obj.type === "uri" ? 6 : 4,
+                        color: obj.type === "uri" ? "#2ECC40" : "#FF851B"
+                    });
+                }
+                graph.addEdge(subject, objectId, { label: predicate.split("/").pop() });
+            });;
+        });
+  
+    });
+
+    const container = document.getElementById("graph-container");
+    if (renderer) {
+        container.innerHTML = "";
+    }
+    renderer = new Sigma(graph, container);
+    console.log("Graph rendered");
+};

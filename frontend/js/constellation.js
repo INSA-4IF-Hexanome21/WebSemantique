@@ -74,13 +74,22 @@ async function getStarsInConstellation() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {
@@ -118,11 +127,19 @@ async function getStars() {
          list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
+            
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
 
             li.appendChild(link);
             resultList.appendChild(li);
@@ -160,6 +177,7 @@ async function getStarsInSameConstellation() {
         
         const li = document.createElement("li");
         const link = document.createElement("a");
+        const button = document.createElement("button");
 
         link.href = list["constellation"]["uri"];
         link.textContent = list["constellation"]["name"] + "(Constellation)"; // plus lisible
@@ -172,13 +190,22 @@ async function getStarsInSameConstellation() {
         stars.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     
