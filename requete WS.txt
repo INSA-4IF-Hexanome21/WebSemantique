@@ -128,7 +128,6 @@ WHERE {
 SELECT DISTINCT ?satellite ?label
        (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
 WHERE {
-  {
     # Satellites détectés via description
     ?satellite rdf:type dbo:CelestialBody ;
                rdfs:label ?label ;
@@ -136,15 +135,9 @@ WHERE {
     FILTER(lang(?label) = "fr")
     FILTER(lang(?description) = "fr")
     FILTER(CONTAINS(LCASE(?description), "satellite"))
-  }
-  UNION
-  {
-    # Satellites détectés via gold:hypernym
-    ?satellite gold:hypernym dbr:Satellite ;
-               rdfs:label ?label .
-    FILTER(lang(?label) = "fr")
-  }
+    FILTER NOT EXISTS {?satellite gold:hypernym dbr:Satellite}
 }
+
 ## Tous ceux qui sont artificiels ##
 SELECT DISTINCT ?satellite ?label
 WHERE {
