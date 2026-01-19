@@ -1,7 +1,7 @@
 include config.mk
 
 .DEFAULT_GOAL := run
-.PHONY: kill install run
+.PHONY: kill install dev run
 
 kill:
 	(cd frontend && make kill)
