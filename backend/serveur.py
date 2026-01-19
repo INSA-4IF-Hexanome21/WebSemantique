@@ -276,10 +276,18 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
     save_cache(cache_file, output)
     return output
 
+
+
 # ROUTES - SATELLITES
-# ==============
+# ===================
+
 @app.get("/api/get-satellites")
-async def get_satellites():
+def get_satellites(cache: bool = CACHE):
+    cache_file = f"get-satellites.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
     WHERE {{
@@ -303,10 +311,20 @@ async def get_satellites():
     
     result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    return {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
+
 
 @app.get("/api/get-natural-satellites")
-async def get_natural_satellites():
+def get_natural_satellites(cache: bool = CACHE):
+    cache_file = f"get-natural-satellites.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
        (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
@@ -335,10 +353,20 @@ async def get_natural_satellites():
     
     result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    return {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
+
 
 @app.get("/api/get-artificial-satellites")
-async def get_artificial_satellites():
+def get_artificial_satellites(cache: bool = CACHE):
+    cache_file = f"get-artificial-satellites.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
     WHERE {
@@ -355,7 +383,12 @@ async def get_artificial_satellites():
     
     result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    return {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
+
 
 # ROUTES - AI
 # ===========
