@@ -78,6 +78,8 @@ async function getMoons() {
         });
     }
 
+    getLunesGraph(list);
+
     document.getElementById("luneButton").replaceChildren();
     document.getElementById("luneButton").textContent = "Listez toutes les lunes";
 }

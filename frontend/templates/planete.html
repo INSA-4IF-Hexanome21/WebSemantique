@@ -8,7 +8,12 @@
 	<!-- https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<script src="../js/planete.js"></script>
+	<script src="../js/graphe.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+	<script src="https://unpkg.com/graphology/dist/graphology.umd.min.js"></script>
+    <script src="https://unpkg.com/sigma@2.4.0/build/sigma.min.js"></script>
 
 	<!-- Canvas et script fond animé -->
 	<link rel="stylesheet" href="../css/base.css"> 
@@ -67,11 +72,31 @@
 				</div>
 			</div>
 			
-			<!-- <div class = "col" id="divReponseTextuelle">
-				<textarea style="width: 100%; height: 100%;" >La réponse a votre requête apparaîtra ici</textarea>
-			</div> -->
 			<div class = "col" id="divReponseGraphique">
-				<img src = "../img/Infos-travaux.jpg">
+                <div class="result-panel fade-in">
+					<div id="result-header" class="result-header">Graphe RDF</div>
+
+					<div class="graph-wrapper">
+                        <div id="graph-container"></div>
+                        <div class="controls">
+                            <div class="react-sigma-control ico">
+                                <div class="react-sigma-control ico">
+                                    <button id="fullscreenButton" title="Enter fullscreen">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"></path>
+                                    </svg>
+                                    </button>
+                                    <button id="viewAllGraphButton" title="See whole graph">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 5c-3.859 0-7 3.141-7 7s3.141 7 7 7 7-3.141 7-7-3.141-7-7-7zm0 12c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path><path d="M12 9c-1.627 0-3 1.373-3 3s1.373 3 3 3 3-1.373 3-3-1.373-3-3-3z"></path>
+                                    </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+				</div>
 			</div>
 		</div>
 	</div>

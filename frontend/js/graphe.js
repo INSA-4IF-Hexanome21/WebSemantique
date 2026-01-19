@@ -104,3 +104,41 @@ async function getGraph(name) {
     renderer = new Sigma(graph, container);
     console.log("Graph rendered");
 };
+
+async function getLunesGraph(list) {
+
+    console.log("Entrée dans le graph")
+    const graph = new graphology.Graph();
+
+    Object.entries(list).forEach(([id, lune]) => {
+        if (!graph.hasNode(lune.name)) {
+            graph.addNode(lune.name, {
+                label: lune.name,
+                x: Math.random(),
+                y: Math.random(),
+                size: 5,
+                color: "#2ECC40"
+            });
+        }
+
+        if (!graph.hasNode(lune.planet)) {
+            graph.addNode(lune.planet, {
+                label: lune.planet,
+                x: Math.random(),
+                y: Math.random(),
+                size: 10,
+                color: "#2e55ccff"
+            });
+        }
+
+        if (!graph.hasEdge(lune.planet, lune.name)) {
+            graph.addEdge(lune.planet, lune.name);
+        }
+    });
+
+    const container = document.getElementById("graph-container");
+    if (renderer) {
+        container.innerHTML = "";
+    }
+    renderer = new Sigma(graph, container);
+}

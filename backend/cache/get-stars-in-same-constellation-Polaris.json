@@ -1,0 +1,50 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Polaris"
+    },
+    "output": {
+        "constellation": {
+            "name": "Octans",
+            "uri": "http://dbpedia.org/resource/Octans"
+        },
+        "stars": [
+            {
+                "name": "8 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/8_Ursae_Minoris"
+            },
+            {
+                "name": "HD 169904",
+                "uri": "http://dbpedia.org/resource/HD_169904"
+            },
+            {
+                "name": "HD 204904",
+                "uri": "http://dbpedia.org/resource/HD_204904"
+            },
+            {
+                "name": "HD 213402",
+                "uri": "http://dbpedia.org/resource/HD_213402"
+            },
+            {
+                "name": "LHS 475",
+                "uri": "http://dbpedia.org/resource/LHS_475"
+            },
+            {
+                "name": "TOI-4342",
+                "uri": "http://dbpedia.org/resource/TOI-4342"
+            },
+            {
+                "name": "TOI-4342 b",
+                "uri": "http://dbpedia.org/resource/TOI-4342"
+            },
+            {
+                "name": "TOI-4342 c",
+                "uri": "http://dbpedia.org/resource/TOI-4342"
+            },
+            {
+                "name": "WISE 2150\u22127520",
+                "uri": "http://dbpedia.org/resource/WISE_2150\u22127520"
+            }
+        ]
+    }
+}
