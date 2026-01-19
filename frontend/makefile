@@ -1,7 +1,7 @@
 include ../config.mk
 
 .DEFAULT_GOAL := run
-.PHONY: kill run
+.PHONY: kill install dev run
 
 kill:
 	lsof -ti :$(FRONTEND_PORT) | xargs kill -9 2>/dev/null || true

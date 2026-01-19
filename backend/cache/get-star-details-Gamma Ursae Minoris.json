@@ -1,0 +1,1139 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Gamma Ursae Minoris"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/Gamma_Ursae_Minoris": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Pherkad": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Flamsteed_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Ursa_Minor_in_Chinese_astronomy": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_brightest_natural_objects_in_the_sky": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Bayer_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/11_Ursae_Minoris": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Struve_1694": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Otto_Struve": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_Arabic_star_names": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Northern_Pole": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Ursa_Minor": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Beta_Ursae_Minoris": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Gamma_Ursae_Minoris": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://cs.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/Gamma_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ko.dbpedia.org/resource/\ud398\ub974\uce74\ub4dc"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u0641\u0631\u0642\u062f"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ce.dbpedia.org/resource/\u0424\u0430\u0440\u043a\u044a\u0430\u0434"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://it.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://nl.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://lb.dbpedia.org/resource/Pherkad_(St\u00e4r)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://de.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ca.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://tt.dbpedia.org/resource/\u041a\u04af\u043a\u0431\u04af\u0437\u0430\u0442"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/QW2V"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://hi.dbpedia.org/resource/\u0917\u093e\u092e\u093e_\u0927\u094d\u0930\u0941\u0935\u092e\u0924\u094d\u0938\u094d\u092f_\u0924\u093e\u0930\u093e"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sk.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ja.dbpedia.org/resource/\u3053\u3050\u307e\u5ea7\u30ac\u30f3\u30de\u661f"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://kk.dbpedia.org/resource/\u0410\u049b\u0431\u043e\u0437\u0430\u0442"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://tr.dbpedia.org/resource/Gamma_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://eu.dbpedia.org/resource/Gamma_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ast.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.06mp93"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/\u0424\u0435\u0440\u043a\u0430\u0434"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pl.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://es.dbpedia.org/resource/Pherkad"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u5317\u6975\u4e00"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ar.dbpedia.org/resource/\u0641\u0631\u0642\u062f_(\u0646\u062c\u0645)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pt.dbpedia.org/resource/Gamma_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q14061"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/Gamma_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/Pherkad"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "\u03b3 Ursae Minoris",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "Gamma Ursae Minoris",
+                    "lang": "eu"
+                },
+                {
+                    "type": "literal",
+                    "value": "Gamma Ursae Minoris",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "Gamma Ursae Minoris",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "cs"
+                },
+                {
+                    "type": "literal",
+                    "value": "Gamma Ursae Minoris",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0641\u0631\u0642\u062f (\u0646\u062c\u0645)",
+                    "lang": "ar"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u3053\u3050\u307e\u5ea7\u30ac\u30f3\u30de\u661f",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0424\u0435\u0440\u043a\u0430\u0434",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pherkad",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "\ud398\ub974\uce74\ub4dc",
+                    "lang": "ko"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u5317\u6975\u4e00",
+                    "lang": "zh"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_circle.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ursa_Minor_constellation_map.svg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Gamma_Ursae_Minoris?oldid=1292283973&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Ursa_Minor"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Flamsteed_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Stars_with_proper_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Northern_pole_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:A-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Delta_Scuti_variables"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "\u20132.84",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": "+3.05",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": "+0.09",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radialV": [
+                {
+                    "type": "literal",
+                    "value": "\u22123.9",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotationalVelocity": [
+                {
+                    "type": "literal",
+                    "value": 180,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 8280,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/uB": [
+                {
+                    "type": "literal",
+                    "value": "+0.08",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ursa_Minor"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.11,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 6.7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 2.53,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 1100,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/years": [
+                {
+                    "type": "literal",
+                    "value": 1900,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "+17.90",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "\u221217.73",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 15,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Delta_Scuti_variable"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ursa_Minor_constellation_map.svg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "A2 III",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "gwiazda w gwiazdozbiorze Ma\u0142ej Nied\u017awiedzicy",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "St\u00e4r am St\u00e4rebild Ursa Minor",
+                    "lang": "lb"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella en la constelaci\u00f3n boreal de la Osa Menor",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella a la constel\u00b7laci\u00f3 boreal de l'Osa Menor",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041c\u0430\u043b\u043e\u0457 \u0412\u0435\u0434\u043c\u0435\u0434\u0438\u0446\u0456",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "stjerne",
+                    "lang": "da"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella della costellazione dell'Orsa Minore",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i Lilla bj\u00f6rnens stj\u00e4rnbild",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0787\u07a6\u0783\u0790\u07a7 \u0789\u07a6\u0787\u07a8\u0782\u07a7 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Kleiner B\u00e4r",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile de la constellation de la Petite Ourse",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Ursa Minor",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Ursa Minor",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0646\u062c\u0645 \u0641\u064a \u0643\u0648\u0643\u0628\u0629 \u0627\u0644\u062f\u0628 \u0627\u0644\u0623\u0635\u063a\u0631",
+                    "lang": "ar"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u041c\u0430\u043b\u043e\u0439 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u044b",
+                    "lang": "ru"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/4_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/5_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Henry_Draper_catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Latinisation_of_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:A-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Supergiant"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sun"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/International_Astronomical_Union"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Purple_Forbidden_enclosure"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Thuban"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_parallax"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bayer_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_spectrum"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bonner_Durchmusterung"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Chinese_star_name"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ursa_Minor_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Smithsonian_Astrophysical_Observatory_Star_Catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bortle_Dark-Sky_Scale"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ahfa_al_Farkadain"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Asterism_(astronomy)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pole_Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Chinese_astronomy"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos_catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Azimuth"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Harvard_Revised_catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Polaris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ursa_Minor"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Ursa_Minor_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Cthulhu_Mythos"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/11_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Northern_pole_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Flamsteed_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Stars_with_proper_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Delta_Scuti_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Flamsteed_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Zeta_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/\u03a3_1694"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_rotation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Shell_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Effective_temperature"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Luminosity_class"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_luminosity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/IAU_Working_Group_on_Star_Names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_radius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Beta_Ursae_Minoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Absolute_magnitude"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:End"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:S-ttl"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:S-bef"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:S-start"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Sky"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:S-aft"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Langx"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_mark"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Ursa_Minor"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Convert"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:IPAc-en"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Citation_needed"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                }
+            ],
+            "http://dbpedia.org/property/title": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pole_star"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u0393_Ursae_Minoris": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Maia_(star)": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Ursa_Minor": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Stars_and_planetary_systems_in_fiction": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/C/1874_H1": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u0393_UMi": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/13_Ursae_Minoris": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u03932_Ursae_Minoris": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Gamma2_Ursae_Minoris": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Gamma_UMi": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIP_75097": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Pherkad_(star)": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+                }
+            ]
+        }
+    }
+}

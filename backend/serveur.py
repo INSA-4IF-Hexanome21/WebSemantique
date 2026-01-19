@@ -1,6 +1,7 @@
 # IMPORTS
 # =======
 import os
+import json
 import requests
 
 from fastapi import FastAPI
@@ -14,6 +15,8 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 # CONFIGURATION
 # =============
+
+CACHE = True
 
 FRONTEND_IP = os.getenv("FRONTEND_IP")
 FRONTEND_PORT = os.getenv("FRONTEND_PORT")
@@ -62,6 +65,21 @@ def get_sparql_results(query: str):
 
 
 
+def load_cache(filename: str):
+    if not os.path.exists(os.path.join("cache", filename)):
+        return None
+    with open(os.path.join("cache", filename), "r") as f:
+        return json.load(f)
+
+
+
+def save_cache(filename: str, data):
+    os.makedirs("cache", exist_ok=True)
+    with open(os.path.join("cache", filename), "w") as f:
+        json.dump(data, f, indent=4)
+
+
+
 # ROUTES - ROOT
 # =============
 
@@ -77,7 +95,12 @@ async def root():
 # =======================
 
 @app.get("/api/get-constellations")
-def get_constellations():
+def get_constellations(cache: bool = CACHE):
+    cache_file = "get-constellations.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
     query = f"""
     {SPARQL_PREFIX}
     SELECT DISTINCT ?name
@@ -95,13 +118,21 @@ def get_constellations():
 
     result = [item["name"]["value"] for item in raw]
     result.sort()
-    return {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
 
 
 
 @app.get("/api/get-stars-in-constellation")
-def get_stars_in_constellation(name: str):
+def get_stars_in_constellation(name: str, cache: bool = CACHE):
     name = name.replace(" ", "_")
+    cache_file = f"get-stars-in-constellation-{name}.json"
+
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
     query = f"""
     {SPARQL_PREFIX}
     SELECT *
@@ -119,7 +150,29 @@ def get_stars_in_constellation(name: str):
 
     result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    return {"status": 1, "input": {"name": name}, "output": result}
+    output = {"status": 1, "input": {"name": name}, "output": result}
+    
+    save_cache(cache_file, output)
+    return output
+
+
+
+@app.get("/api/get-star-details-in-constellation")
+def get_star_details_in_constellation(name: str, cache: bool = CACHE):
+    cache_file = f"get-star-details-in-constellation-{name}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
+    stars = get_stars_in_same_constellation(name, cache=cache)["output"]["stars"]
+    details = []
+    for star in stars:
+        detail = get_star_details(star["name"], cache=cache)["output"]
+        details.append(detail)
+    output = {"status": 1, "input": {"name": name}, "output": details}
+    
+    save_cache(cache_file, output)
+    return output
 
 
 
@@ -127,7 +180,12 @@ def get_stars_in_constellation(name: str):
 # ==============
 
 @app.get("/api/get-stars")
-async def get_stars():
+async def get_stars(cache: bool = CACHE):
+    cache_file = "get-stars.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
     query = f"""
     {SPARQL_PREFIX}
     SELECT ?star ?label
@@ -143,11 +201,20 @@ async def get_stars():
     
     result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    return {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
 
 
 @app.get("/api/get-star-details")
-def get_star_details(name: str):
+def get_star_details(name: str, cache: bool = CACHE):
+    cache_file = f"get-star-details-{name}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
     query = f"""
     {SPARQL_PREFIX}
     SELECT *
@@ -165,11 +232,20 @@ def get_star_details(name: str):
     result = raw[0]["star"]["value"]
     data_url = result.replace(DBPEDIA_RESOURCE_BASE, DBPEDIA_DATA_BASE) + ".json"
     data = requests.get(data_url)
-    return {"status": 1, "input": {"name": name}, "output": data.json()}
+    output = {"status": 1, "input": {"name": name}, "output": data.json()}
+    
+    save_cache(cache_file, output)
+    return output
+
 
 
 @app.get("/api/get-stars-in-same-constellation")
-def get_stars_in_same_constellation(name: str):
+def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
+    cache_file = f"get-stars-in-same-constellation-{name}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
     query = f"""
     {SPARQL_PREFIX}
     SELECT DISTINCT ?constellation ?constellName ?sibling ?siblingName
@@ -190,12 +266,15 @@ def get_stars_in_same_constellation(name: str):
     if not raw:
         return {"status": 0, "input": {"name": name}, "output": {}}
 
-    # retourne toutes les étoiles dont celle en entrée
+    # Retourne toutes les étoiles dont celle en entrée
     result = {}
     result["constellation"] = {"name": raw[0]["constellName"]["value"], "uri": raw[0]["constellation"]["value"]}
     result["stars"] = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"]} for item in raw]
     result["stars"].sort(key=lambda x: x["name"])
-    return {"status": 1, "input": {"name": name}, "output": result}
+    output = {"status": 1, "input": {"name": name}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
 
 # ROUTES - SATELLITES
 # ==============
