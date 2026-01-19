@@ -1,0 +1,787 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Tau Coronae Borealis"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/Tau_Coronae_Borealis": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Flamsteed_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Bayer_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Corona_Borealis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Tau_Coronae_Borealis": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#differentFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/T_Coronae_Borealis"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/Tau_Coronae_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.0l_v3wj"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q5098360"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pt.dbpedia.org/resource/Tau_Coronae_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/4hhBy"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/Tau_Coronae_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u5317\u5195\u5ea7\u03c4"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://es.dbpedia.org/resource/Tau_Coronae_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ast.dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "\u03c4 Coronae Borealis",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "\u5317\u5195\u5ea7\u03c4",
+                    "lang": "zh"
+                },
+                {
+                    "type": "literal",
+                    "value": "Tau Coronae Borealis",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Tau Coronae Borealis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Tau Coronae Borealis",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "Tau Coronae Borealis",
+                    "lang": "es"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Corona_Borealis_constellation_map.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_circle.svg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Tau_Coronae_Borealis?oldid=1280270580&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Horizontal-branch_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Astrometric_binaries"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Flamsteed_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Corona_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:K-type_giants"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Tau_Coronae_Borealis"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "+2.03",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 4.76,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": "",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": "+1.01",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotationalVelocity": [
+                {
+                    "type": "literal",
+                    "value": 1.7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 4742,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/uB": [
+                {
+                    "type": "literal",
+                    "value": "+0.86",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/ageGyr": [
+                {
+                    "type": "literal",
+                    "value": 3.4,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Corona_Borealis"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.1275,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 29.0217,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 3.1,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 1.45,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 16.2,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J2000.0"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 6,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/equinox": [
+                {
+                    "type": "literal",
+                    "value": "J2000.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Corona_Borealis_constellation_map.svg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Red_clump"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.20",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "+332.280",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "\u221259.431",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "K1 III-IV",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile binaire de la constellation de la Couronne bor\u00e9ale",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella multipla nella costellazione della Corona Boreale",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i Norra kronans stj\u00e4rnbild",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild N\u00f6rdliche Krone",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "star system in the constellation Corona Borealis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "stjerne",
+                    "lang": "da"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Corona Borealis",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041f\u0456\u0432\u043d\u0456\u0447\u043d\u043e\u0457 \u041a\u043e\u0440\u043e\u043d\u0438",
+                    "lang": "uk"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bayer_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Giant_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Extinction_(astronomy)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_core"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:K-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Spectroscopic_binary"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Angular_separation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Flamsteed_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Horizontal-branch_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sun's_radius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Visual_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Flamsteed_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Red_clump"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Latinisation_of_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_evolution"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/K-type_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Corona_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J2000.0"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Astrometric_binaries"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Astrometric_binary"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Smithsonian_Astrophysical_Observatory_Star_Catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Helium_fusion"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Space_motion"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Subgiant_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Position_angle"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Photosphere"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_visual_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Effective_temperature"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Corona_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light_year"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/International_Celestial_Reference_System"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_parallax"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Milliarcsecond"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Interstellar_dust"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bright_Star_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Arc_second"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Henry_Draper_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sun"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Durchmusterung"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_luminosity"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Wikisource-inline"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Distinguish"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Corona_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_mark"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/73P/Schwassmann\u2013Wachmann": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Corona_Borealis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Stars_and_planetary_systems_in_fiction": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/T_Coronae_Borealis": {
+            "http://www.w3.org/2002/07/owl#differentFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/16_Coronae_Borealis": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Tau_CrB": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u03a4_Coronae_Borealis": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Corona_Borealis_in_Chinese_astronomy": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+                }
+            ]
+        }
+    }
+}

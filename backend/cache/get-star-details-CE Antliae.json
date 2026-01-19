@@ -1,0 +1,394 @@
+{
+    "status": 1,
+    "input": {
+        "name": "CE Antliae"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/CE_Antliae": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/CE_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/CE_Antliae": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/CE_Antliae"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "CE Antliae",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "CE Antliae",
+                    "lang": "en"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/CEAntLightCurve.png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/TWA_7_(noirlab2014g).jpg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/CE_Antliae?oldid=1296451422&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:M-type_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Circumstellar_disks"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:T_Tauri_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TW_Hydrae_association"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Exoplanets_discovered_in_2025"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/CE_Antliae"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "+9.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotationalVelocity": [
+                {
+                    "type": "literal",
+                    "value": 63.2,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Antlia"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0273,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 29.3277,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 0.3,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/semimajor": [
+                {
+                    "type": "literal",
+                    "value": 52,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/status": [
+                {
+                    "type": "literal",
+                    "value": "candidate",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/exoplanet": [
+                {
+                    "type": "literal",
+                    "value": "CC#1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotation": [
+                {
+                    "type": "literal",
+                    "value": "425088.0",
+                    "datatype": "http://dbpedia.org/datatype/second"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/sym": [
+                {
+                    "type": "literal",
+                    "value": "y",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/equinox": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "literal",
+                    "value": "rotational variable, flare star",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/periodUnit": [
+                {
+                    "type": "literal",
+                    "value": "year",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/TWA_7_(noirlab2014g).jpg?width=300"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/List_of_stars_in_Antlia"
+                }
+            ],
+            "http://dbpedia.org/property/type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/T_Tauri_star"
+                }
+            ],
+            "http://dbpedia.org/property/period": [
+                {
+                    "type": "literal",
+                    "value": 550,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/link": [
+                {
+                    "type": "literal",
+                    "value": "true",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "M1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/name": [
+                {
+                    "type": "literal",
+                    "value": "CE Antlae",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "CE Antliae is a young star in the constellation Antlia",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0646\u062c\u0645 \u0641\u064a \u0643\u0648\u0643\u0628\u0629 \u0645\u0641\u0631\u063a\u0629 \u0627\u0644\u0647\u0648\u0627\u0621",
+                    "lang": "ar"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/List_of_stars_in_Antlia"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Orbitbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:OrbitboxPlanet_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:OrbitboxPlanet_hypothetical"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Dec"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:OrbitboxPlanet_disk"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Jupiter_mass"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Earth_mass"
+                }
+            ],
+            "http://dbpedia.org/property/caption": [
+                {
+                    "type": "literal",
+                    "value": "TWA 7 disk with Gemini South telescope",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/disk": [
+                {
+                    "type": "literal",
+                    "value": "Ring 3",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Ring 1",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Ring 2",
+                    "lang": "en"
+                }
+            ]
+        }
+    }
+}
