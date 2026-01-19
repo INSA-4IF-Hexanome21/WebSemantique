@@ -1,0 +1,294 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Antlia"
+    },
+    "output": {
+        "constellation": {
+            "name": "Antlia",
+            "uri": "http://dbpedia.org/resource/Antlia"
+        },
+        "stars": [
+            {
+                "name": "2MASS J09393548\u22122448279",
+                "uri": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+            },
+            {
+                "name": "ADS 9731",
+                "uri": "http://dbpedia.org/resource/ADS_9731"
+            },
+            {
+                "name": "Alpha Antliae",
+                "uri": "http://dbpedia.org/resource/Alpha_Antliae"
+            },
+            {
+                "name": "Alpha Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Alpha_Coronae_Borealis"
+            },
+            {
+                "name": "BF Antliae",
+                "uri": "http://dbpedia.org/resource/BF_Antliae"
+            },
+            {
+                "name": "Beta Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Beta_Coronae_Borealis"
+            },
+            {
+                "name": "CE Antliae",
+                "uri": "http://dbpedia.org/resource/CE_Antliae"
+            },
+            {
+                "name": "DENIS J1048\u22123956",
+                "uri": "http://dbpedia.org/resource/DENIS_J1048\u22123956"
+            },
+            {
+                "name": "Delta Antliae",
+                "uri": "http://dbpedia.org/resource/Delta_Antliae"
+            },
+            {
+                "name": "Delta Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Delta_Coronae_Borealis"
+            },
+            {
+                "name": "Epsilon Antliae",
+                "uri": "http://dbpedia.org/resource/Epsilon_Antliae"
+            },
+            {
+                "name": "Epsilon Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Epsilon_Coronae_Borealis"
+            },
+            {
+                "name": "Eta Antliae",
+                "uri": "http://dbpedia.org/resource/Eta_Antliae"
+            },
+            {
+                "name": "Eta Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Eta_Coronae_Borealis"
+            },
+            {
+                "name": "GJ 3929",
+                "uri": "http://dbpedia.org/resource/GJ_3929"
+            },
+            {
+                "name": "Gamma Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Gamma_Coronae_Borealis"
+            },
+            {
+                "name": "HD 140913",
+                "uri": "http://dbpedia.org/resource/HD_140913"
+            },
+            {
+                "name": "HD 145457",
+                "uri": "http://dbpedia.org/resource/HD_145457"
+            },
+            {
+                "name": "HD 82205",
+                "uri": "http://dbpedia.org/resource/HD_82205"
+            },
+            {
+                "name": "HD 82514",
+                "uri": "http://dbpedia.org/resource/HD_82514"
+            },
+            {
+                "name": "HD 82785",
+                "uri": "http://dbpedia.org/resource/HD_82785"
+            },
+            {
+                "name": "HD 83332",
+                "uri": "http://dbpedia.org/resource/HD_83332"
+            },
+            {
+                "name": "HD 83380",
+                "uri": "http://dbpedia.org/resource/HD_83380"
+            },
+            {
+                "name": "HD 85725",
+                "uri": "http://dbpedia.org/resource/HD_85725"
+            },
+            {
+                "name": "HD 86267",
+                "uri": "http://dbpedia.org/resource/HD_86267"
+            },
+            {
+                "name": "HD 88218",
+                "uri": "http://dbpedia.org/resource/HD_88218"
+            },
+            {
+                "name": "HD 88522",
+                "uri": "http://dbpedia.org/resource/HD_88522"
+            },
+            {
+                "name": "HD 88809",
+                "uri": "http://dbpedia.org/resource/HD_88809"
+            },
+            {
+                "name": "HD 88836",
+                "uri": "http://dbpedia.org/resource/HD_88836"
+            },
+            {
+                "name": "HD 90132",
+                "uri": "http://dbpedia.org/resource/HD_90132"
+            },
+            {
+                "name": "HD 92589",
+                "uri": "http://dbpedia.org/resource/HD_92589"
+            },
+            {
+                "name": "HD 92845",
+                "uri": "http://dbpedia.org/resource/HD_92845"
+            },
+            {
+                "name": "HD 93083",
+                "uri": "http://dbpedia.org/resource/HD_93083"
+            },
+            {
+                "name": "HD 93905",
+                "uri": "http://dbpedia.org/resource/HD_93905"
+            },
+            {
+                "name": "HD 96146",
+                "uri": "http://dbpedia.org/resource/HD_96146"
+            },
+            {
+                "name": "HR 4049",
+                "uri": "http://dbpedia.org/resource/HR_4049"
+            },
+            {
+                "name": "Iota Antliae",
+                "uri": "http://dbpedia.org/resource/Iota_Antliae"
+            },
+            {
+                "name": "Iota Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Iota_Coronae_Borealis"
+            },
+            {
+                "name": "Kappa Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Kappa_Coronae_Borealis"
+            },
+            {
+                "name": "Lambda Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Lambda_Coronae_Borealis"
+            },
+            {
+                "name": "Mu Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Mu_Coronae_Borealis"
+            },
+            {
+                "name": "Nu1 Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Nu1_Coronae_Borealis"
+            },
+            {
+                "name": "Nu2 Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Nu2_Coronae_Borealis"
+            },
+            {
+                "name": "Omicron Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Omicron_Coronae_Borealis"
+            },
+            {
+                "name": "Pi Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Pi_Coronae_Borealis"
+            },
+            {
+                "name": "R Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/R_Coronae_Borealis"
+            },
+            {
+                "name": "RR Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/RR_Coronae_Borealis"
+            },
+            {
+                "name": "RS Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/RS_Coronae_Borealis"
+            },
+            {
+                "name": "Rho Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Rho_Coronae_Borealis"
+            },
+            {
+                "name": "S Antliae",
+                "uri": "http://dbpedia.org/resource/S_Antliae"
+            },
+            {
+                "name": "S Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/S_Coronae_Borealis"
+            },
+            {
+                "name": "Sigma Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Sigma_Coronae_Borealis"
+            },
+            {
+                "name": "T Antliae",
+                "uri": "http://dbpedia.org/resource/T_Antliae"
+            },
+            {
+                "name": "T Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/T_Coronae_Borealis"
+            },
+            {
+                "name": "TY Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/TY_Coronae_Borealis"
+            },
+            {
+                "name": "Tau Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Tau_Coronae_Borealis"
+            },
+            {
+                "name": "Theta Antliae",
+                "uri": "http://dbpedia.org/resource/Theta_Antliae"
+            },
+            {
+                "name": "Theta Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Theta_Coronae_Borealis"
+            },
+            {
+                "name": "U Antliae",
+                "uri": "http://dbpedia.org/resource/U_Antliae"
+            },
+            {
+                "name": "UX Antliae",
+                "uri": "http://dbpedia.org/resource/UX_Antliae"
+            },
+            {
+                "name": "Upsilon Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Upsilon_Coronae_Borealis"
+            },
+            {
+                "name": "V Antliae",
+                "uri": "http://dbpedia.org/resource/V_Antliae"
+            },
+            {
+                "name": "V Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/V_Coronae_Borealis"
+            },
+            {
+                "name": "W Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/W_Coronae_Borealis"
+            },
+            {
+                "name": "WASP-66",
+                "uri": "http://dbpedia.org/resource/WASP-66"
+            },
+            {
+                "name": "XO-1",
+                "uri": "http://dbpedia.org/resource/XO-1"
+            },
+            {
+                "name": "Xi Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Xi_Coronae_Borealis"
+            },
+            {
+                "name": "Zeta Coronae Borealis",
+                "uri": "http://dbpedia.org/resource/Zeta_Coronae_Borealis"
+            },
+            {
+                "name": "Zeta1 Antliae",
+                "uri": "http://dbpedia.org/resource/Zeta1_Antliae"
+            },
+            {
+                "name": "Zeta2 Antliae",
+                "uri": "http://dbpedia.org/resource/Zeta2_Antliae"
+            }
+        ]
+    }
+}
