@@ -278,6 +278,118 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
 
 
 
+# ROUTES - SATELLITES
+# ===================
+
+@app.get("/api/get-satellites")
+def get_satellites(cache: bool = CACHE):
+    cache_file = f"get-satellites.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
+    query = SPARQL_PREFIX + """
+    SELECT DISTINCT ?satellite ?label
+    WHERE {{
+        ?satellite rdf:type dbo:CelestialBody ;
+            rdfs:label ?label ;
+            dbo:description ?description .
+        FILTER(lang(?label) = "fr")
+        FILTER(lang(?description) = "fr")
+        FILTER(CONTAINS(LCASE(?description), "satellite"))
+    }
+    UNION
+    {
+        ?satellite gold:hypernym dbr:Satellite ;
+            rdfs:label ?label .
+        FILTER(lang(?label) = "fr")
+    }}
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
+    
+    result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
+    result.sort(key=lambda x: x["name"])
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
+
+
+@app.get("/api/get-natural-satellites")
+def get_natural_satellites(cache: bool = CACHE):
+    cache_file = f"get-natural-satellites.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
+    query = SPARQL_PREFIX + """
+    SELECT DISTINCT ?satellite ?label
+       (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
+    WHERE {
+    {
+        # Satellites détectés via description
+        ?satellite rdf:type dbo:CelestialBody ;
+                rdfs:label ?label ;
+                dbo:description ?description .
+        FILTER(lang(?label) = "fr")
+        FILTER(lang(?description) = "fr")
+        FILTER(CONTAINS(LCASE(?description), "satellite"))
+    }
+    UNION
+    {
+        # Satellites détectés via gold:hypernym
+        ?satellite gold:hypernym dbr:Satellite ;
+                rdfs:label ?label .
+        FILTER(lang(?label) = "fr")
+    }
+    }
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
+    
+    result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
+    result.sort(key=lambda x: x["name"])
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
+
+
+@app.get("/api/get-artificial-satellites")
+def get_artificial_satellites(cache: bool = CACHE):
+    cache_file = f"get-artificial-satellites.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
+    query = SPARQL_PREFIX + """
+    SELECT DISTINCT ?satellite ?label
+    WHERE {
+    ?satellite gold:hypernym dbr:Satellite ;
+                rdfs:label ?label .
+
+    FILTER(lang(?label) = "fr")
+    FILTER NOT EXISTS { ?satellite rdf:type dbo:CelestialBody }
+    }
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
+    
+    result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
+    result.sort(key=lambda x: x["name"])
+    output = {"status": 1, "input": {}, "output": result}
+
+    save_cache(cache_file, output)
+    return output
+
+
+
 # ROUTES - AI
 # ===========
 
