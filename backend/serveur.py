@@ -276,7 +276,88 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
     save_cache(cache_file, output)
     return output
 
+# ROUTES - PLANETS
+# ==============
 
+@app.get("/api/get-planets")
+async def get_planets():
+    query = f"""
+    {SPARQL_PREFIX}
+    SELECT DISTINCT ?planete  ?des
+    WHERE {{
+    ?planete a dbo:Planet.
+    ?planete dbo:description ?des.
+    ?planete gold:hypernym dbr:Planet.
+    FILTER not exists {{?planete a dbo:Asteroid}}
+    FILTER (lang(?des)="fr")
+    }} 
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
+    
+    result = []
+    systeme_solaire = []
+    for object in raw :
+        planet = {}
+        planet["name"] = object["planete"]["value"].split("/")[-1]
+        planet["type"] = object["des"]["value"]
+        planet["uri"] = object["planete"]["value"]
+        
+        if "Système solaire".upper() in planet["type"].upper() :
+           systeme_solaire.append(planet) 
+        else :
+            result.append(planet)
+    
+    result.sort(key=lambda x: (x["type"],x["name"]))
+    systeme_solaire.sort(key=lambda x: x["name"])
+    result = systeme_solaire + result
+
+    return {"status": 1, "input": {}, "output": result}
+
+@app.get("/api/get-moons")
+async def get_moons(type: str):
+    print("entrée dans la fonction")
+    if type == "Système Solaire" :
+        query = f"""
+        {SPARQL_PREFIX}
+        SELECT DISTINCT ?lune  ?planet
+        WHERE {{
+        ?lune a dbo:Planet.
+        ?lune dbp:satelliteOf ?planet.
+        ?lune dbo:description ?des.
+        ?lune gold:hypernym dbr:Satellite.
+        FILTER (lang(?des)="fr")
+        }}
+        """     
+    
+    else :
+        query = f"""
+        {SPARQL_PREFIX}
+        SELECT DISTINCT ?lune  ?planet
+        WHERE {{
+        ?lune a dbo:Planet.
+        ?lune dbp:satelliteOf ?planet.
+        ?lune dbo:description ?des.
+        FILTER (lang(?des)="fr")
+        }}
+        """
+    
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {}, "output": {}}
+    result = []
+    for object in raw :
+        moon = {}
+        moon["name"] = object["lune"]["value"].split("/")[-1]
+        moon["planet"] = object["planet"]["value"].split("/")[-1]
+        moon["uri"] = object["lune"]["value"]
+        
+        result.append(moon)
+    
+    result.sort(key=lambda x: (x["planet"],x["name"]))
+
+    return {"status": 1, "input": {}, "output": result}
 
 # ROUTES - SATELLITES
 # ===================

@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title>Satellites</title>
-	<link rel="stylesheet" href="../css/satellites.css">
+	<title>Planete</title>
+	<link rel="stylesheet" href="../css/planete.css">
 	<!-- Framework Bootstrap -->
 	<!-- https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-	<script src="../js/satellites.js"></script>
+	<script src="../js/planete.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 	<!-- Canvas et script fond animé -->
@@ -18,7 +18,7 @@
 	<!-- Canvas pour le fond --> 
 	<canvas id="canvas"></canvas> 
 
-	<h1 style = "color : white; text-align: center; font-size : 5em; font-family:Nasa; margin: 2rem;">En route vers les satellites</h1>
+	<h1 style = "color : white; text-align: center; font-size : 5em; font-family:Nasa; margin: 2rem;">En route vers les planetes</h1>
 
 	<div style="text-align: center; margin: 2rem;">
 		<a href="../index.html" class="btn btn-light">Retour à l'accueil</a>
@@ -29,37 +29,28 @@
 			
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/all-satellite.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/planetes.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
-						<button class="btn btn-dark" onclick="getAllSatellites()" id="allSatellitesButton">Listez tous les satellites
-                           
-                        </button>
-                    </div>
+						<button class="btn btn-dark" onclick="getPlanets()" id="planeteButton">Listez toutes les planètes</button>
+					</div>
 				</div>
-			</div>
-			
-			<div class="col" style="max-width: 24rem;">
-				<div class="card">
-					<img src="../img/satellite_naturel.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
-					<div class="card-body">
-						<button class="btn btn-dark" onclick="getNaturalSatellites()" id="naturalSatellitesButton">Listez les satellites naturels
-                            
-                        </button>
-                    </div>
-				</div>
-			</div>
+			</div>	
 
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/satellite_artificiel.webp" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/lunes_uranus.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
-						<button class="btn btn-dark" onclick="getArtificialSatellites()" id="artificialSatellitesButton">
-                            Listez les satellites artificiels
-                        </button>
-                    </div>
+						<div class="mb-3">
+							<label for="listLune" class="form-label">Type de lunes</label>
+							<select id="listLune" class="form-select">
+								<option selected>Toutes</option>
+								<option selected>Système Solaire</option>
+							</select>
+						</div>
+						<button class="btn btn-dark" onclick="getMoons()" id="luneButton">Listez toutes les lunes</button>
+					</div>
 				</div>
 			</div>
-	
 
 		</div>
 	</br>
