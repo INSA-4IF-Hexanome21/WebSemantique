@@ -118,6 +118,7 @@ async function getStars() {
 
     document.getElementById("starButton").replaceChildren();
     document.getElementById("starButton").textContent = "Listez toutes les étoiles";
+    getThermicGraph(list);
 }
 
 async function getStarsInSameConstellation() {

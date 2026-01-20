@@ -32,6 +32,7 @@ DBPEDIA_DATA_BASE = "https://dbpedia.org/data/"
 SPARQL_PREFIX = """
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -191,10 +192,12 @@ async def get_stars(cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT ?star ?label
+    SELECT ?star ?label ?radius ?temp
     WHERE {{
         ?star rdf:type dbo:Star.
         ?star rdfs:label ?label.
+        ?star dbp:radius ?radius.
+        ?star dbp:temperature ?temp.
         FILTER (lang(?label) = "fr")
     }}
     """
@@ -202,7 +205,13 @@ async def get_stars(cache: bool = CACHE):
     if not raw:
         return {"status": 0, "input": {}, "output": {}}
     
-    result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
+    result = [{
+        "name": item["label"]["value"], 
+        "uri": item["star"]["value"], 
+        "temp":item["temp"]["value"], 
+        "radius":item["radius"]["value"]} 
+        for item in raw
+    ]
     result.sort(key=lambda x: x["name"])
     output = {"status": 1, "input": {}, "output": result}
 
