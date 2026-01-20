@@ -13,6 +13,8 @@ async function getConstellations(obj) {
 }
 
 async function getStarsInConstellation() {
+    document.getElementById("ImageContainer").hidden = true;
+    document.getElementById("graphHeader").hidden = true;
     document.getElementById("divReponse").hidden = false;
     document.getElementById("divReponseGraphique").hidden = false;
     document.getElementById("divReponseTextuelle").hidden = false;
@@ -71,6 +73,8 @@ async function getStarsInConstellation() {
 }
 
 async function getStars() {
+    document.getElementById("ImageContainer").hidden = true;
+    document.getElementById("graphHeader").hidden = true;
     document.getElementById("divReponse").hidden = false;
     document.getElementById("divReponseGraphique").hidden = true;
     document.getElementById("divReponseTextuelle").hidden = false;
@@ -124,6 +128,8 @@ async function getStars() {
 }
 
 async function getStarsInSameConstellation() {
+    document.getElementById("ImageContainer").hidden = true;
+    document.getElementById("graphHeader").hidden = true;
     document.getElementById("error").hidden = true;
     var nomEtoile = document.getElementById("inputStarInConstellation").value;
     if (nomEtoile === ""){
