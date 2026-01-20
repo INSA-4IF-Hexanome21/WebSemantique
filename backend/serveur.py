@@ -268,10 +268,9 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
         return {"status": 0, "input": {"name": name}, "output": {}}
 
     # Retourne toutes les étoiles dont celle en entrée
-    result = {}
-    result["constellation"] = {"name": raw[0]["constellName"]["value"], "uri": raw[0]["constellation"]["value"]}
-    result["stars"] = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"]} for item in raw]
-    result["stars"].sort(key=lambda x: x["name"])
+    result = []
+    result = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"], "constellation" : item["constellName"]["value"], "uriConstellation" : item["constellation"]["value"]} for item in raw]
+    result.sort(key=lambda x: (x["constellation"],x["name"]))
     output = {"status": 1, "input": {"name": name}, "output": result}
 
     save_cache(cache_file, output)
