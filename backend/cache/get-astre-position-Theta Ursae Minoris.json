@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Theta Ursae Minoris"
+    },
+    "output": {
+        "name": "Theta Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Theta_Ursae_Minoris",
+        "ra_hours": 1.4300812153958589,
+        "dec_deg": 1.9456856027129135,
+        "distance": 1,
+        "position": {
+            "x": 0.9301926694929851,
+            "y": 0.3654980888642826,
+            "z": 0.033952093574200204
+        }
+    }
+}

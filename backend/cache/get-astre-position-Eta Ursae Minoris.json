@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Eta Ursae Minoris"
+    },
+    "output": {
+        "name": "Eta Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Eta_Ursae_Minoris",
+        "ra_hours": 9.097900881824335,
+        "dec_deg": -4.612278804797768,
+        "distance": 1,
+        "position": {
+            "x": -0.722648200400518,
+            "y": 0.6865226887947551,
+            "z": -0.08041253775321673
+        }
+    }
+}

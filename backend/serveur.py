@@ -32,6 +32,7 @@ DBPEDIA_DATA_BASE = "https://dbpedia.org/data/"
 SPARQL_PREFIX = """
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -191,10 +192,12 @@ async def get_stars(cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT ?star ?label
+    SELECT ?star ?label ?radius ?temp
     WHERE {{
         ?star rdf:type dbo:Star.
         ?star rdfs:label ?label.
+        ?star dbp:radius ?radius.
+        ?star dbp:temperature ?temp.
         FILTER (lang(?label) = "fr")
     }}
     """
@@ -202,7 +205,13 @@ async def get_stars(cache: bool = CACHE):
     if not raw:
         return {"status": 0, "input": {}, "output": {}}
     
-    result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
+    result = [{
+        "name": item["label"]["value"], 
+        "uri": item["star"]["value"], 
+        "temp":item["temp"]["value"], 
+        "radius":item["radius"]["value"]} 
+        for item in raw
+    ]
     result.sort(key=lambda x: x["name"])
     output = {"status": 1, "input": {}, "output": result}
 
@@ -321,17 +330,31 @@ async def get_planets():
 async def get_moons(type: str):
     print("entrée dans la fonction")
     if type == "Système Solaire" :
-        query = f"""
-        {SPARQL_PREFIX}
-        SELECT DISTINCT ?lune  ?planet
+        query =  query = SPARQL_PREFIX + """
+        SELECT DISTINCT ?lune ?planet
         WHERE {{
-        ?lune a dbo:Planet.
-        ?lune dbp:satelliteOf ?planet.
-        ?lune dbo:description ?des.
-        ?lune gold:hypernym dbr:Satellite.
-        FILTER (lang(?des)="fr")
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?lune gold:hypernym dbr:Satellite.
+            FILTER (lang(?des)="fr")
+        }
+        UNION
+        {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?planet foaf:name ?name.
+            FILTER CONTAINS(LCASE(?name), "mars")
+            FILTER (lang(?des)="fr")
+        } UNION {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+            FILTER CONTAINS(LCASE(?des), "satellite naturel de la terre")
+            FILTER (lang(?des)="fr")
         }}
-        """     
+        """      
     
     else :
         query = f"""
@@ -491,6 +514,68 @@ def get_star_details(name: str, cache: bool = CACHE):
     save_cache(cache_file, output)
     return output
 
+@app.get("/api/get-astre-position")
+def get_astre_position(name: str, cache: bool = CACHE):
+    """
+    Retourne la position 3D d'un astre par rapport à la Terre
+    en utilisant RA/Dec/Distance depuis DBpedia
+    """
+    cache_file = f"get-astre-position-{name}.json"
+    
+    # Vérifier le cache
+    cache_data = load_cache(cache_file)
+    if cache and cache_data:
+        return cache_data
+
+    # Requête SPARQL
+    query = f"""
+    {SPARQL_PREFIX}
+    SELECT ?astre ?label ?ra ?dec ?distance
+    WHERE {{
+        ?astre rdfs:label ?label .
+        ?astre rdf:type ?type .
+        OPTIONAL {{ ?astre dbo:ra ?ra }}
+        OPTIONAL {{ ?astre dbo:dec ?dec }}
+        OPTIONAL {{ ?astre dbo:distanceFromEarth ?distance }}
+        FILTER (lang(?label) = "fr")
+        FILTER contains(?label, "{name}")
+    }}
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {"name": name}, "output": {}}
+
+    item = raw[0]
+    
+    # Conversion RA/Dec en coordonnées 3D
+    ra_hours = float(item["ra"]["value"]) if "ra" in item else random.uniform(0, 24)
+    dec_deg = float(item["dec"]["value"]) if "dec" in item else random.uniform(-90, 90)
+    distance = float(item["distance"]["value"]) if "distance" in item else 1  # unité arbitraire si absent
+
+    # RA: heures → degrés → radians
+    ra_rad = (ra_hours * 15) * math.pi / 180
+    dec_rad = dec_deg * math.pi / 180
+
+    # Conversion sphérique → cartésienne
+    x = distance * math.cos(dec_rad) * math.cos(ra_rad)
+    y = distance * math.cos(dec_rad) * math.sin(ra_rad)
+    z = distance * math.sin(dec_rad)
+
+    output = {
+        "status": 1,
+        "input": {"name": name},
+        "output": {
+            "name": item["label"]["value"],
+            "uri": item["astre"]["value"],
+            "ra_hours": ra_hours,
+            "dec_deg": dec_deg,
+            "distance": distance,
+            "position": {"x": x, "y": y, "z": z}
+        }
+    }
+
+    save_cache(cache_file, output)
+    return output
 
 # ROUTES - AI
 # ===========

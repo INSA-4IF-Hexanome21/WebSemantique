@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Iota Antliae"
+    },
+    "output": {
+        "name": "Iota Antliae",
+        "uri": "http://dbpedia.org/resource/Iota_Antliae",
+        "ra_hours": 6.626567395094919,
+        "dec_deg": -77.89789123403374,
+        "distance": 1,
+        "position": {
+            "x": -0.03423665550646022,
+            "y": 0.20684023242398303,
+            "z": -0.9777755211041667
+        }
+    }
+}
