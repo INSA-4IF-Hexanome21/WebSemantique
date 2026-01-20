@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Zeta2 Antliae"
+    },
+    "output": {
+        "name": "Zeta2 Antliae",
+        "uri": "http://dbpedia.org/resource/Zeta2_Antliae",
+        "ra_hours": 10.794884592733833,
+        "dec_deg": -38.05537304257294,
+        "distance": 1,
+        "position": {
+            "x": -0.7485499981050585,
+            "y": 0.24432742029609084,
+            "z": -0.6164227543077675
+        }
+    }
+}

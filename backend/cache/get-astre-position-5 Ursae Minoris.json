@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "5 Ursae Minoris"
+    },
+    "output": {
+        "name": "5 Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/5_Ursae_Minoris",
+        "ra_hours": 18.23028416774335,
+        "dec_deg": 28.850888862369715,
+        "distance": 1,
+        "position": {
+            "x": 0.052773200211930923,
+            "y": -0.8742871672813818,
+            "z": 0.48253180047172917
+        }
+    }
+}

@@ -74,67 +74,85 @@ async function showConstellationGraph(stars) {
 
     const graph = new graphology.Graph({ multi: true });
 
-    const centerX = 0;
-    const centerY = 0;
-    const radius = 10;
-    const angleStep = (2 * Math.PI) / stars.length;
-
     for (let i = 0; i < stars.length; i++) {
         const star = stars[i];
         const starId = star.uri;
-        const angle = i * angleStep;
 
-        // Position constellation
-        const x = centerX + radius * Math.cos(angle);
-        const y = centerY + radius * Math.sin(angle);
+        // Récupérer la position réelle depuis l'API
+        let x = Math.random() * 10;
+        let y = Math.random() * 10;
+        try {
+            const posResponse = await fetch(
+                `http://127.0.0.1:8000/api/get-astre-position?name=${encodeURIComponent(star.name)}`
+            );
+            const posJson = await posResponse.json();
+            if (posJson.status === 1 && posJson.output.position) {
+                // Projeter coordonnées 3D en 2D (x, y)
+                x = posJson.output.position.x;
+                y = posJson.output.position.y;
+            }
+        } catch (err) {
+            console.warn(`Impossible de récupérer la position de ${star.name}`, err);
+        }
 
-        graph.addNode(starId, {
-            label: star.name,
-            x,
-            y,
-            size: 8,
-            color: "#FFD700" // or
-        });
+        // Ajouter le nœud de l'étoile
+        if (!graph.hasNode(starId)) {
+            graph.addNode(starId, {
+                label: star.name,
+                x,
+                y,
+                size: 8,
+                color: "#FFD700"
+            });
+        }
 
-        const response = await fetch(
-            `http://127.0.0.1:8000/api/get-star-details?name=${encodeURIComponent(star.name)}`
-        );
-        const json = await response.json();
+        // Récupérer les détails RDF pour construire le graphe des relations
+        try {
+            const response = await fetch(
+                `http://127.0.0.1:8000/api/get-star-details?name=${encodeURIComponent(star.name)}`
+            );
+            const json = await response.json();
+            if (!json.output) continue;
 
-        if (!json.output) continue;
+            const rdfData = json.output;
 
-        const rdfData = json.output;
+            Object.entries(rdfData).forEach(([subject, predicates]) => {
+                Object.entries(predicates).forEach(([predicate, objects]) => {
+                    objects.forEach((obj, index) => {
+                        const objId =
+                            obj.type === "uri"
+                                ? obj.value
+                                : `${starId}-${predicate}-${index}`;
 
-        Object.entries(rdfData).forEach(([subject, predicates]) => {
-            Object.entries(predicates).forEach(([predicate, objects]) => {
-                objects.forEach((obj, index) => {
-                    const objId =
-                        obj.type === "uri"
-                            ? obj.value
-                            : `${starId}-${predicate}-${index}`;
+                        if (!graph.hasNode(objId)) {
+                            graph.addNode(objId, {
+                                label:
+                                    obj.type === "uri"
+                                        ? obj.value.split("/").pop()
+                                        : obj.value,
+                                x: x + Math.random() * 2 - 1,
+                                y: y + Math.random() * 2 - 1,
+                                size: obj.type === "uri" ? 5 : 3,
+                                color: obj.type === "uri" ? "#2ECC40" : "#FF851B"
+                            });
+                        }
 
-                    if (!graph.hasNode(objId)) {
-                        graph.addNode(objId, {
-                            label: obj.type === "uri"
-                                ? obj.value.split("/").pop()
-                                : obj.value,
-                            x: x + Math.random() * 2 - 1,
-                            y: y + Math.random() * 2 - 1,
-                            size: obj.type === "uri" ? 5 : 3,
-                            color: obj.type === "uri" ? "#2ECC40" : "#FF851B"
-                        });
-                    }
-
-                    graph.addEdge(starId, objId, {
-                        label: predicate.split("/").pop()
+                        if (!graph.hasEdge(starId, objId)) {
+                            graph.addEdge(starId, objId, {
+                                label: predicate.split("/").pop()
+                            });
+                        }
                     });
                 });
             });
-        });
+        } catch (err) {
+            console.warn(`Impossible de récupérer les détails RDF de ${star.name}`, err);
+        }
     }
 
+    // Rendu final
     renderer = new Sigma(graph, container);
-    console.log("Constellation RDF graph rendered");
+    console.log("Constellation RDF graph with real positions rendered");
 }
 
 

@@ -487,6 +487,68 @@ def get_star_details(name: str, cache: bool = CACHE):
     save_cache(cache_file, output)
     return output
 
+@app.get("/api/get-astre-position")
+def get_astre_position(name: str, cache: bool = CACHE):
+    """
+    Retourne la position 3D d'un astre par rapport à la Terre
+    en utilisant RA/Dec/Distance depuis DBpedia
+    """
+    cache_file = f"get-astre-position-{name}.json"
+    
+    # Vérifier le cache
+    cache_data = load_cache(cache_file)
+    if cache and cache_data:
+        return cache_data
+
+    # Requête SPARQL
+    query = f"""
+    {SPARQL_PREFIX}
+    SELECT ?astre ?label ?ra ?dec ?distance
+    WHERE {{
+        ?astre rdfs:label ?label .
+        ?astre rdf:type ?type .
+        OPTIONAL {{ ?astre dbo:ra ?ra }}
+        OPTIONAL {{ ?astre dbo:dec ?dec }}
+        OPTIONAL {{ ?astre dbo:distanceFromEarth ?distance }}
+        FILTER (lang(?label) = "fr")
+        FILTER contains(?label, "{name}")
+    }}
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        return {"status": 0, "input": {"name": name}, "output": {}}
+
+    item = raw[0]
+    
+    # Conversion RA/Dec en coordonnées 3D
+    ra_hours = float(item["ra"]["value"]) if "ra" in item else random.uniform(0, 24)
+    dec_deg = float(item["dec"]["value"]) if "dec" in item else random.uniform(-90, 90)
+    distance = float(item["distance"]["value"]) if "distance" in item else 1  # unité arbitraire si absent
+
+    # RA: heures → degrés → radians
+    ra_rad = (ra_hours * 15) * math.pi / 180
+    dec_rad = dec_deg * math.pi / 180
+
+    # Conversion sphérique → cartésienne
+    x = distance * math.cos(dec_rad) * math.cos(ra_rad)
+    y = distance * math.cos(dec_rad) * math.sin(ra_rad)
+    z = distance * math.sin(dec_rad)
+
+    output = {
+        "status": 1,
+        "input": {"name": name},
+        "output": {
+            "name": item["label"]["value"],
+            "uri": item["astre"]["value"],
+            "ra_hours": ra_hours,
+            "dec_deg": dec_deg,
+            "distance": distance,
+            "position": {"x": x, "y": y, "z": z}
+        }
+    }
+
+    save_cache(cache_file, output)
+    return output
 
 # ROUTES - AI
 # ===========

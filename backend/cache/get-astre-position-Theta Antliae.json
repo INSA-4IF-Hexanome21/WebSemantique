@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Theta Antliae"
+    },
+    "output": {
+        "name": "Theta Antliae",
+        "uri": "http://dbpedia.org/resource/Theta_Antliae",
+        "ra_hours": 2.3193467267677734,
+        "dec_deg": -7.55170097591207,
+        "distance": 1,
+        "position": {
+            "x": 0.8141238656123209,
+            "y": 0.5656243561478198,
+            "z": -0.13142077146636955
+        }
+    }
+}

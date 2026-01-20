@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Alpha Crucis"
+    },
+    "output": {
+        "name": "Alpha Crucis",
+        "uri": "http://dbpedia.org/resource/Acrux",
+        "ra_hours": 17.75548786153164,
+        "dec_deg": -51.913655952042625,
+        "distance": 1,
+        "position": {
+            "x": -0.03945942760911479,
+            "y": -0.6155849063377541,
+            "z": -0.7870820647568458
+        }
+    }
+}
