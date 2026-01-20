@@ -147,7 +147,7 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
     """
     raw = get_sparql_results(query)
     if not raw:
-        return {"status": 0, "input": {"name": name}, "output": {}}
+        return {"status": 0, "input": {"name": name}, "output": []}
 
     result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
