@@ -45,8 +45,9 @@
 					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
 						<div class="mb-3">
-							<label for="inputStarInConstellation" class="form-label">Nom étoile</label>
-						<input type="text" id="inputStarInConstellation" class="form-control" placeholder="Nom de l'étoile"></input>
+							<label for="inputStarInConstellation" class="form-label">Nom de l'étoile</label>
+							<input type="text" id="inputStarInConstellation" class="form-control" placeholder="Nom de l'étoile" required></input>
+							<p id="error" style="color : red;" hidden></p>
 						</div>
 						
 						<button id="buttonStarInConstellation" onclick="getStarsInSameConstellation()" class="btn btn-dark">Repérez votre étoile dans sa constellation</button>
@@ -59,9 +60,9 @@
 					<img src="../img/hercule.avif" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
 					<div class="card-body">
 						<div class="mb-3">
-							<label for="listConstellations" class="form-label">Nom constellation</label>
+							<label for="listConstellations" class="form-label">Nom de la constellation</label>
 							<select id="listConstellations" class="form-select" onclick="getConstellations(this)">
-								<option hidden selected>--Choisissez Constellation--</option>
+								<option>Andromeda</option>
 							</select>
 						</div>
 						<button id="constellationsButton" class="btn btn-dark" onclick="getStarsInConstellation()">Trouvez les étoiles de votre constellation</button>

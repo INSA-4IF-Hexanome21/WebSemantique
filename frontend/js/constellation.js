@@ -118,12 +118,19 @@ async function getStars() {
 
     document.getElementById("starButton").replaceChildren();
     document.getElementById("starButton").textContent = "Listez toutes les étoiles";
+    getThermicGraph(list);
 }
 
 async function getStarsInSameConstellation() {
+    document.getElementById("error").hidden = true;
+    var nomEtoile = document.getElementById("inputStarInConstellation").value;
+    if (nomEtoile === ""){
+        document.getElementById("error").textContent = "Veuillez saisir un nom d'étoile";
+        document.getElementById("error").hidden = false;
+        return;
+    }
     document.getElementById("divReponseGraphique").hidden = true;
     document.getElementById("divReponseTextuelle").hidden = false;
-    var nomEtoile = document.getElementById("inputStarInConstellation").value;
     document.getElementById("buttonStarInConstellation").textContent = "";
     var span = document.createElement("span");
     span.className = "spinner-grow text-light";
@@ -132,7 +139,6 @@ async function getStarsInSameConstellation() {
     const response = await fetch("http://127.0.0.1:8000/api/get-stars-in-same-constellation?name="+nomEtoile);
     const json = await response.json();
     var list = json["output"];
-    var stars = list["stars"]
 
     const resultArea = document.getElementById("divReponse");
     const resultList = document.getElementById("resultList");
@@ -143,23 +149,33 @@ async function getStarsInSameConstellation() {
         document.getElementById("result-header").innerHTML = ` Résultats DBpedia`;
     }
     else{
-        
-        document.getElementById("result-header").innerHTML = ` Résultats DBpedia (${stars.length} résultats)` ;
+        var constellationName = ""
+        document.getElementById("result-header").innerHTML = ` Résultats DBpedia (${list.length} résultats)` ;
         resultList.innerHTML = "";
         
-        const li = document.createElement("li");
-        const link = document.createElement("a");
-        const button = document.createElement("button");
+        list.forEach(item => {
+            var newConstellationName = item["constellation"]
+            console.log(newConstellationName);
+            console.log(constellationName);
+            if(newConstellationName != constellationName){
 
-        link.href = list["constellation"]["uri"];
-        link.textContent = list["constellation"]["name"] + "(Constellation)"; // plus lisible
-        link.title = list["constellation"]["name"];
-        link.target = "_blank";
+                constellationName = newConstellationName
 
-        li.appendChild(link);
-        resultList.appendChild(li);
-        
-        stars.forEach(item => {
+                const li = document.createElement("li");
+                const link = document.createElement("a");
+                const button = document.createElement("button");
+
+                link.href = list[0]["uriConstellation"];
+                link.textContent = constellationName + "(Constellation)"; // plus lisible
+                link.title = constellationName;
+                link.target = "_blank";
+
+                li.appendChild(link);
+                resultList.appendChild(li);
+
+                
+            }
+
             const li = document.createElement("li");
             const link = document.createElement("a");
             const button = document.createElement("button");

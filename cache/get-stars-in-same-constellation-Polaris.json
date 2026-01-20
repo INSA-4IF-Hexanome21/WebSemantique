@@ -1,0 +1,254 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Polaris"
+    },
+    "output": [
+        {
+            "name": "Alpha Octantis",
+            "uri": "http://dbpedia.org/resource/Alpha_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Beta Octantis",
+            "uri": "http://dbpedia.org/resource/Beta_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Gliese 877",
+            "uri": "http://dbpedia.org/resource/Gliese_877",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "HD 212301",
+            "uri": "http://dbpedia.org/resource/HD_212301",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "LHS 475",
+            "uri": "http://dbpedia.org/resource/LHS_475",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Lambda Octantis",
+            "uri": "http://dbpedia.org/resource/Lambda_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Mu1 Octantis",
+            "uri": "http://dbpedia.org/resource/Mu1_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Nu Octantis",
+            "uri": "http://dbpedia.org/resource/Nu_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Omega Octantis",
+            "uri": "http://dbpedia.org/resource/Omega_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Phi Octantis",
+            "uri": "http://dbpedia.org/resource/Phi_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Pi2 Octantis",
+            "uri": "http://dbpedia.org/resource/Pi2_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Psi Octantis",
+            "uri": "http://dbpedia.org/resource/Psi_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "R Octantis",
+            "uri": "http://dbpedia.org/resource/R_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Rho Octantis",
+            "uri": "http://dbpedia.org/resource/Rho_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Tau Octantis",
+            "uri": "http://dbpedia.org/resource/Tau_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Theta Octantis",
+            "uri": "http://dbpedia.org/resource/Theta_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Upsilon Octantis",
+            "uri": "http://dbpedia.org/resource/Upsilon_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "WISE 2150\u22127520",
+            "uri": "http://dbpedia.org/resource/WISE_2150\u22127520",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Xi Octantis",
+            "uri": "http://dbpedia.org/resource/Xi_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "Zeta Octantis",
+            "uri": "http://dbpedia.org/resource/Zeta_Octantis",
+            "constellation": "Octans",
+            "uriConstellation": "http://dbpedia.org/resource/Octans"
+        },
+        {
+            "name": "11 Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/11_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "5 Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/5_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Beta Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Beta_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Calvera (X-ray source)",
+            "uri": "http://dbpedia.org/resource/Calvera_(X-ray_source)",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Delta Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Delta_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Epsilon Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Epsilon_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Eta Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Eta_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Gamma Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Gamma_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Lambda Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Lambda_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Polaris",
+            "uri": "http://dbpedia.org/resource/Polaris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "R Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/R_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "RU Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/RU_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "RW Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/RW_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "S Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/S_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "SS Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/SS_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Theta Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Theta_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "W Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/W_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "WD 1337+705",
+            "uri": "http://dbpedia.org/resource/WD_1337+705",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "WISE 1506+7027",
+            "uri": "http://dbpedia.org/resource/WISE_1506+7027",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Z Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Z_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        {
+            "name": "Zeta Ursae Minoris",
+            "uri": "http://dbpedia.org/resource/Zeta_Ursae_Minoris",
+            "constellation": "Ursa Minor",
+            "uriConstellation": "http://dbpedia.org/resource/Ursa_Minor"
+        }
+    ]
+}

@@ -247,3 +247,66 @@ async function getGraph(name) {
     renderer = new Sigma(graph, container);
     console.log("Graph rendered");
 };
+
+async function getThermicGraph(list) {
+    document.getElementById("divReponseGraphique").hidden = false;
+    
+    const graph = new graphology.Graph();
+    console.log(list, list.length);
+    
+    // Normalisation
+    const filteredList = list.filter(item => {
+        const t = parseFloat(item.temp);
+        const r = item.radius;
+        return !isNaN(t) && t > 0 && r > 0 && t < 1e7; // max temp 10 millions
+    })
+    const tempsValues = filteredList.map(item => parseFloat(item.temp));
+    const radiusValues = filteredList.map(item => parseFloat(item.radius));
+
+    const minTemp = Math.min(...tempsValues);
+    const maxTemp = Math.max(...tempsValues);
+    const minRadius = Math.min(...radiusValues);
+    const maxRadius = Math.max(...radiusValues);
+
+    const minSize = 5;
+    const maxSize = 30;
+    let nbStars= 0;
+    list.forEach(item => {
+        const temperature = item.temp;
+
+        // Normalisation log pour température
+        const normTemp = (Math.log(temperature) - Math.log(minTemp)) / (Math.log(maxTemp) - Math.log(minTemp));
+
+        // Normalisation linéaire pour radius
+        const normRadius = (item.radius - minRadius) / (maxRadius - minRadius);
+
+        // Taille normalisée
+        const size = minSize + normRadius * (maxSize - minSize);
+
+        // Gradient de couleur
+        const ratio = (temperature - minTemp) / (maxTemp - minTemp);
+        const r = Math.floor(255 * normTemp);
+        const g = 0;
+        const b = Math.floor(255 * (1 - normTemp));
+        const color = `rgb(${r},${g},${b})`;
+
+        
+        nbStars +=1;
+        graph.addNode(item.name+"_"+nbStars, {
+            label: item.name,
+            x: Math.random(),
+            y: Math.random(),
+            size: size,
+            color: color
+        });
+        
+    });
+
+    const container = document.getElementById("graph-container");
+    if (renderer) {
+        container.innerHTML = "";
+    }
+    renderer = new Sigma(graph, container);
+    console.log("Graph rendered: "+nbStars+" stars");
+        
+}

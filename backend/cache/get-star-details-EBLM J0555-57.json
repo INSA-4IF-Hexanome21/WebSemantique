@@ -1,0 +1,809 @@
+{
+    "status": 1,
+    "input": {
+        "name": "EBLM J0555-57"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/EBLM_J0555-57": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/2MASS_J0523\u22121403": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Orders_of_magnitude_(length)": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/EBLM_J0555-57": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://it.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/33yzS"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://uk.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://vi.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://cs.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://af.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sk.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pl.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q33082898"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ja.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://az.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/EBLM_J0555-57"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57AB",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "zh"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "cs"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57",
+                    "lang": "en"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/EBLM_J0555-57.jpg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/EBLMJ0555-57LightCurve.png"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/EBLM_J0555-57?oldid=1272095724&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Eclipsing_binaries"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TIC_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:F-type_main-sequence_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Triple_star_systems"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Pictor"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:2MASS_objects"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/EBLM_J0555-57"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 10.76,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 9.98,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/component": [
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57B",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57Aa",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "B",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57Ab",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "EBLM J0555-57A",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/noHeading": [
+                {
+                    "type": "literal",
+                    "value": "y",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/angdistsec": [
+                {
+                    "type": "literal",
+                    "value": 2.5,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/posang": [
+                {
+                    "type": "literal",
+                    "value": 254,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pictor"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0137,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 0.0175,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 4.8611,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 4.8747,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 4.37,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 1.01,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 3.245,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 1.501,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "or",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u22120.38",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/primary": [
+                {
+                    "type": "literal",
+                    "value": "A",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Aa",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotation": [
+                {
+                    "type": "literal",
+                    "value": "days",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": 1998,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                },
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "\u221238.344",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u221239.532",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": 2.838,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 2.972,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/projsep": [
+                {
+                    "type": "literal",
+                    "value": 479,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Binary_star"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/EBLM_J0555-57.jpg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "G0V",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "F8",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/credit": [
+                {
+                    "type": "literal",
+                    "value": "ESO",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/name": [
+                {
+                    "type": "literal",
+                    "value": "Ab",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "Nejmen\u0161\u00ed zn\u00e1m\u00e1 hv\u011bzda slu\u010duj\u00edc\u00ed vod\u00edk, sou\u010d\u00e1st trojhv\u011bzdy",
+                    "lang": "cs"
+                },
+                {
+                    "type": "literal",
+                    "value": "gwiazda w gwiazdozbiorze Malarza",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "syst\u00e8me stellaire triple hi\u00e9rarchique situ\u00e9 \u00e0 environ 600 ann\u00e9es-lumi\u00e8re de la Terre dans la constellation du Peintre",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "triple star system approximately 600 light-years from Earth",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i stj\u00e4rnbilden M\u00e5laren",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u304c\u304b\u5ea7\u306e\u4e09\u9023\u661f\u7cfb",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "sistema stellare triplo",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "stersysteem bestaande uit drie sterren",
+                    "lang": "nl"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageExternalLink": [
+                {
+                    "type": "uri",
+                    "value": "https://www.cam.ac.uk/research/news/smallest-ever-star-discovered-by-astronomers"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J0523\u22121403"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Leonhard_Euler_Telescope"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Eclipse"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Infrared"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Visual_binary"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Jupiter"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Saturn"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/OGLE-TR-123"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/List_of_smallest_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/TRAPPIST-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Transit_(astronomy)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/University_of_Cambridge"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Proton\u2013proton_chain_reaction"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Transit_method"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/SSSPM_J0829-1309"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:2MASS_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/La_Silla_Observatory"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Eclipsing_binaries"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Semi-major_axis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Orbital_eccentricity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Doppler_spectroscopy"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pictor"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Eclipsing_binaries"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Inclination"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_mass"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:EBLM_J0555-57.jpg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:EBLMJ0555-57LightCurve.png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TIC_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/SuperWASP"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star_system"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/European_Southern_Observatory"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Binary_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Exoplanet"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:F-type_main-sequence_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/OGLE-TR-122"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Triple_star_systems"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Pictor_(constellation)"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Convert"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_orbit"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe_2s"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_relpos"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Sky"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Cn"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Pictor"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Wikinews"
+                }
+            ],
+            "http://dbpedia.org/property/caption": [
+                {
+                    "type": "literal",
+                    "value": "Resolved image of EBLM J0555-57A  and EBLM J0555-57B  taken with the Leonhard Euler Telescope at the ESO's La Silla Observatory",
+                    "lang": "en"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/OGLE-TR-122": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/EBLM_J0555-57Ab": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/OGLE-TR-123": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_star_extremes": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Lists_of_stars": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/LHS_2924": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/EBLM_J0555-57"
+                }
+            ]
+        }
+    }
+}

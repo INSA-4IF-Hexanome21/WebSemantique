@@ -32,6 +32,7 @@ DBPEDIA_DATA_BASE = "https://dbpedia.org/data/"
 SPARQL_PREFIX = """
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -191,10 +192,12 @@ async def get_stars(cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT ?star ?label
+    SELECT ?star ?label ?radius ?temp
     WHERE {{
         ?star rdf:type dbo:Star.
         ?star rdfs:label ?label.
+        ?star dbp:radius ?radius.
+        ?star dbp:temperature ?temp.
         FILTER (lang(?label) = "fr")
     }}
     """
@@ -202,7 +205,13 @@ async def get_stars(cache: bool = CACHE):
     if not raw:
         return {"status": 0, "input": {}, "output": {}}
     
-    result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
+    result = [{
+        "name": item["label"]["value"], 
+        "uri": item["star"]["value"], 
+        "temp":item["temp"]["value"], 
+        "radius":item["radius"]["value"]} 
+        for item in raw
+    ]
     result.sort(key=lambda x: x["name"])
     output = {"status": 1, "input": {}, "output": result}
 
@@ -270,10 +279,9 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
         return {"status": 0, "input": {"name": name}, "output": {}}
 
     # Retourne toutes les étoiles dont celle en entrée
-    result = {}
-    result["constellation"] = {"name": raw[0]["constellName"]["value"], "uri": raw[0]["constellation"]["value"]}
-    result["stars"] = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"]} for item in raw]
-    result["stars"].sort(key=lambda x: x["name"])
+    result = []
+    result = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"], "constellation" : item["constellName"]["value"], "uriConstellation" : item["constellation"]["value"]} for item in raw]
+    result.sort(key=lambda x: (x["constellation"],x["name"]))
     output = {"status": 1, "input": {"name": name}, "output": result}
 
     save_cache(cache_file, output)
@@ -322,17 +330,31 @@ async def get_planets():
 async def get_moons(type: str):
     print("entrée dans la fonction")
     if type == "Système Solaire" :
-        query = f"""
-        {SPARQL_PREFIX}
-        SELECT DISTINCT ?lune  ?planet
+        query =  query = SPARQL_PREFIX + """
+        SELECT DISTINCT ?lune ?planet
         WHERE {{
-        ?lune a dbo:Planet.
-        ?lune dbp:satelliteOf ?planet.
-        ?lune dbo:description ?des.
-        ?lune gold:hypernym dbr:Satellite.
-        FILTER (lang(?des)="fr")
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?lune gold:hypernym dbr:Satellite.
+            FILTER (lang(?des)="fr")
+        }
+        UNION
+        {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?planet foaf:name ?name.
+            FILTER CONTAINS(LCASE(?name), "mars")
+            FILTER (lang(?des)="fr")
+        } UNION {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+            FILTER CONTAINS(LCASE(?des), "satellite naturel de la terre")
+            FILTER (lang(?des)="fr")
         }}
-        """     
+        """      
     
     else :
         query = f"""
@@ -411,8 +433,7 @@ def get_natural_satellites(cache: bool = CACHE):
 
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
-       (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
-    WHERE {
+    WHERE {{
         # Satellites détectés via description
         ?satellite rdf:type dbo:CelestialBody ;
                    rdfs:label ?label ;
@@ -421,7 +442,13 @@ def get_natural_satellites(cache: bool = CACHE):
         FILTER(lang(?description) = "fr")
         FILTER(CONTAINS(LCASE(?description), "satellite"))
         FILTER NOT EXISTS {?satellite gold:hypernym dbr:Satellite}
-    }
+    }  UNION
+    {
+         ?satellite a dbo:CelestialBody ;
+                        rdfs:label ?label ;
+                        gold:hypernym dbr:Satellite .
+        FILTER(lang(?label) = "fr")
+    }}
     """
     raw = get_sparql_results(query)
     if not raw:
