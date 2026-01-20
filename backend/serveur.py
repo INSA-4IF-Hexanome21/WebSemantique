@@ -38,6 +38,7 @@ PREFIX gold: <http://purl.org/linguistics/gold/>
 
 app = FastAPI()
 
+app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -88,7 +89,6 @@ def save_cache(filename: str, data):
 @app.get("/")
 async def root():
     if os.path.exists(FRONTEND_FILE):
-        app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
         return FileResponse(FRONTEND_FILE)
 
 
