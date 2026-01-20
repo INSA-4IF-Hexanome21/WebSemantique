@@ -1,11 +1,13 @@
 # IMPORTS
 # =======
+import math
 import os
 import json
+import random
 import requests
 import re
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from intelligence.ai import ask_AI

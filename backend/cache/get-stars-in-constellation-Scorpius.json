@@ -1,0 +1,208 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Scorpius"
+    },
+    "output": [
+        {
+            "name": "1 Scorpii",
+            "uri": "http://dbpedia.org/resource/1_Scorpii"
+        },
+        {
+            "name": "12 Scorpii",
+            "uri": "http://dbpedia.org/resource/12_Scorpii"
+        },
+        {
+            "name": "13 Scorpii",
+            "uri": "http://dbpedia.org/resource/13_Scorpii"
+        },
+        {
+            "name": "18 Scorpii",
+            "uri": "http://dbpedia.org/resource/18_Scorpii"
+        },
+        {
+            "name": "1RXS J160929.1-210524",
+            "uri": "http://dbpedia.org/resource/1RXS_J160929.1\u2212210524"
+        },
+        {
+            "name": "2 Scorpii",
+            "uri": "http://dbpedia.org/resource/2_Scorpii"
+        },
+        {
+            "name": "22 Scorpii",
+            "uri": "http://dbpedia.org/resource/22_Scorpii"
+        },
+        {
+            "name": "AH Scorpii",
+            "uri": "http://dbpedia.org/resource/AH_Scorpii"
+        },
+        {
+            "name": "Antar\u00e8s",
+            "uri": "http://dbpedia.org/resource/Antares"
+        },
+        {
+            "name": "Beta Scorpii",
+            "uri": "http://dbpedia.org/resource/Beta_Scorpii"
+        },
+        {
+            "name": "Delta Scorpii",
+            "uri": "http://dbpedia.org/resource/Delta_Scorpii"
+        },
+        {
+            "name": "EPIC 204278916",
+            "uri": "http://dbpedia.org/resource/EPIC_204278916"
+        },
+        {
+            "name": "Epsilon Scorpii",
+            "uri": "http://dbpedia.org/resource/Epsilon_Scorpii"
+        },
+        {
+            "name": "Eta Scorpii",
+            "uri": "http://dbpedia.org/resource/Eta_Scorpii"
+        },
+        {
+            "name": "G Scorpii",
+            "uri": "http://dbpedia.org/resource/G_Scorpii"
+        },
+        {
+            "name": "Gliese 667",
+            "uri": "http://dbpedia.org/resource/Gliese_667"
+        },
+        {
+            "name": "Gliese 682",
+            "uri": "http://dbpedia.org/resource/Gliese_682"
+        },
+        {
+            "name": "H Scorpii",
+            "uri": "http://dbpedia.org/resource/H_Scorpii"
+        },
+        {
+            "name": "HD 145377",
+            "uri": "http://dbpedia.org/resource/HD_145377"
+        },
+        {
+            "name": "HD 162020",
+            "uri": "http://dbpedia.org/resource/HD_162020"
+        },
+        {
+            "name": "HIP 79431",
+            "uri": "http://dbpedia.org/resource/HIP_79431"
+        },
+        {
+            "name": "IRAS 17163-3907",
+            "uri": "http://dbpedia.org/resource/IRAS_17163\u22123907"
+        },
+        {
+            "name": "Iota1 Scorpii",
+            "uri": "http://dbpedia.org/resource/Iota1_Scorpii"
+        },
+        {
+            "name": "Iota2 Scorpii",
+            "uri": "http://dbpedia.org/resource/Iota2_Scorpii"
+        },
+        {
+            "name": "K2-33",
+            "uri": "http://dbpedia.org/resource/K2-33"
+        },
+        {
+            "name": "Kappa Scorpii",
+            "uri": "http://dbpedia.org/resource/Kappa_Scorpii"
+        },
+        {
+            "name": "Lambda Scorpii",
+            "uri": "http://dbpedia.org/resource/Lambda_Scorpii"
+        },
+        {
+            "name": "Mu1 Scorpii",
+            "uri": "http://dbpedia.org/resource/Mu1_Scorpii"
+        },
+        {
+            "name": "Mu2 Scorpii",
+            "uri": "http://dbpedia.org/resource/Mu2_Scorpii"
+        },
+        {
+            "name": "N Scorpii",
+            "uri": "http://dbpedia.org/resource/N_Scorpii"
+        },
+        {
+            "name": "Nu Scorpii",
+            "uri": "http://dbpedia.org/resource/Nu_Scorpii"
+        },
+        {
+            "name": "OGLE-2005-BLG-390L",
+            "uri": "http://dbpedia.org/resource/OGLE-2005-BLG-390L"
+        },
+        {
+            "name": "Omega1 Scorpii",
+            "uri": "http://dbpedia.org/resource/Omega1_Scorpii"
+        },
+        {
+            "name": "Omega2 Scorpii",
+            "uri": "http://dbpedia.org/resource/Omega2_Scorpii"
+        },
+        {
+            "name": "Omicron Scorpii",
+            "uri": "http://dbpedia.org/resource/Omicron_Scorpii"
+        },
+        {
+            "name": "Oph 162225-240515",
+            "uri": "http://dbpedia.org/resource/Oph_162225-240515"
+        },
+        {
+            "name": "Pi Scorpii",
+            "uri": "http://dbpedia.org/resource/Pi_Scorpii"
+        },
+        {
+            "name": "Pismis 24-1",
+            "uri": "http://dbpedia.org/resource/Pismis_24-1"
+        },
+        {
+            "name": "Q Scorpii",
+            "uri": "http://dbpedia.org/resource/Q_Scorpii"
+        },
+        {
+            "name": "Rho Scorpii",
+            "uri": "http://dbpedia.org/resource/Rho_Scorpii"
+        },
+        {
+            "name": "Sigma Scorpii",
+            "uri": "http://dbpedia.org/resource/Sigma_Scorpii"
+        },
+        {
+            "name": "T Scorpii",
+            "uri": "http://dbpedia.org/resource/T_Scorpii"
+        },
+        {
+            "name": "Tau Scorpii",
+            "uri": "http://dbpedia.org/resource/Tau_Scorpii"
+        },
+        {
+            "name": "Theta Scorpii",
+            "uri": "http://dbpedia.org/resource/Theta_Scorpii"
+        },
+        {
+            "name": "Upsilon Scorpii",
+            "uri": "http://dbpedia.org/resource/Upsilon_Scorpii"
+        },
+        {
+            "name": "V636 Scorpii",
+            "uri": "http://dbpedia.org/resource/V636_Scorpii"
+        },
+        {
+            "name": "WASP-17",
+            "uri": "http://dbpedia.org/resource/WASP-17"
+        },
+        {
+            "name": "Xi Scorpii",
+            "uri": "http://dbpedia.org/resource/Xi_Scorpii"
+        },
+        {
+            "name": "Zeta1 Scorpii",
+            "uri": "http://dbpedia.org/resource/Zeta1_Scorpii"
+        },
+        {
+            "name": "Zeta2 Scorpii",
+            "uri": "http://dbpedia.org/resource/Zeta2_Scorpii"
+        }
+    ]
+}

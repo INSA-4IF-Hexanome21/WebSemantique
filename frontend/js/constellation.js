@@ -63,6 +63,8 @@ async function getStarsInConstellation() {
         document.getElementById("result-header").innerHTML = ` Résultats DBpedia`;
     }
 
+    showConstellationGraph(list);
+
     document.getElementById("constellationsButton").replaceChildren();
     document.getElementById("constellationsButton").textContent = "Trouvez les étoiles de votre constellation";
 }

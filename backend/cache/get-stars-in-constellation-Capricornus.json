@@ -1,0 +1,88 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Capricornus"
+    },
+    "output": [
+        {
+            "name": "24 Capricorni",
+            "uri": "http://dbpedia.org/resource/24_Capricorni"
+        },
+        {
+            "name": "36 Capricorni",
+            "uri": "http://dbpedia.org/resource/36_Capricorni"
+        },
+        {
+            "name": "Alpha1 Capricorni",
+            "uri": "http://dbpedia.org/resource/Alpha1_Capricorni"
+        },
+        {
+            "name": "Alpha2 Capricorni",
+            "uri": "http://dbpedia.org/resource/Alpha2_Capricorni"
+        },
+        {
+            "name": "Beta Capricorni",
+            "uri": "http://dbpedia.org/resource/Beta_Capricorni"
+        },
+        {
+            "name": "Delta Capricorni",
+            "uri": "http://dbpedia.org/resource/Delta_Capricorni"
+        },
+        {
+            "name": "Epsilon Capricorni",
+            "uri": "http://dbpedia.org/resource/Epsilon_Capricorni"
+        },
+        {
+            "name": "Eta Capricorni",
+            "uri": "http://dbpedia.org/resource/Eta_Capricorni"
+        },
+        {
+            "name": "Gamma Capricorni",
+            "uri": "http://dbpedia.org/resource/Gamma_Capricorni"
+        },
+        {
+            "name": "HIP 102152",
+            "uri": "http://dbpedia.org/resource/HD_197027"
+        },
+        {
+            "name": "HR 7722",
+            "uri": "http://dbpedia.org/resource/HD_192310"
+        },
+        {
+            "name": "Iota Capricorni",
+            "uri": "http://dbpedia.org/resource/Iota_Capricorni"
+        },
+        {
+            "name": "Kappa Capricorni",
+            "uri": "http://dbpedia.org/resource/Kappa_Capricorni"
+        },
+        {
+            "name": "Nu Capricorni",
+            "uri": "http://dbpedia.org/resource/Nu_Capricorni"
+        },
+        {
+            "name": "Omega Capricorni",
+            "uri": "http://dbpedia.org/resource/Omega_Capricorni"
+        },
+        {
+            "name": "PSO J318.5-22",
+            "uri": "http://dbpedia.org/resource/PSO_J318.5\u221222"
+        },
+        {
+            "name": "Psi Capricorni",
+            "uri": "http://dbpedia.org/resource/Psi_Capricorni"
+        },
+        {
+            "name": "Rho Capricorni",
+            "uri": "http://dbpedia.org/resource/Rho_Capricorni"
+        },
+        {
+            "name": "Theta Capricorni",
+            "uri": "http://dbpedia.org/resource/Theta_Capricorni"
+        },
+        {
+            "name": "Zeta Capricorni",
+            "uri": "http://dbpedia.org/resource/Zeta_Capricorni"
+        }
+    ]
+}
