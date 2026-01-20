@@ -4,25 +4,25 @@
 	<meta charset="utf-8">
 	<title>Constellation</title>
 	<link rel="stylesheet" href="../css/constellation.css">
-	<!-- Framework Bootstrap -->
-	<!-- https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
 	<script src="https://unpkg.com/graphology/dist/graphology.umd.min.js"></script>
-    <script src="https://unpkg.com/sigma@2.4.0/build/sigma.min.js"></script>
-    
+	<script src="https://unpkg.com/sigma@2.4.0/build/sigma.min.js"></script>
+	<script src="https://unpkg.com/graphology-layout-forceatlas2@0.10.1/dist/graphology-layout-forceatlas2.min.js"></script>
+	<script src="https://unpkg.com/graphology-layout@0.17.0/dist/graphology-layout.min.js"></script>
+	
 	<script src="../js/constellation.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-	<!-- Canvas et script fond animé -->
 	<link rel="stylesheet" href="../css/base.css"> 
 	<script src="../js/base.js" defer></script>
 	<script src="../js/graphe.js" defer></script>
 </head>
 <body>
-	<!-- Canvas pour le fond --> 
 	<canvas id="canvas"></canvas> 
 
-	<h1 style = "color : white; text-align: center; font-size : 5em; font-family:Nasa; margin: 2rem;">En route vers les constellations</h1>
+	<h1 style="color: white; text-align: center; font-size: 5em; font-family: Nasa; margin: 2rem;">En route vers les constellations</h1>
 
 	<div style="text-align: center; margin: 2rem;">
 		<a href="../index.html" class="btn btn-light">Retour à l'accueil</a>
@@ -33,7 +33,7 @@
 			
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="Image étoile">
 					<div class="card-body">
 						<button class="btn btn-dark" onclick="getStars()" id="starButton">Listez toutes les étoiles</button>
 					</div>
@@ -42,21 +42,20 @@
 			
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/alpha_centauri.jpg" class="card-img-top" style="object-fit: cover; height: 15em;" alt="Image étoile">
 					<div class="card-body">
 						<div class="mb-3">
 							<label for="inputStarInConstellation" class="form-label">Nom constellation</label>
-						<input type="text" id="inputStarInConstellation" class="form-control" placeholder="Nom de l'étoile"></input>
+							<input type="text" id="inputStarInConstellation" class="form-control" placeholder="Nom de l'étoile">
 						</div>
-						
-						<button id="buttonStarInConstellation" onclick="getStarsInSameConstellation()" class="btn btn-dark">Repérez ton étoile dans sa constellation</button>
+						<button id="buttonStarInConstellation" onclick="getStarsInSameConstellation()" class="btn btn-dark">Repérez votre étoile dans sa constellation</button>
 					</div>
 				</div>
 			</div>
 
 			<div class="col" style="max-width: 24rem;">
 				<div class="card">
-					<img src="../img/hercule.avif" class="card-img-top" style="object-fit: cover; height: 15em;" alt="...">
+					<img src="../img/hercule.avif" class="card-img-top" style="object-fit: cover; height: 15em;" alt="Image constellation">
 					<div class="card-body">
 						<div class="mb-3">
 							<label for="listConstellations" class="form-label">Nom constellation</label>
@@ -68,52 +67,83 @@
 					</div>
 				</div>
 			</div>	
-	
-
 		</div>
-	</br>
-		<div id="divReponse" class="row">
-			
-			<div class = "col" id="divReponseTextuelle">
-				<div class="result-panel fade-in">
-					<div id="result-header" class="result-header">Résultats DBpedia</div>
-
-					<div class="result-scroll">
-						<ul id="resultList" class="result-list"></ul>
-					</div>
-
+	</div>
+	<br>
+		
+	<div id="divReponse" class="row mt-4" style="display: none; height: 80vh; max-width: 98%; margin: 0 auto;">
+		
+		<!-- Colonne gauche -->
+		<div class="col-md-3 h-100 d-flex flex-column" style="gap: 1rem;">
+			<!-- Liste des étoiles -->
+			<div class="result-panel flex-fill" style="min-height: 0;">
+				<div id="result-header" class="result-header">Résultats DBpedia</div>
+				<div class="result-scroll">
+					<ul id="resultList" class="result-list"></ul>
 				</div>
 			</div>
 			
-			<div class = "col" id="divReponseGraphique">
-                <div class="result-panel fade-in">
-					<div id="result-header" class="result-header">Graphe RDF</div>
+			<!-- Image de l'étoile -->
+			<div class="card bg-dark border-secondary" id="starImageContainer" style="height: 300px; flex-shrink: 0; display: none;">
+				<img id="starThumbnail" src="" class="card-img-top" style="height: 100%; object-fit: contain; background: black; display: none;" alt="Image étoile">
+			</div>
+		</div>
 
-					<div class="graph-wrapper">
-                        <div id="graph-container"></div>
-                        <div class="controls">
-                            <div class="react-sigma-control ico">
-                                <div class="react-sigma-control ico">
-                                    <button id="fullscreenButton" title="Enter fullscreen">
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"></path>
-                                    </svg>
-                                    </button>
-                                    <button id="viewAllGraphButton" title="See whole graph">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 5c-3.859 0-7 3.141-7 7s3.141 7 7 7 7-3.141 7-7-3.141-7-7-7zm0 12c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path><path d="M12 9c-1.627 0-3 1.373-3 3s1.373 3 3 3 3-1.373 3-3-1.373-3-3-3z"></path>
-                                    </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+		<!-- Colonne droite -->
+		<div class="col-md-9 h-100 d-flex flex-column" style="gap: 1rem;">
+			<!-- En-tête avec info étoile et filtres horizontaux -->
+			<div class="card border-0 shadow-sm" style="background: #1a1a1a; flex-shrink: 0;">
+				<div class="card-body p-3">
+					<div class="row">
+						<div class="col-12 mb-3">
+							<h2 id="starTitle" class="m-0 text-white fw-bold"></h2>
+							<p id="starDescription" class="text-white-50 small mt-2 mb-0" style="max-height: 50px; overflow-y: auto; line-height: 1.4;"></p>
+						</div>
+						<div class="col-12">
+							<div id="graphControls">
+								<!-- Les contrôles seront générés dynamiquement -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Conteneur du graphe -->
+			<div class="card border-0 shadow-sm flex-grow-1" style="min-height: 0;">
+				<div class="card-body p-0 position-relative h-100">
+					<div id="graph-container" style="width: 100%; height: 100%; background: #ffffff;"></div>
+					
+					<!-- Boutons de contrôle -->
+					<div class="position-absolute top-0 end-0 p-3 d-flex gap-2" style="z-index: 1000;">
+						<button id="resetZoomButton" class="btn btn-dark btn-sm shadow-sm" title="Recentrer">
+							<i class="bi bi-arrow-clockwise"></i> Recentrer
+						</button>
+						<button id="fullscreenButton" class="btn btn-dark btn-sm shadow-sm" title="Plein écran">
+							<i class="bi bi-arrows-fullscreen"></i>
+						</button>
+					</div>
+
+					<!-- Légende -->
+					<div class="position-absolute bottom-0 start-0 m-3 bg-white rounded shadow-sm p-2" style="z-index: 1000; font-size: 0.85rem;">
+						<div class="fw-bold mb-2">Légende</div>
+						<div class="d-flex align-items-center mb-1">
+							<span class="d-inline-block rounded-circle me-2" style="width: 12px; height: 12px; background: #e74c3c;"></span>
+							<span>Nœud principal</span>
+						</div>
+						<div class="d-flex align-items-center mb-1">
+							<span class="d-inline-block rounded-circle me-2" style="width: 12px; height: 12px; background: #3498db;"></span>
+							<span>Ressource URI</span>
+						</div>
+						<div class="d-flex align-items-center">
+							<span class="d-inline-block rounded-circle me-2" style="width: 12px; height: 12px; background: #95a5a6;"></span>
+							<span>Valeur littérale</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</br>
+	<br>
 
 </body>
 </html>

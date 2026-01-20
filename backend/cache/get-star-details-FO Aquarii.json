@@ -1,0 +1,430 @@
+{
+    "status": 1,
+    "input": {
+        "name": "FO Aquarii"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/FO_Aquarii": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/FO_Aquarii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Aquarius": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/FO_Aquarii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/FO_Aquarii": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q5173883"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u0627\u0641\u200c\u0627\u0648_\u062f\u0644\u0648"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.03hk9c4"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/FO_Aquarii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/FO_Aquarii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u5bf6\u74f6\u5ea7FO"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/FO_\u0412\u043e\u0434\u043e\u043b\u0435\u044f"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/4iPCi"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "FO Aquarii",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "\u5bf6\u74f6\u5ea7FO",
+                    "lang": "zh"
+                },
+                {
+                    "type": "literal",
+                    "value": "FO Aquarii",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "FO \u0412\u043e\u0434\u043e\u043b\u0435\u044f",
+                    "lang": "ru"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/FOAqrLightCurve.png"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/FO_Aquarii?oldid=1294523459&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Aquarius_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Intermediate_polars"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/FO_Aquarii"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 12.7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Aquarius_(constellation)"
+                }
+            ],
+            "http://dbpedia.org/property/simbad": [
+                {
+                    "type": "literal",
+                    "value": "FO+Aqr",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag": [
+                {
+                    "type": "literal",
+                    "value": 12.51,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 13.6,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 12.75,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 12.87,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 13.7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/appmag1Passband": [
+                {
+                    "type": "literal",
+                    "value": "B",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag2Passband": [
+                {
+                    "type": "literal",
+                    "value": "R",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag3Passband": [
+                {
+                    "type": "literal",
+                    "value": "J",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag4Passband": [
+                {
+                    "type": "literal",
+                    "value": "H",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Intermediate_polar"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/FOAqrLightCurve.png?width=300"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "\u0561\u057d\u057f\u0572",
+                    "lang": "hy"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Aquarius",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0d28\u0d15\u0d4d\u0d37\u0d24\u0d4d\u0d30\u0d02",
+                    "lang": "ml"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Wassermann",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella nella costellazione dell'Acquario",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u0412\u043e\u0434\u043e\u043b\u0456\u044f",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Akuarius",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0787\u07ac\u0786\u07aa\u0787\u07ad\u0783\u07a8\u0787\u07a6\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0995\u09c1\u09ae\u09cd\u09ad \u09a4\u09be\u09b0\u09be\u09ae\u09a3\u09cd\u09a1\u09b2\u09c7\u09b0 \u098f\u0995\u099f\u09bf \u09a4\u09be\u09b0\u09be",
+                    "lang": "bn"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u0412\u043e\u0434\u043e\u043b\u0435\u044f",
+                    "lang": "ru"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Einstein_Observatory"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/1RXS"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Aquarius_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Photometric_system"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Intermediate_polar"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light_curve"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Aquarius_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/White_dwarf"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:FOAqrLightCurve.png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Intermediate_polars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hour"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_magnitude"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Aquarius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Var-star-stub"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_orbit"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_sources"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                }
+            ],
+            "http://dbpedia.org/property/appmag5Passband": [
+                {
+                    "type": "literal",
+                    "value": "K",
+                    "lang": "en"
+                }
+            ]
+        }
+    }
+}
