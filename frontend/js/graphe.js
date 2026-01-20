@@ -57,7 +57,7 @@ const PREDICAT_CATEGORIES = {
     ],
   },
   autres: {
-    label: "Autres",
+    label: "Base",
     color: "#95a5a6",
     predicats: [],
   },
