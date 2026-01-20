@@ -48,7 +48,10 @@ def start(mode="run"):
     install()
     print(f"Starting server in {mode} mode...")
     cmd = [FASTAPI_EXE, mode, BACKEND_FILE, "--host", IP, "--port", str(PORT)]
-    subprocess.run(cmd, shell=False)
+    try:
+        subprocess.run(cmd, shell=False)
+    except KeyboardInterrupt:
+        print("\nServer stopped.")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
