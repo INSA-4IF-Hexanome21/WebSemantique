@@ -22,45 +22,8 @@ viewAllGraphButton.addEventListener("click", () => {
     }
 });
 
-async function getSatellitesGraph() {
-    const satellites = await fetch("http://127.0.0.1:8000/api/get-satellites").then(res => res.json());
-
-    const graph = new graphology.Graph();
-
-    Object.entries(satellites["output"]).forEach(([id, satellite]) => {
-        if (!graph.hasNode(satellite.uri)) {
-            graph.addNode(satellite.uri, {
-                label: satellite.uri,
-                x: Math.random(),
-                y: Math.random(),
-                size: 5,
-                color: "#2ECC40"
-            });
-        }
-
-        if (!graph.hasNode(satellite.name)) {
-            graph.addNode(satellite.name, {
-                label: satellite.name,
-                x: Math.random(),
-                y: Math.random(),
-                size: 5,
-                color: "#2e55ccff"
-            });
-        }
-
-        if (!graph.hasEdge(satellite.uri, satellite.name)) {
-            graph.addEdge(satellite.uri, satellite.name);
-        }
-    });
-
-    const container = document.getElementById("graph-container");
-    if (renderer) {
-        container.innerHTML = "";
-    }
-    renderer = new Sigma(graph, container);
-}
-
-async function getGraph(name) {
+async function getStarGraph(name) {
+    document.getElementById("divReponseGraphique").hidden = false;
     const data = await fetch("http://127.0.0.1:8000/api/get-star-details?name="+name)
         .then(res => res.json());
 
@@ -177,7 +140,7 @@ async function showConstellationGraph(stars) {
 
 
 async function getLunesGraph(list) {
-
+    document.getElementById("divReponseGraphique").hidden = false;
     console.log("Entrée dans le graph")
     const graph = new graphology.Graph();
 
@@ -213,3 +176,56 @@ async function getLunesGraph(list) {
     }
     renderer = new Sigma(graph, container);
 }
+
+async function getGraph(name) {
+    document.getElementById("divReponseGraphique").hidden = false;
+    const data = await fetch("http://127.0.0.1:8000/api/get-details?name="+name)
+        .then(res => res.json());
+
+    const graph = new graphology.Graph({ multi: true });
+    const rdfData = data["output"];
+    console.log(rdfData);
+
+    rdfData.forEach(triple => {
+        const subject = triple.s.value;
+        const predicate = triple.p.value;
+        const obj = triple.o;
+
+        if (!graph.hasNode(subject)) {
+            graph.addNode(subject, {
+                label: subject.split("/").pop(),
+                x: Math.random(),
+                y: Math.random(),
+                size: 8,
+                color: "#FF4136"
+            });
+        }
+
+        const objectId =
+            obj.type === "uri"
+                ? obj.value
+                : `${subject}-${predicate}-${obj.value}`;
+
+        if (!graph.hasNode(objectId)) {
+            graph.addNode(objectId, {
+                label: obj.value,
+                x: Math.random(),
+                y: Math.random(),
+                size: obj.type === "uri" ? 6 : 4,
+                color: obj.type === "uri" ? "#2ECC40" : "#FF851B"
+            });
+        }
+
+        graph.addEdge(subject, objectId, {
+            label: predicate.split("/").pop()
+        });
+    });
+
+
+    const container = document.getElementById("graph-container");
+    if (renderer) {
+        container.innerHTML = "";
+    }
+    renderer = new Sigma(graph, container);
+    console.log("Graph rendered");
+};

@@ -1,4 +1,6 @@
 async function getArtificialSatellites() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("artificialSatellitesButton").innerHTML = '<span class="spinner-grow text-light" ></span>';
     const response = await fetch("http://127.0.0.1:8000/api/get-artificial-satellites");
     const json = await response.json();
@@ -18,13 +20,22 @@ async function getArtificialSatellites() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {
@@ -36,6 +47,8 @@ async function getArtificialSatellites() {
 }
 
 async function getNaturalSatellites() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("naturalSatellitesButton").innerHTML = '<span class="spinner-grow text-light" ></span>';
 
     const response = await fetch("http://127.0.0.1:8000/api/get-natural-satellites");
@@ -56,13 +69,22 @@ async function getNaturalSatellites() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {
@@ -74,6 +96,8 @@ async function getNaturalSatellites() {
 }
 
 async function getAllSatellites() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("allSatellitesButton").innerHTML = '<span class="spinner-grow text-light" ></span>';
 
     const response = await fetch("http://127.0.0.1:8000/api/get-satellites");
@@ -94,13 +118,22 @@ async function getAllSatellites() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {

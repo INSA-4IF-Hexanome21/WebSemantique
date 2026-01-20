@@ -1,4 +1,6 @@
 async function getPlanets() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     var span = document.createElement("span");
     span.className = "spinner-grow text-light";
     document.getElementById("planeteButton").replaceChildren();
@@ -41,6 +43,8 @@ async function getPlanets() {
 
 async function getMoons() {
 
+    document.getElementById("divReponseGraphique").hidden = false;
+    document.getElementById("divReponseTextuelle").hidden = false;
     var type = document.getElementById("listLune").value;
     var span = document.createElement("span");
     span.className = "spinner-grow text-light";
