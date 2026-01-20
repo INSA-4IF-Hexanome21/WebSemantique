@@ -1,0 +1,690 @@
+{
+    "status": 1,
+    "input": {
+        "name": "S Antliae",
+        "cache": true
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/S_Antliae": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Antlia": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/W_Ursae_Majoris_variable": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/S_Antliae": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Star"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://eu.dbpedia.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://es.dbpedia.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://uk.dbpedia.org/resource/HD82610"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ca.dbpedia.org/resource/S_de_la_M\u00e0quina_Pneum\u00e0tica"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.04cxk1w"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2986200"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/2mNK5"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u5527\u7b52\u5ea7S"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u0627\u0633_\u062a\u0644\u0645\u0628\u0647"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ce.dbpedia.org/resource/HD82610"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://tt.dbpedia.org/resource/HD82610"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ast.dbpedia.org/resource/S_Antliae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/S_\u041d\u0430\u0441\u043e\u0441\u0430"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "S Antliae",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "S de la M\u00e0quina Pneum\u00e0tica",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "S \u041d\u0430\u0441\u043e\u0441\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "S Antliae",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "S Antliae",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "HD82610",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "S Antliae",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "S Antliae",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "S Antliae",
+                    "lang": "eu"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u5527\u7b52\u5ea7S",
+                    "lang": "zh"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:A-type_main-sequence_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Gould_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:W_Ursae_Majoris_variables"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SAntLightCurve.png"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/S_Antliae?oldid=1296398431&ns=0"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/S_Antliae"
+                }
+            ],
+            "http://dbpedia.org/property/component": [
+                {
+                    "type": "literal",
+                    "value": "A",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "B",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/periodUnitless": [
+                {
+                    "type": "literal",
+                    "value": "days",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Photometric_system"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Common_envelope"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bright_Star_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Smithsonian_Astrophysical_Observatory_Star_Catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Earth"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:A-type_main-sequence_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Eclipsing_binary"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Arc_second"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Parallax"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Luminosity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Durchmusterung"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Edward_Charles_Pickering"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Algol_variable"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/W_Ursae_Majoris_variable"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light_curve"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Henry_Draper_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:W_Ursae_Majoris_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/W_Ursae_Majoris"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Effective_temperature"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alfred_Harrison_Joy"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:SAntLightCurve.png"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "variabel stj\u00e4rna i Luftpumpens stj\u00e4rnbild",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Luftpumpe",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "d\u00e9r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile binaire \u00e0 \u00e9clipses de la constellation de la Machine pneumatique",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "variable star in the constellation Antlia",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella binaria nella costellazione della Macchina Pneumatica",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella variable",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "stjerne",
+                    "lang": "da"
+                },
+                {
+                    "type": "literal",
+                    "value": "kaksoist\u00e4hti",
+                    "lang": "fi"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella",
+                    "lang": "ast"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SAntLightCurve.png?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Nbsp"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_orbit"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Convert"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Citation_needed"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": 1.963,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/ageGyr": [
+                {
+                    "type": "literal",
+                    "value": 1.9,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 6.27,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": 0.33,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Antlia"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0203,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 12.6116,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "+",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "A9V",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Binary_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/W_Ursae_Majoris_variable"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HD_82610": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIC_46810": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIP_46810": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HR_3798": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/SAO_177619": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Antlia": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S_Antliae"
+                }
+            ]
+        }
+    }
+}

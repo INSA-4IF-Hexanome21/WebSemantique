@@ -129,7 +129,7 @@ def get_constellations(cache: bool = CACHE):
 
 
 @app.get("/api/get-stars-in-constellation")
-def get_stars_in_constellation(name: str, cache: bool = CACHE):
+def get_stars_in_constellation(name: str, cache: bool = False):
     name = name.replace(" ", "_")
     cache_file = f"get-stars-in-constellation-{name}.json"
 
@@ -138,7 +138,7 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT *
+    SELECT DISTINCT *
     WHERE {{
         ?star a dbo:Star.
         ?star dbp:constell ?constellation.
@@ -350,16 +350,16 @@ async def get_moons(type: str, cache: bool = CACHE):
                 ?lune dbp:satelliteOf ?planet.
                 ?lune gold:hypernym dbr:Satellite.
             FILTER (lang(?des)="fr")
-        }
+        }}
         UNION
-        {
+        {{
                 ?lune a dbo:Planet.
                 ?lune dbo:description ?des.
                 ?lune dbp:satelliteOf ?planet.
                 ?planet foaf:name ?name.
             FILTER CONTAINS(LCASE(?name), "mars")
             FILTER (lang(?des)="fr")
-        } UNION {
+        }} UNION {{
                 ?lune a dbo:Planet.
                 ?lune dbo:description ?des.
                 ?lune dbp:satelliteOf ?planet.

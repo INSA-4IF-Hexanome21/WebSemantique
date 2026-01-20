@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "T Antliae"
+    },
+    "output": {
+        "name": "T Antliae",
+        "uri": "http://dbpedia.org/resource/T_Antliae",
+        "ra_hours": 2.5329745316101757,
+        "dec_deg": -3.9625574642065544,
+        "distance": 1,
+        "position": {
+            "x": 0.786184642929546,
+            "y": 0.6141158422201209,
+            "z": -0.06910455524792601
+        }
+    }
+}

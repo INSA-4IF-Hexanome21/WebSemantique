@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Alpha Antliae"
+    },
+    "output": {
+        "name": "Alpha Antliae",
+        "uri": "http://dbpedia.org/resource/Alpha_Antliae",
+        "ra_hours": 2.221614119557782,
+        "dec_deg": 11.542267325814265,
+        "distance": 1,
+        "position": {
+            "x": 0.8186777479071464,
+            "y": 0.5382661303205142,
+            "z": 0.20009077447864035
+        }
+    }
+}
