@@ -68,6 +68,77 @@ async function getStarGraph(name) {
     console.log("Graph rendered");
 };
 
+async function showConstellationGraph(stars) {
+    const container = document.getElementById("graph-container");
+    container.innerHTML = "";
+
+    const graph = new graphology.Graph({ multi: true });
+
+    const centerX = 0;
+    const centerY = 0;
+    const radius = 10;
+    const angleStep = (2 * Math.PI) / stars.length;
+
+    for (let i = 0; i < stars.length; i++) {
+        const star = stars[i];
+        const starId = star.uri;
+        const angle = i * angleStep;
+
+        // Position constellation
+        const x = centerX + radius * Math.cos(angle);
+        const y = centerY + radius * Math.sin(angle);
+
+        graph.addNode(starId, {
+            label: star.name,
+            x,
+            y,
+            size: 8,
+            color: "#FFD700" // or
+        });
+
+        const response = await fetch(
+            `http://127.0.0.1:8000/api/get-star-details?name=${encodeURIComponent(star.name)}`
+        );
+        const json = await response.json();
+
+        if (!json.output) continue;
+
+        const rdfData = json.output;
+
+        Object.entries(rdfData).forEach(([subject, predicates]) => {
+            Object.entries(predicates).forEach(([predicate, objects]) => {
+                objects.forEach((obj, index) => {
+                    const objId =
+                        obj.type === "uri"
+                            ? obj.value
+                            : `${starId}-${predicate}-${index}`;
+
+                    if (!graph.hasNode(objId)) {
+                        graph.addNode(objId, {
+                            label: obj.type === "uri"
+                                ? obj.value.split("/").pop()
+                                : obj.value,
+                            x: x + Math.random() * 2 - 1,
+                            y: y + Math.random() * 2 - 1,
+                            size: obj.type === "uri" ? 5 : 3,
+                            color: obj.type === "uri" ? "#2ECC40" : "#FF851B"
+                        });
+                    }
+
+                    graph.addEdge(starId, objId, {
+                        label: predicate.split("/").pop()
+                    });
+                });
+            });
+        });
+    }
+
+    renderer = new Sigma(graph, container);
+    console.log("Constellation RDF graph rendered");
+}
+
+
+
 async function getLunesGraph(list) {
     document.getElementById("divReponseGraphique").hidden = false;
     console.log("Entrée dans le graph")
