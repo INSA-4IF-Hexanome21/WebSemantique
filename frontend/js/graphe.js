@@ -795,3 +795,61 @@ async function getThermicGraph(list) {
     console.log("Graph rendered: "+nbStars+" stars");
         
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const fullscreenButton = document.getElementById("fullscreenButton");
+    const resetZoomButton = document.getElementById("resetZoomButton");
+    const graphContainer = document.getElementById("graph-container");
+
+    // Fullscreen
+    fullscreenButton.addEventListener("click", function () {
+        if (!document.fullscreenElement) {
+            if (graphContainer.requestFullscreen) graphContainer.requestFullscreen();
+            else if (graphContainer.webkitRequestFullscreen) graphContainer.webkitRequestFullscreen();
+            else if (graphContainer.msRequestFullscreen) graphContainer.msRequestFullscreen();
+        } else {
+            if (document.exitFullscreen) document.exitFullscreen();
+            else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+            else if (document.msExitFullscreen) document.msExitFullscreen();
+        }
+    });
+
+    // Recentrer le graphe
+    resetZoomButton.addEventListener("click", function () {
+        const sigmaInstance = window.sigmaInstance || renderer;
+        if (!sigmaInstance) return;
+
+        const graph = sigmaInstance.getGraph();
+        const camera = sigmaInstance.getCamera();
+
+        const nodes = graph.nodes();
+        if (nodes.length === 0) return;
+
+        // Bounding box par défaut très petite
+        let minX = 0, minY = 0, maxX = 0.01, maxY = 0.01;
+
+        nodes.forEach(node => {
+            const pos = graph.getNodeAttributes(node);
+            if (pos.x < minX) minX = pos.x;
+            if (pos.y < minY) minY = pos.y;
+            if (pos.x > maxX) maxX = pos.x;
+            if (pos.y > maxY) maxY = pos.y;
+        });
+
+        let width = maxX - minX;
+        let height = maxY - minY;
+
+        // Éviter width/height = 0 (sinon zoom infini)
+        if (width === 0) width = 1;
+        if (height === 0) height = 1;
+
+        // Zoom par défaut / ajusté
+        const zoom = 1 / Math.max(width / graphContainer.clientWidth, height / graphContainer.clientHeight) * 0.0017;
+
+        camera.animate(
+            { x: (minX + maxX) / 2, y: (minY + maxY) / 2, ratio: zoom },
+            { duration: 600 }
+        );
+    });
+});
+
