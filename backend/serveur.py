@@ -3,6 +3,7 @@
 import os
 import json
 import requests
+import re
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -461,6 +462,28 @@ def get_artificial_satellites(cache: bool = CACHE):
     save_cache(cache_file, output)
     return output
 
+
+@app.get("/api/get-details")
+def get_star_details(name: str, cache: bool = CACHE):
+    cache_file = f"get-details-{name}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
+    query = f"""
+    {SPARQL_PREFIX}
+    DESCRIBE * {{
+        SELECT ?s WHERE {{
+        ?s rdfs:label "{name}"@fr
+        }}
+    }}
+    """
+    print(query)
+    results = get_sparql_results(query)
+    output = {"status": 1, "input": {"name": name}, "output": results}
+    
+    save_cache(cache_file, output)
+    return output
 
 
 # ROUTES - AI

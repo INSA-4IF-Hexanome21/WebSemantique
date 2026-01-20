@@ -85,7 +85,7 @@ async function getStarsInConstellation() {
             button.textContent = "+";
             button.className = "btn btn-sm btn-outline-primary mx-2";
             button.onclick = function() {
-                getGraph(item["name"]);
+                getStarGraph(item["name"]);
             };
 
             li.appendChild(link);
@@ -138,7 +138,7 @@ async function getStars() {
             button.textContent = "+";
             button.className = "btn btn-sm btn-outline-primary mx-2";
             button.onclick = function() {
-                getGraph(item["name"]);
+                getStarGraph(item["name"]);
             };
 
             li.appendChild(link);
@@ -201,7 +201,7 @@ async function getStarsInSameConstellation() {
             button.textContent = "+";
             button.className = "btn btn-sm btn-outline-primary mx-2";
             button.onclick = function() {
-                getGraph(item["name"]);
+                getStarGraph(item["name"]);
             };
 
             li.appendChild(link);

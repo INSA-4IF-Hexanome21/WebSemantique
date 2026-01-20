@@ -18,13 +18,22 @@ async function getArtificialSatellites() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {
@@ -56,13 +65,22 @@ async function getNaturalSatellites() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {
@@ -94,13 +112,22 @@ async function getAllSatellites() {
         list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
+            const button = document.createElement("button");
 
             link.href = item["uri"];
             link.textContent = item["name"]; // plus lisible
             link.title = item["name"];
             link.target = "_blank";
 
+            button.id = item["name"];
+            button.textContent = "+";
+            button.className = "btn btn-sm btn-outline-primary mx-2";
+            button.onclick = function() {
+                getGraph(item["name"]);
+            };
+
             li.appendChild(link);
+            li.appendChild(button)
             resultList.appendChild(li);
         });
     } else {
