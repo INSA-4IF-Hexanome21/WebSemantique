@@ -55,8 +55,7 @@ def start(mode="run"):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python main.py [install|kill|dev|run]")
-        sys.exit(1)
+        start(mode="run")
 
     command = sys.argv[1]
     if command == "install":
