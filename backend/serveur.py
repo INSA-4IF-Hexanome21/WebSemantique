@@ -192,7 +192,7 @@ async def get_stars(cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT ?star ?label ?radius ?temp
+    SELECT DISTINCT ?star ?label ?radius ?temp
     WHERE {{
         ?star rdf:type dbo:Star.
         ?star rdfs:label ?label.

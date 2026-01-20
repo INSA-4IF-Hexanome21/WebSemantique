@@ -96,7 +96,7 @@ async function getStars() {
         document.getElementById("result-header").innerHTML = ` Résultats DBpedia (${list.length} résultats)`;
         resultList.innerHTML = "";
         
-         list.forEach(item => {
+        list.forEach(item => {
             const li = document.createElement("li");
             const link = document.createElement("a");
             const button = document.createElement("button");
