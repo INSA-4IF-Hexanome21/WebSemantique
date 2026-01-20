@@ -48,6 +48,7 @@
 						<div class="mb-3">
 							<label for="inputStarInConstellation" class="form-label">Nom constellation</label>
 							<input type="text" id="inputStarInConstellation" class="form-control" placeholder="Nom de l'étoile">
+							<p id="error" style="color: red;" hidden></p>
 						</div>
 						<button id="buttonStarInConstellation" onclick="getStarsInSameConstellation()" class="btn btn-dark">Repérez votre étoile dans sa constellation</button>
 					</div>
@@ -75,7 +76,7 @@
 	<div id="divReponse" class="row mt-4" style="display: none; height: 80vh; max-width: 98%; margin: 0 auto;">
 		
 		<!-- Colonne gauche -->
-		<div class="col-md-3 h-100 d-flex flex-column" style="gap: 1rem;">
+		<div id="divReponseTextuelle" class="col-md-3 h-100 d-flex flex-column" style="gap: 1rem;">
 			<!-- Liste des étoiles -->
 			<div class="result-panel flex-fill" style="min-height: 0;">
 				<div id="result-header" class="result-header">Résultats DBpedia</div>
@@ -91,7 +92,7 @@
 		</div>
 
 		<!-- Colonne droite -->
-		<div class="col-md-9 h-100 d-flex flex-column" style="gap: 1rem;">
+		<div id= "divReponseGraphique" class="col-md-9 h-100 d-flex flex-column" style="gap: 1rem;">
 			<!-- En-tête avec info étoile et filtres horizontaux -->
 			<div class="card border-0 shadow-sm" style="background: #1a1a1a; flex-shrink: 0;">
 				<div class="card-body p-3">
