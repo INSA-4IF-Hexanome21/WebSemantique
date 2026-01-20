@@ -329,7 +329,7 @@ async def get_planets():
 @app.get("/api/get-moons")
 async def get_moons(type: str):
     print("entrée dans la fonction")
-    if type == "Système Solaire" :
+    if type == "Planètes du Système Solaire" :
         query =  query = SPARQL_PREFIX + """
         SELECT DISTINCT ?lune ?planet
         WHERE {{
