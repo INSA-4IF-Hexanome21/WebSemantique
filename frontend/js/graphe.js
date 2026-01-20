@@ -672,11 +672,12 @@ async function showConstellationGraph(stars) {
  */
 const viewAllGraphButton = document.getElementById("viewAllGraphButton");
 if (viewAllGraphButton) {
-  viewAllGraphButton.addEventListener("click", () => {
-    if (renderer) {
-        container.innerHTML = "";
-    }
-    renderer = new Sigma(graph, container);
+    viewAllGraphButton.addEventListener("click", () => {
+        if (renderer) {
+            container.innerHTML = "";
+        }
+        renderer = new Sigma(graph, container);
+    });
 }
 
 async function getGraph(name) {
