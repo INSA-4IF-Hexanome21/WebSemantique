@@ -1,9 +1,11 @@
 /**
- * graphe.js - Gestion avancée de la visualisation RDF avec Sigma.js
+ * graphe.js - Visualisation RDF avec D3.js Force Simulation
  */
 
-let renderer = null;
-let currentGraph = null;
+let simulation = null;
+let svg = null;
+let g = null;
+let currentData = null;
 let activeFilters = new Set();
 
 // Configuration des catégories de prédicats
@@ -84,8 +86,18 @@ function creerControlesFiltre() {
   const container = document.getElementById("graphControls");
   if (!container) return;
 
-  container.innerHTML =
-    '<div class="fw-bold mb-2 text-white">Filtres :</div><div class="d-flex flex-wrap gap-3" id="filterCheckboxes"></div>';
+  container.innerHTML = `
+    <div class="d-flex flex-wrap gap-3 align-items-center">
+      <div class="fw-bold text-white">Filtres :</div>
+      <div class="d-flex flex-wrap gap-3" id="filterCheckboxes"></div>
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <label class="text-white small mb-0">Séparation:</label>
+        <input type="range" class="form-range" style="width: 150px;" 
+               id="distanceSlider" min="50" max="300" value="150" step="10">
+        <span class="text-white small" id="distanceValue">150</span>
+      </div>
+    </div>
+  `;
 
   const checkboxContainer = document.getElementById("filterCheckboxes");
 
@@ -116,27 +128,41 @@ function creerControlesFiltre() {
     wrapper.appendChild(label);
     checkboxContainer.appendChild(wrapper);
   });
+
+  // Slider de distance
+  const slider = document.getElementById("distanceSlider");
+  const valueDisplay = document.getElementById("distanceValue");
+  
+  if (slider && valueDisplay) {
+    slider.addEventListener("input", (e) => {
+      valueDisplay.textContent = e.target.value;
+      if (simulation) {
+        simulation.force("link").distance(parseInt(e.target.value));
+        simulation.alpha(0.3).restart();
+      }
+    });
+  }
 }
 
 /**
  * Applique les filtres sur le graphe
  */
 function appliquerFiltres() {
-  if (!currentGraph || !renderer) return;
+  if (!currentData || !svg) return;
 
-  currentGraph.forEachNode((node, attributes) => {
-    const categorie = attributes.categorie || "autres";
-    const estCache = activeFilters.has(categorie);
-    currentGraph.setNodeAttribute(node, "hidden", estCache);
+  svg.selectAll(".node").style("display", (d) => {
+    const categorie = d.categorie || "autres";
+    return activeFilters.has(categorie) ? "none" : "block";
   });
 
-  currentGraph.forEachEdge((edge, attributes, source, target) => {
-    const sourceCache = currentGraph.getNodeAttribute(source, "hidden");
-    const targetCache = currentGraph.getNodeAttribute(target, "hidden");
-    currentGraph.setEdgeAttribute(edge, "hidden", sourceCache || targetCache);
+  svg.selectAll(".link").style("display", (d) => {
+    const sourceCategorie = d.source.categorie || "autres";
+    const targetCategorie = d.target.categorie || "autres";
+    return activeFilters.has(sourceCategorie) ||
+      activeFilters.has(targetCategorie)
+      ? "none"
+      : "block";
   });
-
-  renderer.refresh();
 }
 
 /**
@@ -197,6 +223,8 @@ async function getGraph(name) {
   const titleTxt = document.getElementById("starTitle");
   const descTxt = document.getElementById("starDescription");
 
+  if (!container) return;
+
   try {
     const response = await fetch(
       `http://127.0.0.1:8000/api/get-star-details?name=${encodeURIComponent(
@@ -206,29 +234,30 @@ async function getGraph(name) {
     const json = await response.json();
     const rdfData = json["output"];
 
-    const graph = new graphology.Graph({ multi: true });
-    currentGraph = graph;
-
     let foundThumb = null;
     let foundDesc = null;
     let shortDesc = null;
 
-    // Construction du graphe
+    // Construcción de datos para D3
+    const nodes = [];
+    const links = [];
+    const nodeMap = new Map();
+
     Object.entries(rdfData).forEach(([subject, predicates]) => {
-      if (!graph.hasNode(subject)) {
-        graph.addNode(subject, {
+      if (!nodeMap.has(subject)) {
+        const node = {
+          id: subject,
           label: nettoyerLabel(subject),
-          x: Math.random() * 1000 - 500,
-          y: Math.random() * 1000 - 500,
-          size: 25,
+          size: 30,
           color: "#e74c3c",
           categorie: "identite",
           nodePrincipal: true,
-        });
+        };
+        nodes.push(node);
+        nodeMap.set(subject, node);
       }
 
       Object.entries(predicates).forEach(([predicate, objects]) => {
-        // Gestion thumbnail
         if (String(predicate).includes("thumbnail")) {
           const thumbValue = objects[0]?.value;
           if (thumbValue) {
@@ -240,7 +269,6 @@ async function getGraph(name) {
           return;
         }
 
-        // Gestion descriptions
         const predicatLower = String(predicate).toLowerCase();
         if (predicatLower.includes("description")) {
           const d =
@@ -267,7 +295,6 @@ async function getGraph(name) {
           return;
         }
 
-        // Déterminer catégorie
         const categorie = getCategoriePredicat(predicate);
         const categorieConfig = PREDICAT_CATEGORIES[categorie];
 
@@ -282,37 +309,32 @@ async function getGraph(name) {
               ? obj.value
               : `${subject}-${predicate}-${index}`;
 
-          if (!graph.hasNode(objectId)) {
-            let label = nettoyerLabel(obj.value, 45);
-
+          if (!nodeMap.has(objectId)) {
             const isUri = obj.type === "uri";
-            const nodeSize = isUri ? 15 : 10;
-            const nodeColor = isUri ? "#3498db" : "#95a5a6";
-
-            graph.addNode(objectId, {
-              label: label,
-              x: Math.random() * 1000 - 500,
-              y: Math.random() * 1000 - 500,
-              size: nodeSize,
-              color: nodeColor,
+            const node = {
+              id: objectId,
+              label: nettoyerLabel(obj.value, 45),
+              size: isUri ? 18 : 12,
+              color: isUri ? "#3498db" : "#95a5a6",
               categorie: categorie,
               estUri: isUri,
-            });
+            };
+            nodes.push(node);
+            nodeMap.set(objectId, node);
           }
 
-          try {
-            graph.addEdge(subject, objectId, {
-              label: predLabel,
-              size: 1.5,
-              color: categorieConfig.color,
-              categorie: categorie,
-            });
-          } catch (e) {
-            // Arête déjà existante
-          }
+          links.push({
+            source: subject,
+            target: objectId,
+            label: predLabel,
+            color: categorieConfig.color,
+            categorie: categorie,
+          });
         });
       });
     });
+
+    currentData = { nodes, links };
 
     // Mise à jour UI
     if (titleTxt) titleTxt.textContent = name;
@@ -327,88 +349,188 @@ async function getGraph(name) {
     creerControlesFiltre();
     activeFilters.clear();
 
-    // Centrer le nœud principal avant ForceAtlas2
-    const mainNode = graph.nodes().find(
-      (n) => graph.getNodeAttribute(n, "nodePrincipal") === true
-    );
-    if (mainNode) {
-      graph.setNodeAttribute(mainNode, "x", 0);
-      graph.setNodeAttribute(mainNode, "y", 0);
-    }
+    // Limpiar container
+    container.innerHTML = "";
 
-    // Application du layout ForceAtlas2 avec PLUS D'ESPACE
-    if (window.graphologyLibrary && window.graphologyLibrary.layout) {
-      graphologyLibrary.layout.forceatlas2.assign(graph, {
-        iterations: 500,
-        settings: {
-          gravity: 0.3,
-          scalingRatio: 200,
-          strongGravityMode: false,
-          barnesHutOptimize: true,
-          barnesHutTheta: 0.5,
-          slowDown: 8,
-          linLogMode: false,
-          adjustSizes: true,
-          edgeWeightInfluence: 0.5,
-          outboundAttractionDistribution: true,
-        },
+    // Dimensiones
+    const width = container.offsetWidth;
+    const height = container.offsetHeight;
+
+    // Crear SVG
+    svg = d3
+      .select(container)
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .style("background", "#fff");
+
+    // Definir arrow markers
+    svg
+      .append("defs")
+      .selectAll("marker")
+      .data(Object.values(PREDICAT_CATEGORIES))
+      .enter()
+      .append("marker")
+      .attr("id", (d) => `arrow-${d.color.substring(1)}`)
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 25)
+      .attr("refY", 0)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-5L10,0L0,5")
+      .attr("fill", (d) => d.color);
+
+    // Grupo para zoom
+    g = svg.append("g");
+
+    // Zoom behavior
+    const zoom = d3
+      .zoom()
+      .scaleExtent([0.1, 10])
+      .on("zoom", (event) => {
+        g.attr("transform", event.transform);
       });
-    }
 
-    // Rendu avec Sigma
-    if (renderer) renderer.kill();
-    renderer = new Sigma(graph, container, {
-      renderEdgeLabels: true,
-      labelSize: 16,
-      labelWeight: "600",
-      edgeLabelSize: 11,
-      labelFont: "Inter, Arial, sans-serif",
-      labelColor: { color: "#000" },
-      labelRenderedSizeThreshold: 0.1,
-      defaultNodeColor: "#999",
-      defaultEdgeColor: "#ccc",
-      minCameraRatio: 0.05,
-      maxCameraRatio: 15,
-      zoomDuration: 600,
+    svg.call(zoom);
+
+    // Force simulation
+    simulation = d3
+      .forceSimulation(nodes)
+      .force(
+        "link",
+        d3
+          .forceLink(links)
+          .id((d) => d.id)
+          .distance(150)
+      )
+      .force("charge", d3.forceManyBody().strength(-300))
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("collision", d3.forceCollide().radius((d) => d.size + 10));
+
+    // Links
+    const link = g
+      .append("g")
+      .selectAll("line")
+      .data(links)
+      .enter()
+      .append("line")
+      .attr("class", "link")
+      .attr("stroke", (d) => d.color)
+      .attr("stroke-width", 2)
+      .attr("stroke-opacity", 0.6)
+      .attr(
+        "marker-end",
+        (d) => `url(#arrow-${d.color.substring(1)})`
+      );
+
+    // Link labels
+    const linkLabel = g
+      .append("g")
+      .selectAll("text")
+      .data(links)
+      .enter()
+      .append("text")
+      .attr("class", "link-label")
+      .attr("font-size", 10)
+      .attr("fill", "#666")
+      .attr("text-anchor", "middle")
+      .text((d) => d.label);
+
+    // Nodes
+    const node = g
+      .append("g")
+      .selectAll("g")
+      .data(nodes)
+      .enter()
+      .append("g")
+      .attr("class", "node")
+      .call(
+        d3
+          .drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended)
+      );
+
+    node
+      .append("circle")
+      .attr("r", (d) => d.size)
+      .attr("fill", (d) => d.color)
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 2)
+      .style("cursor", "pointer");
+
+    node
+      .append("text")
+      .attr("dx", (d) => d.size + 5)
+      .attr("dy", 5)
+      .attr("font-size", 14)
+      .attr("font-weight", "600")
+      .attr("fill", "#000")
+      .text((d) => d.label)
+      .style("pointer-events", "none");
+
+    // Tooltip on hover
+    node.on("mouseenter", function (event, d) {
+      d3.select(this).select("circle").attr("stroke-width", 4);
     });
 
-    setTimeout(() => {
-      const nodes = graph.nodes();
-      if (nodes.length === 0) return;
+    node.on("mouseleave", function (event, d) {
+      d3.select(this).select("circle").attr("stroke-width", 2);
+    });
 
-      let minX = Infinity,
-        maxX = -Infinity,
-        minY = Infinity,
-        maxY = -Infinity;
+    // Click handler
+    node.on("click", function (event, d) {
+      console.log("Nœud cliqué:", d);
+    });
 
-      graph.forEachNode((node, attr) => {
-        if (attr.x < minX) minX = attr.x;
-        if (attr.x > maxX) maxX = attr.x;
-        if (attr.y < minY) minY = attr.y;
-        if (attr.y > maxY) maxY = attr.y;
-      });
+    // Simulation tick
+    simulation.on("tick", () => {
+      link
+        .attr("x1", (d) => d.source.x)
+        .attr("y1", (d) => d.source.y)
+        .attr("x2", (d) => d.target.x)
+        .attr("y2", (d) => d.target.y);
 
-      renderer.getCamera().animate(
-        {
-          x: (minX + maxX) / 2,
-          y: (minY + maxY) / 2,
-          ratio: 1.2,
-        },
-        { duration: 1000 }
-      );
-    }, 200);
+      linkLabel
+        .attr("x", (d) => (d.source.x + d.target.x) / 2)
+        .attr("y", (d) => (d.source.y + d.target.y) / 2);
 
-    // Eventos de contrôle
+      node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+    });
+
+    // Drag functions
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+
+    // Reset button
     const resetBtn = document.getElementById("resetZoomButton");
     if (resetBtn) {
       resetBtn.onclick = () => {
-        renderer.getCamera().animate(
-          { x: 0, y: 0, ratio: 0.8 },
-          { duration: 800 }
-        );
+        svg
+          .transition()
+          .duration(750)
+          .call(zoom.transform, d3.zoomIdentity);
       };
     }
 
+    // Fullscreen button
     const fullscreenBtn = document.getElementById("fullscreenButton");
     if (fullscreenBtn) {
       fullscreenBtn.onclick = () => {
@@ -424,33 +546,6 @@ async function getGraph(name) {
         }
       };
     }
-
-    // Interaction au clic sur un nœud
-    renderer.on("clickNode", ({ node }) => {
-      const attrs = graph.getNodeAttributes(node);
-      console.log("Nœud cliqué:", node, attrs);
-
-      const nodeDisplayData = renderer.getNodeDisplayData(node);
-      if (nodeDisplayData) {
-        renderer.getCamera().animate(
-          {
-            x: nodeDisplayData.x,
-            y: nodeDisplayData.y,
-            ratio: 0.15,
-          },
-          { duration: 500 }
-        );
-      }
-    });
-
-    // Hover effect
-    renderer.on("enterNode", ({ node }) => {
-      container.style.cursor = "pointer";
-    });
-
-    renderer.on("leaveNode", () => {
-      container.style.cursor = "default";
-    });
   } catch (error) {
     console.error("Erreur lors du chargement du graphe:", error);
     if (descTxt) {
