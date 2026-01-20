@@ -106,6 +106,7 @@ WHERE {
 1. Identifie le CAS correspondant à la demande.
 2. Si la demande nécessite un filtre (nom de constellation), adapte le CAS correspondant.
 3. Retourne UNIQUEMENT le code SPARQL brut. Pas de markdown (```), pas de bla-bla ou commentaires.
+4. Ajoute DISTINCT si nécessaire pour éviter les doublons.
 
 Produis uniquement le code SPARQL. Commence directement par "PREFIX" ou "SELECT".
 """
