@@ -69,9 +69,8 @@ async function getStarGraph(name) {
 };
 
 async function showConstellationGraph(stars) {
-    const container = document.getElementById("graph-container");
-    container.innerHTML = "";
-
+    document.getElementById("divReponseGraphique").hidden = false;
+    
     const graph = new graphology.Graph({ multi: true });
 
     for (let i = 0; i < stars.length; i++) {
@@ -150,9 +149,12 @@ async function showConstellationGraph(stars) {
         }
     }
 
-    // Rendu final
+    const container = document.getElementById("graph-container");
+    if (renderer) {
+        container.innerHTML = "";
+    }
     renderer = new Sigma(graph, container);
-    console.log("Constellation RDF graph with real positions rendered");
+    console.log("Graph rendered");
 }
 
 
