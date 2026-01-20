@@ -9,7 +9,8 @@ import re
 
 from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import RedirectResponse
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from intelligence.ai import ask_AI
 from pydantic import BaseModel
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -21,9 +22,8 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 CACHE = True
 
-FRONTEND_IP = os.getenv("FRONTEND_IP")
-FRONTEND_PORT = os.getenv("FRONTEND_PORT")
-FRONTEND_URL = (f"http://{FRONTEND_IP}:{FRONTEND_PORT}" if FRONTEND_IP and FRONTEND_PORT else None )
+FRONTEND_DIR = "./frontend"
+FRONTEND_FILE = os.path.join(FRONTEND_DIR, "index.html")
 
 DBPEDIA_SPARQL_ENDPOINT = "https://dbpedia.org/sparql"
 DBPEDIA_RESOURCE_BASE = "http://dbpedia.org/resource/"
@@ -36,6 +36,7 @@ PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gold: <http://purl.org/linguistics/gold/>
 """
 
 app = FastAPI()
@@ -89,9 +90,8 @@ def save_cache(filename: str, data):
 
 @app.get("/")
 async def root():
-    if FRONTEND_URL:
-        return RedirectResponse(url=FRONTEND_URL)
-    return {"status": 0, "input": {}, "output": {}}
+    if os.path.exists(FRONTEND_FILE):
+        return FileResponse(FRONTEND_FILE)
 
 
 
@@ -117,12 +117,11 @@ def get_constellations(cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
 
     result = [item["name"]["value"] for item in raw]
     result.sort()
-    output = {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {"cache": cache}, "output": result}
 
     save_cache(cache_file, output)
     return output
@@ -149,12 +148,11 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {"name": name}, "output": []}
+    if not raw: return {"status": 0, "input": {"name": name, "cache": cache}, "output": {}}
 
     result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    output = {"status": 1, "input": {"name": name}, "output": result}
+    output = {"status": 1, "input": {"name": name, "cache": cache}, "output": result}
     
     save_cache(cache_file, output)
     return output
@@ -174,7 +172,7 @@ def get_star_details_in_constellation(name: str, cache: bool = CACHE):
     for star in stars:
         detail = get_star_details(star["name"], cache=cache)["output"]
         details.append(detail)
-    output = {"status": 1, "input": {"name": name}, "output": details}
+    output = {"status": 1, "input": {"name": name, "cache": cache}, "output": details}
     
     save_cache(cache_file, output)
     return output
@@ -203,8 +201,7 @@ async def get_stars(cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
     
     result = [{
         "name": item["label"]["value"], 
@@ -214,7 +211,7 @@ async def get_stars(cache: bool = CACHE):
         for item in raw
     ]
     result.sort(key=lambda x: x["name"])
-    output = {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {"cache": cache}, "output": result}
 
     save_cache(cache_file, output)
     return output
@@ -242,13 +239,12 @@ def get_star_details(name: str, cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {"name": name}, "output": {}}
+    if not raw: return {"status": 0, "input": {"name": name, "cache": cache}, "output": {}}
 
     result = raw[0]["star"]["value"]
     data_url = result.replace(DBPEDIA_RESOURCE_BASE, DBPEDIA_DATA_BASE) + ".json"
     data = requests.get(data_url)
-    output = {"status": 1, "input": {"name": name}, "output": data.json()}
+    output = {"status": 1, "input": {"name": name, "cache": cache}, "output": data.json()}
     
     save_cache(cache_file, output)
     return output
@@ -279,24 +275,29 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {"name": name}, "output": {}}
+    if not raw: return {"status": 0, "input": {"name": name, "cache": cache}, "output": {}}
 
     # Retourne toutes les étoiles dont celle en entrée
     result = []
     result = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"], "constellation" : item["constellName"]["value"], "uriConstellation" : item["constellation"]["value"]} for item in raw]
     result.sort(key=lambda x: (x["constellation"],x["name"]))
-    output = {"status": 1, "input": {"name": name}, "output": result}
+    output = {"status": 1, "input": {"name": name, "cache": cache}, "output": result}
 
     save_cache(cache_file, output)
     return output
 
+
+
 # ROUTES - PLANETS
-# ==============
+# ================
 
 @app.get("/api/get-planets")
-async def get_planets():
-    print("lancement api planets")
+async def get_planets(cache: bool = CACHE):
+    cache_file = f"get-planets.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
     query = f"""
     {SPARQL_PREFIX}
     SELECT DISTINCT ?planete  ?des
@@ -309,8 +310,7 @@ async def get_planets():
     }} 
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
     
     result = []
     systeme_solaire = []
@@ -319,24 +319,31 @@ async def get_planets():
         planet["name"] = object["planete"]["value"].split("/")[-1]
         planet["type"] = object["des"]["value"]
         planet["uri"] = object["planete"]["value"]
-        
         if "Système solaire".upper() in planet["type"].upper() :
            systeme_solaire.append(planet) 
         else :
             result.append(planet)
-    
     result.sort(key=lambda x: (x["type"],x["name"]))
     systeme_solaire.sort(key=lambda x: x["name"])
     result = systeme_solaire + result
+    output = {"status": 1, "input": {"cache": cache}, "output": result}
 
-    return {"status": 1, "input": {}, "output": result}
+    save_cache(cache_file, output)
+    return output
+
+
 
 @app.get("/api/get-moons")
-async def get_moons(type: str):
-    print("entrée dans la fonction")
+async def get_moons(type: str, cache: bool = CACHE):
+    cache_file = f"get-moons-{type}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+
     if type == "Planètes du Système Solaire" :
-        query =  query = SPARQL_PREFIX + """
-        SELECT DISTINCT ?lune ?planet
+        query = f"""
+        {SPARQL_PREFIX}
+        SELECT DISTINCT ?lune  ?planet
         WHERE {{
                 ?lune a dbo:Planet.
                 ?lune dbo:description ?des.
@@ -374,20 +381,21 @@ async def get_moons(type: str):
         """
     
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"type": type, "cache": cache}, "output": {}}
     result = []
     for object in raw :
         moon = {}
         moon["name"] = object["lune"]["value"].split("/")[-1]
         moon["planet"] = object["planet"]["value"].split("/")[-1]
         moon["uri"] = object["lune"]["value"]
-        
         result.append(moon)
-    
     result.sort(key=lambda x: (x["planet"],x["name"]))
+    output = {"status": 1, "input": {"type": type, "cache": cache}, "output": result}
 
-    return {"status": 1, "input": {}, "output": result}
+    save_cache(cache_file, output)
+    return output
+
+
 
 # ROUTES - SATELLITES
 # ===================
@@ -417,12 +425,11 @@ def get_satellites(cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
     
     result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    output = {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {"cache": cache}, "output": result}
 
     save_cache(cache_file, output)
     return output
@@ -456,12 +463,11 @@ def get_natural_satellites(cache: bool = CACHE):
     }}
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
     
     result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    output = {"status": 1, "input": {}, "output": result}
+    output = {"status": 1, "input": {"cache": cache}, "output": result}
 
     save_cache(cache_file, output)
     return output
@@ -486,13 +492,11 @@ def get_artificial_satellites(cache: bool = CACHE):
     }
     """
     raw = get_sparql_results(query)
-    if not raw:
-        return {"status": 0, "input": {}, "output": {}}
+    if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
     
     result = [{"name": item["label"]["value"], "uri": item["satellite"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
-    output = {"status": 1, "input": {}, "output": result}
-
+    output = {"status": 1, "input": {"cache": cache}, "output": result}
     save_cache(cache_file, output)
     return output
 
@@ -602,7 +606,14 @@ async def ask_ai(payload: AIRequest):
     try:
         query = response
         results = get_sparql_results(query)
-        return {"status": 1, "input": {}, "output": results}
+        return {"status": 1, "input": {"payload": payload.content}, "output": results}
     except Exception as e:
         print(f"Error executing AI-generated query: {e}")
-        return {"status": 0, "input": {}, "output": {}}
+        return {"status": 0, "input": {"payload": payload.content}, "output": {}}
+
+
+
+# MOUNT
+# =====
+
+app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
