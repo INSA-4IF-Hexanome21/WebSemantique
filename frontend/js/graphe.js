@@ -592,7 +592,7 @@ async function showConstellationGraph(stars) {
         let y = Math.random() * 10;
         try {
             const posResponse = await fetch(
-                `http://127.0.0.1:8000/api/get-astre-position?name=${encodeURIComponent(star.name)}`
+                `http://127.0.0.1:8000/api/get-astre-position?name=${star.name}`
             );
             const posJson = await posResponse.json();
             if (posJson.status === 1 && posJson.output.position) {
