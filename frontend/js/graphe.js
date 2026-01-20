@@ -218,7 +218,8 @@ function gererAffichageImage(thumbnailUrl) {
 /**
  * Fonction principale pour récupérer et afficher le graphe
  */
-async function getGraph(name) {
+async function getStarGraph(name) {
+  document.getElementById("divReponseGraphique").hidden = false;
   const container = document.getElementById("graph-container");
   const titleTxt = document.getElementById("starTitle");
   const descTxt = document.getElementById("starDescription");

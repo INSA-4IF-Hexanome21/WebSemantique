@@ -13,6 +13,7 @@ async function getConstellations(obj) {
 }
 
 async function getStarsInConstellation() {
+    document.getElementById("divReponse").hidden = false;
     document.getElementById("divReponseGraphique").hidden = false;
     document.getElementById("divReponseTextuelle").hidden = false;
     var nomConstellation = document.getElementById("listConstellations").value;
@@ -70,6 +71,7 @@ async function getStarsInConstellation() {
 }
 
 async function getStars() {
+    document.getElementById("divReponse").hidden = false;
     document.getElementById("divReponseGraphique").hidden = true;
     document.getElementById("divReponseTextuelle").hidden = false;
     var span = document.createElement("span");
@@ -128,6 +130,8 @@ async function getStarsInSameConstellation() {
         document.getElementById("error").hidden = false;
         return;
     }
+    
+    document.getElementById("divReponse").hidden = false;
     document.getElementById("divReponseGraphique").hidden = true;
     document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("buttonStarInConstellation").textContent = "";
@@ -141,21 +145,20 @@ async function getStarsInSameConstellation() {
 
     const resultArea = document.getElementById("divReponse");
     const resultList = document.getElementById("resultList");
-
+    
     var text = "";
-    if (stars.length === 0) {
+    if (list.length === 0) {
         resultList.innerHTML = '<li style="color: #888; font-style: italic;">Aucune donnée trouvée.</li>';
         document.getElementById("result-header").innerHTML = ` Résultats DBpedia`;
     }
     else{
+        
         var constellationName = ""
         document.getElementById("result-header").innerHTML = ` Résultats DBpedia (${list.length} résultats)` ;
         resultList.innerHTML = "";
         
         list.forEach(item => {
             var newConstellationName = item["constellation"]
-            console.log(newConstellationName);
-            console.log(constellationName);
             if(newConstellationName != constellationName){
 
                 constellationName = newConstellationName
@@ -164,7 +167,7 @@ async function getStarsInSameConstellation() {
                 const link = document.createElement("a");
                 const button = document.createElement("button");
 
-                link.href = list[0]["uriConstellation"];
+                link.href = item["uriConstellation"];
                 link.textContent = constellationName + "(Constellation)"; // plus lisible
                 link.title = constellationName;
                 link.target = "_blank";
