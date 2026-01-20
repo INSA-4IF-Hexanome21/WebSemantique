@@ -409,8 +409,7 @@ def get_natural_satellites(cache: bool = CACHE):
 
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
-       (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
-    WHERE {
+    WHERE {{
         # Satellites détectés via description
         ?satellite rdf:type dbo:CelestialBody ;
                    rdfs:label ?label ;
@@ -419,7 +418,13 @@ def get_natural_satellites(cache: bool = CACHE):
         FILTER(lang(?description) = "fr")
         FILTER(CONTAINS(LCASE(?description), "satellite"))
         FILTER NOT EXISTS {?satellite gold:hypernym dbr:Satellite}
-    }
+    }  UNION
+    {
+         ?satellite a dbo:CelestialBody ;
+                        rdfs:label ?label ;
+                        gold:hypernym dbr:Satellite .
+        FILTER(lang(?label) = "fr")
+    }}
     """
     raw = get_sparql_results(query)
     if not raw:

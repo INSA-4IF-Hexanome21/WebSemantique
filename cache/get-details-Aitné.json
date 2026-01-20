@@ -1,0 +1,2091 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Aitn\u00e9"
+    },
+    "output": [
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://schema.org/Place"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/period"
+            },
+            "o": {
+                "type": "literal",
+                "value": "-6.1520255999999985E7",
+                "datatype": "http://dbpedia.org/datatype/second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nn.dbpedia.org/resource/Jupiterm\u00e5nen_Aitne"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Aitne",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_Scott_S._Sheppard"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sk.dbpedia.org/resource/Aitne_(mesiac)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Val"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Palici"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Aitne",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pebobs_aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://la.dbpedia.org/resource/Aitne_(satelles)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nds.dbpedia.org/resource/Aitne_(Maand)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://no.dbpedia.org/resource/Aitne_(m\u00e5ne)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Eccentricity_(orbit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/inclination"
+            },
+            "o": {
+                "type": "literal",
+                "value": 165.1,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://war.dbpedia.org/resource/Aitne_(bulan)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(satellite)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discoverer"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Scott S. Sheppard et al.",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aitne-discovery-CFHT-annotated.gif"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Moons_with_a_retrograde_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://global.dbpedia.org/id/fh3v"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_2001"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ro.dbpedia.org/resource/Aitne_(satelit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/ascNode"
+            },
+            "o": {
+                "type": "literal",
+                "value": 24.5,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Outline_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://eo.dbpedia.org/resource/Ajtno_(luno)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Carme_group"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ca.dbpedia.org/resource/Etna_(sat\u00e8l\u00b7lit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/orbitalPeriod"
+            },
+            "o": {
+                "type": "literal",
+                "value": -61520255.99999999,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(satellite)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/mpcName"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Jupiter XXXI",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Canada-France-Hawaii_Telescope"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://zh.dbpedia.org/resource/\u6728\u536b\u4e09\u5341\u4e00"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://he.dbpedia.org/resource/\u05d0\u05d9\u05d9\u05d8\u05e0\u05d4"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Short_description"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://als.dbpedia.org/resource/Aitne_(Mond)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pt.dbpedia.org/resource/Aitne_(sat\u00e9lite)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://id.dbpedia.org/resource/Aitne_(satelit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Carme_group"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#Thing"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/primaryTopic"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/apparentMagnitude"
+            },
+            "o": {
+                "type": "literal",
+                "value": 22.7,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ecliptic"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nl.dbpedia.org/resource/Aitne_(maan)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://it.dbpedia.org/resource/Etna_(astronomia)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/altNames"
+            },
+            "o": {
+                "type": "literal",
+                "value": "S/2001 J 11",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://simple.dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Geyser"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lv.dbpedia.org/resource/Aitne_(pavadonis)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Jupiter-stub"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hy.dbpedia.org/resource/\u0537\u0569\u0576\u0565_(\u0561\u0580\u0562\u0561\u0576\u0575\u0561\u056f)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://da.dbpedia.org/resource/Aitne_(m\u00e5ne)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://cs.dbpedia.org/resource/Aitne_(m\u011bs\u00edc)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Moons_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://es.dbpedia.org/resource/Aitn\u00e9_(sat\u00e9lite)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/discovered"
+            },
+            "o": {
+                "type": "literal",
+                "value": "2001-12-09",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sh.dbpedia.org/resource/Aitna_(mjesec)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q634"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:IPAc-en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_2001"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Irregular_satellites"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/linguistics/gold/hypernym"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/satelliteOf"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageDisambiguates"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/magnitude"
+            },
+            "o": {
+                "type": "literal",
+                "value": 22.7,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://az.dbpedia.org/resource/Etna_(peyk)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Carme_group"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discoverySite"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mauna_Kea_Observatories"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mount_Etna"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lt.dbpedia.org/resource/Etn\u0117_(palydovas)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Scott_S._Sheppard"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://rdf.freebase.com/ns/m.02t002"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/formerName"
+            },
+            "o": {
+                "type": "literal",
+                "value": "S/2001 J 11",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Irregular_satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ja.dbpedia.org/resource/\u30a2\u30a4\u30c8\u30cd_(\u885b\u661f)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/absoluteMagnitude"
+            },
+            "o": {
+                "type": "literal",
+                "value": 16,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/absMagnitude"
+            },
+            "o": {
+                "type": "literal",
+                "value": 16,
+                "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Retrograde_motion"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_natural_satellites"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://yago-knowledge.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://be.dbpedia.org/resource/\u042d\u0442\u043d\u044d_(\u0441\u043f\u0430\u0434\u0430\u0440\u043e\u0436\u043d\u0456\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/thumbnail"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aitne-discovery-CFHT-annotated.gif?width=300"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://de.dbpedia.org/resource/Aitne_(Mond)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XXXI"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/University_of_Hawaii"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://bg.dbpedia.org/resource/\u0415\u0442\u043d\u0430_(\u0441\u043f\u044a\u0442\u043d\u0438\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ar.dbpedia.org/resource/\u0622\u064a\u062a\u0646"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fi.dbpedia.org/resource/Aitne"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ru.dbpedia.org/resource/\u042d\u0442\u043d\u0435_(\u0441\u043f\u0443\u0442\u043d\u0438\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pl.dbpedia.org/resource/Aitne"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/J_XXXI_Aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sl.dbpedia.org/resource/Aitna_(luna)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/S/2001_J_11"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/adjective"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Aitnean",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XXXI"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Thalia_(nymph)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://eu.dbpedia.org/resource/Aitne"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Inclination"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Location"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/J_XXXI_Aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/S/2001_J_11"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/eccentricity"
+            },
+            "o": {
+                "type": "literal",
+                "value": 0.264,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Irregular_satellites"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://uk.dbpedia.org/resource/\u0415\u0442\u043d\u0435_(\u0441\u0443\u043f\u0443\u0442\u043d\u0438\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mauna_Kea_Observatory"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Carme_group"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/argPeri"
+            },
+            "o": {
+                "type": "literal",
+                "value": 122.2,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discovered"
+            },
+            "o": {
+                "type": "literal",
+                "value": "2001-12-09",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/group"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Carme_group"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fr.dbpedia.org/resource/Aitn\u00e9"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sv.dbpedia.org/resource/Aitne"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/discoverer"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Scott_S._Sheppard"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://my.dbpedia.org/resource/\u1021\u1014\u1037\u103a\u1010\u1014\u102e_(\u1002\u103c\u102d\u102f\u101f\u103a\u101b\u1036\u101c)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fa.dbpedia.org/resource/\u0622\u06cc\u062a\u0646\u06cc_(\u0642\u0645\u0631)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Planet/orbitalPeriod"
+            },
+            "o": {
+                "type": "literal",
+                "value": "-712.0399999999998",
+                "datatype": "http://dbpedia.org/datatype/day"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/caption"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Discovery images of Aitne by the Canada-France-Hawaii Telescope in December 2001",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Reflist"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://vi.dbpedia.org/resource/Aitne_(v\u1ec7_tinh)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_Scott_S._Sheppard"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/meanAnomaly"
+            },
+            "o": {
+                "type": "literal",
+                "value": 153.9,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Timeline_of_discovery_of_Solar_System_planets_and_their_moons"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Place"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Aitne (moon)",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/meanDiameter"
+            },
+            "o": {
+                "type": "literal",
+                "value": "3.0",
+                "datatype": "http://dbpedia.org/datatype/kilometre"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://br.dbpedia.org/resource/Aitne_(loarenn)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://mk.dbpedia.org/resource/\u0415\u0442\u043d\u0430_(\u043c\u0435\u0441\u0435\u0447\u0438\u043d\u0430)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XXXI_Aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Scott_S._Sheppard"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/CelestialBody"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lb.dbpedia.org/resource/Aitne_(Mound)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Zeus"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hephaistos"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://gl.dbpedia.org/resource/Aitne_(l\u00faa)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Infobox_planet"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XXXI_Aitne"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hr.dbpedia.org/resource/Aitne_(mjesec)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Naming_of_moons"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q16974"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://el.dbpedia.org/resource/\u0391\u03af\u03c4\u03bd\u03b7_(\u03b4\u03bf\u03c1\u03c5\u03c6\u03cc\u03c1\u03bf\u03c2)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/ns/prov#wasDerivedFrom"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Aitne_(moon)?oldid=1294097307&ns=0"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aitne_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/namedAfter"
+            },
+            "o": {
+                "type": "literal",
+                "value": "\u0391\u03af\u03c4\u03bd\u03b7 Aitn\u0113",
+                "lang": "en"
+            }
+        }
+    ]
+}
