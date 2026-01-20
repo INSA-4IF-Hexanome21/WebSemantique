@@ -539,8 +539,8 @@ async function getStarGraph(name) {
  * Graphe des lunes (Sigma.js)
  */
 async function getLunesGraph(list) {
-  document.getElementById("ImageContainer").hidden = false;
-  document.getElementById("graphHeader").hidden = false;
+  // document.getElementById("ImageContainer").hidden = false;
+  // document.getElementById("graphHeader").hidden = false;
   document.getElementById("divReponseGraphique").hidden = false;
   console.log("Entrée dans le graph");
 
