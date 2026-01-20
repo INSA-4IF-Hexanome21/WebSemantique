@@ -7,6 +7,7 @@ let svg = null;
 let g = null;
 let currentData = null;
 let activeFilters = new Set();
+let renderer = null;
 
 // Configuration des catégories de prédicats
 const PREDICAT_CATEGORIES = {
@@ -129,10 +130,9 @@ function creerControlesFiltre() {
     checkboxContainer.appendChild(wrapper);
   });
 
-  // Slider de distance
   const slider = document.getElementById("distanceSlider");
   const valueDisplay = document.getElementById("distanceValue");
-  
+
   if (slider && valueDisplay) {
     slider.addEventListener("input", (e) => {
       valueDisplay.textContent = e.target.value;
@@ -238,7 +238,6 @@ async function getGraph(name) {
     let foundDesc = null;
     let shortDesc = null;
 
-    // Construcción de datos para D3
     const nodes = [];
     const links = [];
     const nodeMap = new Map();
@@ -336,7 +335,6 @@ async function getGraph(name) {
 
     currentData = { nodes, links };
 
-    // Mise à jour UI
     if (titleTxt) titleTxt.textContent = name;
     if (descTxt) {
       descTxt.textContent =
@@ -349,14 +347,11 @@ async function getGraph(name) {
     creerControlesFiltre();
     activeFilters.clear();
 
-    // Limpiar container
     container.innerHTML = "";
 
-    // Dimensiones
     const width = container.offsetWidth;
     const height = container.offsetHeight;
 
-    // Crear SVG
     svg = d3
       .select(container)
       .append("svg")
@@ -364,7 +359,6 @@ async function getGraph(name) {
       .attr("height", height)
       .style("background", "#fff");
 
-    // Definir arrow markers
     svg
       .append("defs")
       .selectAll("marker")
@@ -382,10 +376,8 @@ async function getGraph(name) {
       .attr("d", "M0,-5L10,0L0,5")
       .attr("fill", (d) => d.color);
 
-    // Grupo para zoom
     g = svg.append("g");
 
-    // Zoom behavior
     const zoom = d3
       .zoom()
       .scaleExtent([0.1, 10])
@@ -395,7 +387,6 @@ async function getGraph(name) {
 
     svg.call(zoom);
 
-    // Force simulation
     simulation = d3
       .forceSimulation(nodes)
       .force(
@@ -409,7 +400,6 @@ async function getGraph(name) {
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("collision", d3.forceCollide().radius((d) => d.size + 10));
 
-    // Links
     const link = g
       .append("g")
       .selectAll("line")
@@ -420,12 +410,8 @@ async function getGraph(name) {
       .attr("stroke", (d) => d.color)
       .attr("stroke-width", 2)
       .attr("stroke-opacity", 0.6)
-      .attr(
-        "marker-end",
-        (d) => `url(#arrow-${d.color.substring(1)})`
-      );
+      .attr("marker-end", (d) => `url(#arrow-${d.color.substring(1)})`);
 
-    // Link labels
     const linkLabel = g
       .append("g")
       .selectAll("text")
@@ -438,7 +424,6 @@ async function getGraph(name) {
       .attr("text-anchor", "middle")
       .text((d) => d.label);
 
-    // Nodes
     const node = g
       .append("g")
       .selectAll("g")
@@ -472,7 +457,6 @@ async function getGraph(name) {
       .text((d) => d.label)
       .style("pointer-events", "none");
 
-    // Tooltip on hover
     node.on("mouseenter", function (event, d) {
       d3.select(this).select("circle").attr("stroke-width", 4);
     });
@@ -481,12 +465,10 @@ async function getGraph(name) {
       d3.select(this).select("circle").attr("stroke-width", 2);
     });
 
-    // Click handler
     node.on("click", function (event, d) {
       console.log("Nœud cliqué:", d);
     });
 
-    // Simulation tick
     simulation.on("tick", () => {
       link
         .attr("x1", (d) => d.source.x)
@@ -501,7 +483,6 @@ async function getGraph(name) {
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
     });
 
-    // Drag functions
     function dragstarted(event, d) {
       if (!event.active) simulation.alphaTarget(0.3).restart();
       d.fx = d.x;
@@ -519,7 +500,6 @@ async function getGraph(name) {
       d.fy = null;
     }
 
-    // Reset button
     const resetBtn = document.getElementById("resetZoomButton");
     if (resetBtn) {
       resetBtn.onclick = () => {
@@ -530,19 +510,16 @@ async function getGraph(name) {
       };
     }
 
-    // Fullscreen button
     const fullscreenBtn = document.getElementById("fullscreenButton");
-    if (fullscreenBtn) {
+    const graphWrapper = document.querySelector(".graph-wrapper");
+    if (fullscreenBtn && graphWrapper) {
       fullscreenBtn.onclick = () => {
-        const elem = container.parentElement.parentElement;
-        if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) {
-          elem.webkitRequestFullscreen();
-        } else if (elem.mozRequestFullScreen) {
-          elem.mozRequestFullScreen();
-        } else if (elem.msRequestFullscreen) {
-          elem.msRequestFullscreen();
+        if (!document.fullscreenElement) {
+          graphWrapper.requestFullscreen().catch((err) => {
+            console.error(`Erreur fullscreen: ${err.message}`);
+          });
+        } else {
+          document.exitFullscreen();
         }
       };
     }
@@ -553,4 +530,134 @@ async function getGraph(name) {
         "Erreur lors du chargement des données DBpedia.";
     }
   }
+}
+
+/**
+ * Graphe des lunes (Sigma.js)
+ */
+async function getLunesGraph(list) {
+  document.getElementById("divReponseGraphique").hidden = false;
+  console.log("Entrée dans le graph");
+
+  const graph = new graphology.Graph();
+
+  Object.entries(list).forEach(([id, lune]) => {
+    if (!graph.hasNode(lune.name)) {
+      graph.addNode(lune.name, {
+        label: lune.name,
+        x: Math.random(),
+        y: Math.random(),
+        size: 5,
+        color: "#2ECC40",
+      });
+    }
+
+    if (!graph.hasNode(lune.planet)) {
+      graph.addNode(lune.planet, {
+        label: lune.planet,
+        x: Math.random(),
+        y: Math.random(),
+        size: 10,
+        color: "#2e55ccff",
+      });
+    }
+
+    if (!graph.hasEdge(lune.planet, lune.name)) {
+      graph.addEdge(lune.planet, lune.name);
+    }
+  });
+
+  const container = document.getElementById("graph-container");
+  if (renderer) {
+    container.innerHTML = "";
+  }
+  renderer = new Sigma(graph, container);
+}
+
+/**
+ * Graphe d'une constellation (Sigma.js)
+ */
+async function showConstellationGraph(stars) {
+  const container = document.getElementById("graph-container");
+  container.innerHTML = "";
+
+  const graph = new graphology.Graph({ multi: true });
+
+  const centerX = 0;
+  const centerY = 0;
+  const radius = 10;
+  const angleStep = (2 * Math.PI) / stars.length;
+
+  for (let i = 0; i < stars.length; i++) {
+    const star = stars[i];
+    const starId = star.uri;
+    const angle = i * angleStep;
+
+    const x = centerX + radius * Math.cos(angle);
+    const y = centerY + radius * Math.sin(angle);
+
+    graph.addNode(starId, {
+      label: star.name,
+      x,
+      y,
+      size: 8,
+      color: "#FFD700",
+    });
+
+    const response = await fetch(
+      `http://127.0.0.1:8000/api/get-star-details?name=${encodeURIComponent(
+        star.name
+      )}`
+    );
+    const json = await response.json();
+
+    if (!json.output) continue;
+
+    const rdfData = json.output;
+
+    Object.entries(rdfData).forEach(([subject, predicates]) => {
+      Object.entries(predicates).forEach(([predicate, objects]) => {
+        objects.forEach((obj, index) => {
+          const objId =
+            obj.type === "uri"
+              ? obj.value
+              : `${starId}-${predicate}-${index}`;
+
+          if (!graph.hasNode(objId)) {
+            graph.addNode(objId, {
+              label:
+                obj.type === "uri"
+                  ? obj.value.split("/").pop()
+                  : obj.value,
+              x: x + Math.random() * 2 - 1,
+              y: y + Math.random() * 2 - 1,
+              size: obj.type === "uri" ? 5 : 3,
+              color: obj.type === "uri" ? "#2ECC40" : "#FF851B",
+            });
+          }
+
+          graph.addEdge(starId, objId, {
+            label: predicate.split("/").pop(),
+          });
+        });
+      });
+    });
+  }
+
+  renderer = new Sigma(graph, container);
+  console.log("Constellation RDF graph rendered");
+}
+
+/**
+ * Bouton viewAllGraph
+ */
+const viewAllGraphButton = document.getElementById("viewAllGraphButton");
+if (viewAllGraphButton) {
+  viewAllGraphButton.addEventListener("click", () => {
+    if (renderer) {
+      renderer.getCamera().animatedReset({ duration: 500 });
+    } else {
+      console.error("Renderer is not initialized.");
+    }
+  });
 }
