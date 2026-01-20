@@ -38,7 +38,6 @@ PREFIX gold: <http://purl.org/linguistics/gold/>
 
 app = FastAPI()
 
-app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -484,3 +483,10 @@ async def ask_ai(payload: AIRequest):
     except Exception as e:
         print(f"Error executing AI-generated query: {e}")
         return {"status": 0, "input": {"payload": payload.content}, "output": {}}
+
+
+
+# MOUNT
+# =====
+
+app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
