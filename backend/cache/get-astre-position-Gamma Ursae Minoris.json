@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Gamma Ursae Minoris"
+    },
+    "output": {
+        "name": "Gamma Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Gamma_Ursae_Minoris",
+        "ra_hours": 0.20255397841920342,
+        "dec_deg": 18.195961496434848,
+        "distance": 1,
+        "position": {
+            "x": 0.9486586747267103,
+            "y": 0.050353160617662845,
+            "z": 0.31226795878151414
+        }
+    }
+}

@@ -579,6 +579,8 @@ async function getLunesGraph(list) {
  * Graphe d'une constellation (Sigma.js)
  */
 async function showConstellationGraph(stars) {
+    
+    console.log("ShoW lancée")
     document.getElementById("divReponseGraphique").hidden = false;
     
     const graph = new graphology.Graph({ multi: true });

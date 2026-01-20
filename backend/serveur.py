@@ -163,6 +163,7 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
 
 @app.get("/api/get-star-details-in-constellation")
 def get_star_details_in_constellation(name: str, cache: bool = CACHE):
+    print("Lancement /api/get-star-details-in-constellation")
     cache_file = f"get-star-details-in-constellation-{name}.json"
     
     cache_data = load_cache(cache_file)
@@ -222,10 +223,13 @@ async def get_stars(cache: bool = CACHE):
 
 @app.get("/api/get-star-details")
 def get_star_details(name: str, cache: bool = CACHE):
+    print("Lancement /api/get-star-details")
     cache_file = f"get-star-details-{name}.json"
-    
+    print(cache_file)
     cache_data = load_cache(cache_file)
-    if cache and cache_data: return cache_data
+    if cache and cache_data: 
+        print("Pris du cache")
+        return cache_data
     
     query = f"""
     {SPARQL_PREFIX}
@@ -292,6 +296,7 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
 
 @app.get("/api/get-planets")
 async def get_planets():
+    print("lancement api planets")
     query = f"""
     {SPARQL_PREFIX}
     SELECT DISTINCT ?planete  ?des
@@ -493,7 +498,7 @@ def get_artificial_satellites(cache: bool = CACHE):
 
 
 @app.get("/api/get-details")
-def get_star_details(name: str, cache: bool = CACHE):
+def get_details(name: str, cache: bool = CACHE):
     cache_file = f"get-details-{name}.json"
     
     cache_data = load_cache(cache_file)
@@ -516,17 +521,22 @@ def get_star_details(name: str, cache: bool = CACHE):
 
 @app.get("/api/get-astre-position")
 def get_astre_position(name: str, cache: bool = CACHE):
+    print("lancement /api/get-astre-position")
     """
     Retourne la position 3D d'un astre par rapport à la Terre
     en utilisant RA/Dec/Distance depuis DBpedia
     """
     cache_file = f"get-astre-position-{name}.json"
+    print(cache_file)
     
     # Vérifier le cache
     cache_data = load_cache(cache_file)
-    if cache and cache_data:
+    print(cache_data)
+    if cache and (cache_data or cache_data == {}):
+        print("pris du cache")
         return cache_data
 
+    print("Requête en cours..")
     # Requête SPARQL
     query = f"""
     {SPARQL_PREFIX}
@@ -543,6 +553,8 @@ def get_astre_position(name: str, cache: bool = CACHE):
     """
     raw = get_sparql_results(query)
     if not raw:
+        output = {}
+        save_cache(cache_file, output)
         return {"status": 0, "input": {"name": name}, "output": {}}
 
     item = raw[0]
@@ -574,7 +586,9 @@ def get_astre_position(name: str, cache: bool = CACHE):
         }
     }
 
+    print("Début de la sauvegarde")
     save_cache(cache_file, output)
+    print("Fin de la sauvegarde")
     return output
 
 # ROUTES - AI
