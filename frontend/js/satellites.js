@@ -1,4 +1,6 @@
 async function getArtificialSatellites() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("artificialSatellitesButton").innerHTML = '<span class="spinner-grow text-light" ></span>';
     const response = await fetch("http://127.0.0.1:8000/api/get-artificial-satellites");
     const json = await response.json();
@@ -45,6 +47,8 @@ async function getArtificialSatellites() {
 }
 
 async function getNaturalSatellites() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("naturalSatellitesButton").innerHTML = '<span class="spinner-grow text-light" ></span>';
 
     const response = await fetch("http://127.0.0.1:8000/api/get-natural-satellites");
@@ -92,6 +96,8 @@ async function getNaturalSatellites() {
 }
 
 async function getAllSatellites() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     document.getElementById("allSatellitesButton").innerHTML = '<span class="spinner-grow text-light" ></span>';
 
     const response = await fetch("http://127.0.0.1:8000/api/get-satellites");

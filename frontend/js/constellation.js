@@ -50,6 +50,8 @@ async function getConstellations(obj) {
 // }
 
 async function getStarsInConstellation() {
+    document.getElementById("divReponseGraphique").hidden = false;
+    document.getElementById("divReponseTextuelle").hidden = false;
     var nomConstellation = document.getElementById("listConstellations").value;
     document.getElementById("constellationsButton").textContent = "";
     var span = document.createElement("span");
@@ -102,6 +104,8 @@ async function getStarsInConstellation() {
 }
 
 async function getStars() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     var span = document.createElement("span");
     span.className = "spinner-grow text-light";
     document.getElementById("starButton").replaceChildren();
@@ -151,6 +155,8 @@ async function getStars() {
 }
 
 async function getStarsInSameConstellation() {
+    document.getElementById("divReponseGraphique").hidden = true;
+    document.getElementById("divReponseTextuelle").hidden = false;
     var nomEtoile = document.getElementById("inputStarInConstellation").value;
     document.getElementById("buttonStarInConstellation").textContent = "";
     var span = document.createElement("span");

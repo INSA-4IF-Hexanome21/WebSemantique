@@ -23,6 +23,7 @@ viewAllGraphButton.addEventListener("click", () => {
 });
 
 async function getStarGraph(name) {
+    document.getElementById("divReponseGraphique").hidden = false;
     const data = await fetch("http://127.0.0.1:8000/api/get-star-details?name="+name)
         .then(res => res.json());
 
@@ -68,7 +69,7 @@ async function getStarGraph(name) {
 };
 
 async function getLunesGraph(list) {
-
+    document.getElementById("divReponseGraphique").hidden = false;
     console.log("Entrée dans le graph")
     const graph = new graphology.Graph();
 
@@ -106,6 +107,7 @@ async function getLunesGraph(list) {
 }
 
 async function getGraph(name) {
+    document.getElementById("divReponseGraphique").hidden = false;
     const data = await fetch("http://127.0.0.1:8000/api/get-details?name="+name)
         .then(res => res.json());
 
