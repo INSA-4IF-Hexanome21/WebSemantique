@@ -330,17 +330,31 @@ async def get_planets():
 async def get_moons(type: str):
     print("entrée dans la fonction")
     if type == "Système Solaire" :
-        query = f"""
-        {SPARQL_PREFIX}
-        SELECT DISTINCT ?lune  ?planet
+        query =  query = SPARQL_PREFIX + """
+        SELECT DISTINCT ?lune ?planet
         WHERE {{
-        ?lune a dbo:Planet.
-        ?lune dbp:satelliteOf ?planet.
-        ?lune dbo:description ?des.
-        ?lune gold:hypernym dbr:Satellite.
-        FILTER (lang(?des)="fr")
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?lune gold:hypernym dbr:Satellite.
+            FILTER (lang(?des)="fr")
+        }
+        UNION
+        {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?planet foaf:name ?name.
+            FILTER CONTAINS(LCASE(?name), "mars")
+            FILTER (lang(?des)="fr")
+        } UNION {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+            FILTER CONTAINS(LCASE(?des), "satellite naturel de la terre")
+            FILTER (lang(?des)="fr")
         }}
-        """     
+        """      
     
     else :
         query = f"""
