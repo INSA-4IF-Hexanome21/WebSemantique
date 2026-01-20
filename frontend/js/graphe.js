@@ -234,7 +234,7 @@ async function getThermicGraph(list) {
     document.getElementById("divReponseGraphique").hidden = false;
     
     const graph = new graphology.Graph();
-    console.log(list);
+    console.log(list, list.length);
     
     // Normalisation
     const filteredList = list.filter(item => {
@@ -250,11 +250,9 @@ async function getThermicGraph(list) {
     const minRadius = Math.min(...radiusValues);
     const maxRadius = Math.max(...radiusValues);
 
-    console.log(`Temp: min=${minTemp}, max=${maxTemp}`);
-    console.log(`Radius: min=${minRadius}, max=${maxRadius}`);
-
     const minSize = 5;
     const maxSize = 30;
+    let nbStars= 0;
     list.forEach(item => {
         const temperature = item.temp;
 
@@ -274,15 +272,16 @@ async function getThermicGraph(list) {
         const b = Math.floor(255 * (1 - normTemp));
         const color = `rgb(${r},${g},${b})`;
 
-        if (!graph.hasNode(item.name)) {
-            graph.addNode(item.name, {
-                label: item.name,
-                x: Math.random(),
-                y: Math.random(),
-                size: size,
-                color: color
-            });
-        }
+        
+        nbStars +=1;
+        graph.addNode(item.name+"_"+nbStars, {
+            label: item.name,
+            x: Math.random(),
+            y: Math.random(),
+            size: size,
+            color: color
+        });
+        
     });
 
     const container = document.getElementById("graph-container");
@@ -290,6 +289,6 @@ async function getThermicGraph(list) {
         container.innerHTML = "";
     }
     renderer = new Sigma(graph, container);
-    console.log("Graph rendered");
+    console.log("Graph rendered: "+nbStars+" stars");
         
 }
