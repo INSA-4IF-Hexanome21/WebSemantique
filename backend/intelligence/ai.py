@@ -8,7 +8,7 @@ def get_client():
     if _client is None :
         _client = OpenAI(
             base_url="https://ollama-ui.pagoda.liris.cnrs.fr/api",  
-            api_key="sk-962c23fae97e4266af9c86f2adf25021",         #   (go to profile - bottom left, account)
+            api_key="sk-962c23fae97e4266af9c86f2adf25021", # (go to profile - bottom left, account)
         )
     return _client
 
