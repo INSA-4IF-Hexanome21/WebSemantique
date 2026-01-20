@@ -1,10 +1,13 @@
 # IMPORTS
 # =======
+import math
 import os
 import json
+import random
 import requests
+import re
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from intelligence.ai import ask_AI
@@ -146,7 +149,7 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
     """
     raw = get_sparql_results(query)
     if not raw:
-        return {"status": 0, "input": {"name": name}, "output": {}}
+        return {"status": 0, "input": {"name": name}, "output": []}
 
     result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
     result.sort(key=lambda x: x["name"])
@@ -267,10 +270,9 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
         return {"status": 0, "input": {"name": name}, "output": {}}
 
     # Retourne toutes les étoiles dont celle en entrée
-    result = {}
-    result["constellation"] = {"name": raw[0]["constellName"]["value"], "uri": raw[0]["constellation"]["value"]}
-    result["stars"] = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"]} for item in raw]
-    result["stars"].sort(key=lambda x: x["name"])
+    result = []
+    result = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"], "constellation" : item["constellName"]["value"], "uriConstellation" : item["constellation"]["value"]} for item in raw]
+    result.sort(key=lambda x: (x["constellation"],x["name"]))
     output = {"status": 1, "input": {"name": name}, "output": result}
 
     save_cache(cache_file, output)
@@ -408,8 +410,7 @@ def get_natural_satellites(cache: bool = CACHE):
 
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
-       (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
-    WHERE {
+    WHERE {{
         # Satellites détectés via description
         ?satellite rdf:type dbo:CelestialBody ;
                    rdfs:label ?label ;
@@ -418,7 +419,13 @@ def get_natural_satellites(cache: bool = CACHE):
         FILTER(lang(?description) = "fr")
         FILTER(CONTAINS(LCASE(?description), "satellite"))
         FILTER NOT EXISTS {?satellite gold:hypernym dbr:Satellite}
-    }
+    }  UNION
+    {
+         ?satellite a dbo:CelestialBody ;
+                        rdfs:label ?label ;
+                        gold:hypernym dbr:Satellite .
+        FILTER(lang(?label) = "fr")
+    }}
     """
     raw = get_sparql_results(query)
     if not raw:
@@ -461,6 +468,28 @@ def get_artificial_satellites(cache: bool = CACHE):
     save_cache(cache_file, output)
     return output
 
+
+@app.get("/api/get-details")
+def get_star_details(name: str, cache: bool = CACHE):
+    cache_file = f"get-details-{name}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
+    query = f"""
+    {SPARQL_PREFIX}
+    DESCRIBE * {{
+        SELECT ?s WHERE {{
+        ?s rdfs:label "{name}"@fr
+        }}
+    }}
+    """
+    print(query)
+    results = get_sparql_results(query)
+    output = {"status": 1, "input": {"name": name}, "output": results}
+    
+    save_cache(cache_file, output)
+    return output
 
 
 # ROUTES - AI

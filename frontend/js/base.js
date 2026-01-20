@@ -164,12 +164,12 @@ const maxStars = 200;
 let starSpawnTimer = 0;
 const starSpawnInterval = 100;
 
-canvas.addEventListener('mousemove', e => {
+window.addEventListener('mousemove', e => {
     mouseX = e.clientX;
     mouseY = e.clientY;
 });
 
-canvas.addEventListener('mouseleave', () => {
+window.addEventListener('mouseleave', () => {
     mouseX = -1000;
     mouseY = -1000;
 });
