@@ -539,6 +539,8 @@ async function getStarGraph(name) {
  * Graphe des lunes (Sigma.js)
  */
 async function getLunesGraph(list) {
+  document.getElementById("ImageContainer").hidden = false;
+  document.getElementById("graphHeader").hidden = false;
   document.getElementById("divReponseGraphique").hidden = false;
   console.log("Entrée dans le graph");
 
@@ -581,6 +583,8 @@ async function getLunesGraph(list) {
  * Graphe d'une constellation (Sigma.js)
  */
 async function showConstellationGraph(stars) {
+  document.getElementById("ImageContainer").hidden = false;
+  document.getElementById("graphHeader").hidden = false;
     document.getElementById("divReponseGraphique").hidden = false;
     
     const graph = new graphology.Graph({ multi: true });
