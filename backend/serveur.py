@@ -341,8 +341,7 @@ async def get_moons(type: str, cache: bool = CACHE):
     if cache and cache_data: return cache_data
 
     if type == "Planètes du Système Solaire" :
-        query = f"""
-        {SPARQL_PREFIX}
+        query = SPARQL_PREFIX + """
         SELECT DISTINCT ?lune  ?planet
         WHERE {{
                 ?lune a dbo:Planet.
@@ -350,22 +349,22 @@ async def get_moons(type: str, cache: bool = CACHE):
                 ?lune dbp:satelliteOf ?planet.
                 ?lune gold:hypernym dbr:Satellite.
             FILTER (lang(?des)="fr")
-        }}
+        }
         UNION
-        {{
+        {
                 ?lune a dbo:Planet.
                 ?lune dbo:description ?des.
                 ?lune dbp:satelliteOf ?planet.
                 ?planet foaf:name ?name.
             FILTER CONTAINS(LCASE(?name), "mars")
             FILTER (lang(?des)="fr")
-        }} UNION {{
+        } UNION {
                 ?lune a dbo:Planet.
                 ?lune dbo:description ?des.
                 ?lune dbp:satelliteOf ?planet.
             FILTER CONTAINS(LCASE(?des), "satellite naturel de la terre")
             FILTER (lang(?des)="fr")
-        }}
+        }} 
         """      
     
     else :
