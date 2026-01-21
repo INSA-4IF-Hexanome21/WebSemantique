@@ -43,7 +43,7 @@ python3 main.py run
 | `python3 main.py install` | Installe uniquement les dépendances |
 | `python3 main.py dev` | Installe les dépendances et lance le serveur en mode développement avec auto-reload |
 | `python3 main.py run` | Installe les dépendances et lance le serveur en mode production |
-| `python3 main.py kill` | Tuer le serveur |
+| `python3 main.py kill` | Tue le serveur |
 | `Ctrl+C` | Arrête le serveur |
 
 ## Utilisation
