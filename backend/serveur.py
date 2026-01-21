@@ -1,11 +1,13 @@
 # IMPORTS
 # =======
-
+import math
 import os
 import json
+import random
 import requests
+import re
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -30,6 +32,7 @@ DBPEDIA_DATA_BASE = "https://dbpedia.org/data/"
 SPARQL_PREFIX = """
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -126,7 +129,7 @@ def get_constellations(cache: bool = CACHE):
 
 
 @app.get("/api/get-stars-in-constellation")
-def get_stars_in_constellation(name: str, cache: bool = CACHE):
+def get_stars_in_constellation(name: str, cache: bool = False):
     name = name.replace(" ", "_")
     cache_file = f"get-stars-in-constellation-{name}.json"
 
@@ -135,7 +138,7 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT *
+    SELECT DISTINCT *
     WHERE {{
         ?star a dbo:Star.
         ?star dbp:constell ?constellation.
@@ -158,6 +161,7 @@ def get_stars_in_constellation(name: str, cache: bool = CACHE):
 
 @app.get("/api/get-star-details-in-constellation")
 def get_star_details_in_constellation(name: str, cache: bool = CACHE):
+    print("Lancement /api/get-star-details-in-constellation")
     cache_file = f"get-star-details-in-constellation-{name}.json"
     
     cache_data = load_cache(cache_file)
@@ -187,17 +191,25 @@ async def get_stars(cache: bool = CACHE):
     
     query = f"""
     {SPARQL_PREFIX}
-    SELECT ?star ?label
+    SELECT DISTINCT ?star ?label ?radius ?temp
     WHERE {{
         ?star rdf:type dbo:Star.
         ?star rdfs:label ?label.
+        ?star dbp:radius ?radius.
+        ?star dbp:temperature ?temp.
         FILTER (lang(?label) = "fr")
     }}
     """
     raw = get_sparql_results(query)
     if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
     
-    result = [{"name": item["label"]["value"], "uri": item["star"]["value"]} for item in raw]
+    result = [{
+        "name": item["label"]["value"], 
+        "uri": item["star"]["value"], 
+        "temp":item["temp"]["value"], 
+        "radius":item["radius"]["value"]} 
+        for item in raw
+    ]
     result.sort(key=lambda x: x["name"])
     output = {"status": 1, "input": {"cache": cache}, "output": result}
 
@@ -208,10 +220,13 @@ async def get_stars(cache: bool = CACHE):
 
 @app.get("/api/get-star-details")
 def get_star_details(name: str, cache: bool = CACHE):
+    print("Lancement /api/get-star-details")
     cache_file = f"get-star-details-{name}.json"
-    
+    print(cache_file)
     cache_data = load_cache(cache_file)
-    if cache and cache_data: return cache_data
+    if cache and cache_data: 
+        print("Pris du cache")
+        return cache_data
     
     query = f"""
     {SPARQL_PREFIX}
@@ -263,10 +278,9 @@ def get_stars_in_same_constellation(name: str, cache: bool = CACHE):
     if not raw: return {"status": 0, "input": {"name": name, "cache": cache}, "output": {}}
 
     # Retourne toutes les étoiles dont celle en entrée
-    result = {}
-    result["constellation"] = {"name": raw[0]["constellName"]["value"], "uri": raw[0]["constellation"]["value"]}
-    result["stars"] = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"]} for item in raw]
-    result["stars"].sort(key=lambda x: x["name"])
+    result = []
+    result = [{"name": item["siblingName"]["value"], "uri": item["sibling"]["value"], "constellation" : item["constellName"]["value"], "uriConstellation" : item["constellation"]["value"]} for item in raw]
+    result.sort(key=lambda x: (x["constellation"],x["name"]))
     output = {"status": 1, "input": {"name": name, "cache": cache}, "output": result}
 
     save_cache(cache_file, output)
@@ -326,18 +340,32 @@ async def get_moons(type: str, cache: bool = CACHE):
     cache_data = load_cache(cache_file)
     if cache and cache_data: return cache_data
 
-    if type == "Système Solaire" :
-        query = f"""
-        {SPARQL_PREFIX}
+    if type == "Planètes du Système Solaire" :
+        query = SPARQL_PREFIX + """
         SELECT DISTINCT ?lune  ?planet
         WHERE {{
-        ?lune a dbo:Planet.
-        ?lune dbp:satelliteOf ?planet.
-        ?lune dbo:description ?des.
-        ?lune gold:hypernym dbr:Satellite.
-        FILTER (lang(?des)="fr")
-        }}
-        """     
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?lune gold:hypernym dbr:Satellite.
+            FILTER (lang(?des)="fr")
+        }
+        UNION
+        {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+                ?planet foaf:name ?name.
+            FILTER CONTAINS(LCASE(?name), "mars")
+            FILTER (lang(?des)="fr")
+        } UNION {
+                ?lune a dbo:Planet.
+                ?lune dbo:description ?des.
+                ?lune dbp:satelliteOf ?planet.
+            FILTER CONTAINS(LCASE(?des), "satellite naturel de la terre")
+            FILTER (lang(?des)="fr")
+        }} 
+        """      
     
     else :
         query = f"""
@@ -416,8 +444,7 @@ def get_natural_satellites(cache: bool = CACHE):
 
     query = SPARQL_PREFIX + """
     SELECT DISTINCT ?satellite ?label
-       (EXISTS { ?satellite rdf:type dbo:CelestialBody } AS ?isNatural)
-    WHERE {
+    WHERE {{
         # Satellites détectés via description
         ?satellite rdf:type dbo:CelestialBody ;
                    rdfs:label ?label ;
@@ -426,7 +453,13 @@ def get_natural_satellites(cache: bool = CACHE):
         FILTER(lang(?description) = "fr")
         FILTER(CONTAINS(LCASE(?description), "satellite"))
         FILTER NOT EXISTS {?satellite gold:hypernym dbr:Satellite}
-    }
+    }  UNION
+    {
+         ?satellite a dbo:CelestialBody ;
+                        rdfs:label ?label ;
+                        gold:hypernym dbr:Satellite .
+        FILTER(lang(?label) = "fr")
+    }}
     """
     raw = get_sparql_results(query)
     if not raw: return {"status": 0, "input": {"cache": cache}, "output": {}}
@@ -467,6 +500,99 @@ def get_artificial_satellites(cache: bool = CACHE):
     return output
 
 
+@app.get("/api/get-details")
+def get_details(name: str, cache: bool = CACHE):
+    cache_file = f"get-details-{name}.json"
+    
+    cache_data = load_cache(cache_file)
+    if cache and cache_data: return cache_data
+    
+    query = f"""
+    {SPARQL_PREFIX}
+    DESCRIBE * {{
+        SELECT ?s WHERE {{
+        ?s rdfs:label "{name}"@fr
+        }}
+    }}
+    """
+    print(query)
+    results = get_sparql_results(query)
+    output = {"status": 1, "input": {"name": name}, "output": results}
+    
+    save_cache(cache_file, output)
+    return output
+
+@app.get("/api/get-astre-position")
+def get_astre_position(name: str, cache: bool = CACHE):
+    print("lancement /api/get-astre-position")
+    """
+    Retourne la position 3D d'un astre par rapport à la Terre
+    en utilisant RA/Dec/Distance depuis DBpedia
+    """
+    cache_file = f"get-astre-position-{name}.json"
+    print(cache_file)
+    
+    # Vérifier le cache
+    cache_data = load_cache(cache_file)
+    print(cache_data)
+    if cache and (cache_data or cache_data == {}):
+        print("pris du cache")
+        return cache_data
+
+    print("Requête en cours..")
+    # Requête SPARQL
+    query = f"""
+    {SPARQL_PREFIX}
+    SELECT ?astre ?label ?ra ?dec ?distance
+    WHERE {{
+        ?astre rdfs:label ?label .
+        ?astre rdf:type ?type .
+        OPTIONAL {{ ?astre dbo:ra ?ra }}
+        OPTIONAL {{ ?astre dbo:dec ?dec }}
+        OPTIONAL {{ ?astre dbo:distanceFromEarth ?distance }}
+        FILTER (lang(?label) = "fr")
+        FILTER contains(?label, "{name}")
+    }}
+    """
+    raw = get_sparql_results(query)
+    if not raw:
+        output = {}
+        save_cache(cache_file, output)
+        return {"status": 0, "input": {"name": name}, "output": {}}
+
+    item = raw[0]
+    
+    # Conversion RA/Dec en coordonnées 3D
+    ra_hours = float(item["ra"]["value"]) if "ra" in item else random.uniform(0, 24)
+    dec_deg = float(item["dec"]["value"]) if "dec" in item else random.uniform(-90, 90)
+    distance = float(item["distance"]["value"]) if "distance" in item else 1  # unité arbitraire si absent
+
+    # RA: heures → degrés → radians
+    ra_rad = (ra_hours * 15) * math.pi / 180
+    dec_rad = dec_deg * math.pi / 180
+
+    # Conversion sphérique → cartésienne
+    x = distance * math.cos(dec_rad) * math.cos(ra_rad)
+    y = distance * math.cos(dec_rad) * math.sin(ra_rad)
+    z = distance * math.sin(dec_rad)
+
+    output = {
+        "status": 1,
+        "input": {"name": name},
+        "output": {
+            "name": item["label"]["value"],
+            "uri": item["astre"]["value"],
+            "ra_hours": ra_hours,
+            "dec_deg": dec_deg,
+            "distance": distance,
+            "position": {"x": x, "y": y, "z": z}
+        }
+    }
+
+    print("Début de la sauvegarde")
+    save_cache(cache_file, output)
+    print("Fin de la sauvegarde")
+    return output
 
 # ROUTES - AI
 # ===========

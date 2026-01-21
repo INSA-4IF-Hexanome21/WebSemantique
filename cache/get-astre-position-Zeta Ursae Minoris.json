@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Zeta Ursae Minoris"
+    },
+    "output": {
+        "name": "Zeta Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Zeta_Ursae_Minoris",
+        "ra_hours": 18.637368648217766,
+        "dec_deg": -65.97805502038261,
+        "distance": 1,
+        "position": {
+            "x": 0.06761278226898186,
+            "y": -0.401432360582994,
+            "z": -0.9133896055630436
+        }
+    }
+}

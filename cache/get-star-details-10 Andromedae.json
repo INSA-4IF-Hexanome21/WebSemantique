@@ -1,0 +1,715 @@
+{
+    "status": 1,
+    "input": {
+        "name": "10 Andromedae",
+        "cache": true
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/10_Andromedae": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Andromeda_in_Chinese_astronomy": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/10_And": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/BD+41_4752": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/BD_+41_4752": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/GC_32485": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/FK5_3870": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HD_219981": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIP_115191": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HR_8876": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/PPM_64085": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/SAO_52914": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Flamsteed_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Andromeda_X": {
+            "http://www.w3.org/2002/07/owl#differentFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Chinese_star_names": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Andromeda": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/10_Andromedae": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://ro.dbpedia.org/resource/10_Andromedae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/10_Andromedae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://gl.dbpedia.org/resource/10_Andromedae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/10_Andromedae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/10_Andromedae"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ca.dbpedia.org/resource/10_d'Andr\u00f2meda"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/2T45Z"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/10_\u0410\u043d\u0434\u0440\u043e\u043c\u0435\u0434\u044b"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u06f1\u06f0_\u0632\u0646_\u0628\u0631\u0632\u0646\u062c\u06cc\u0631"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u87a3\u86c7\u589e\u516d"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2608858"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.08bcgt"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://it.dbpedia.org/resource/10_Andromedae"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "10 d'Andr\u00f2meda",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "10 Andromedae",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "10 Andromedae",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "10 \u0410\u043d\u0434\u0440\u043e\u043c\u0435\u0434\u044b",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "10 Andromedae",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u87a3\u86c7\u589e\u516d",
+                    "lang": "zh"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Flamsteed_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:M-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Andromeda_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Astrometric_binaries"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_circle.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Pegasus_constellation_map.svg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/10_Andromedae?oldid=1292031936&ns=0"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/10_Andromedae"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Flamsteed_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Photosphere"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Angular_diameter"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Radial_velocity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_parallax"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:M-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Red_giant"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Astrometric_binaries"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Main_sequence"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_core"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Astrometric_binary"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_radius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Andromeda_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_evolution"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Limb_darkening"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light_year"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Andromeda_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_visual_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sun's_luminosity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Flamsteed_designation"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "ster",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Andromeda",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "stea",
+                    "lang": "ro"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile g\u00e9ante rouge de la constellation d'Androm\u00e8de",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u0410\u043d\u0434\u0440\u043e\u043c\u0435\u0434\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i stj\u00e4rnbilden Andromeda",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "stjerne",
+                    "lang": "da"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella nella costellazione di Andromeda",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u0410\u043d\u0434\u0440\u043e\u043c\u0435\u0434\u0438",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Andromeda",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "M-type giant star in the constellation Andromeda",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:For"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Andromeda"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_mark"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "M0 III",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 33,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 5.81,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Andromeda_(constellation)"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 258.78,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.1149,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 6.9444,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "+6.291",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "+42.727",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Red-giant_branch"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Pegasus_constellation_map.svg?width=300"
+                }
+            ]
+        }
+    }
+}

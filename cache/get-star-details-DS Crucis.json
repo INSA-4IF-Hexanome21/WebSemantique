@@ -1,0 +1,574 @@
+{
+    "status": 1,
+    "input": {
+        "name": "DS Crucis"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/DS_Crucis": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/DS_Crucis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/DS_Crucis": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/HD_111613"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/DS_Crucis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/DS_Crucis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/DS_Crucis"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/A5oz"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q10847628"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "DS Crucis",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "HD 111613",
+                    "lang": "zh"
+                },
+                {
+                    "type": "literal",
+                    "value": "DS Crucis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "DS Crucis",
+                    "lang": "fr"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:2MASS_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Alpha_Cygni_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:B-type_supergiants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Crux"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Crux_constellation_map.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_circle.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Trishanku_Shir_(Beta_Crucis).png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/HR4876LightCurve.png"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/DS_Crucis?oldid=1195834156&ns=0"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/DS_Crucis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Open_cluster"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Variable_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Southern_Cross"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Durchmusterung"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bright_Star_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Crux_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Henry_Draper_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos_catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Variable_star_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Alpha_Cygni_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Beta_Crucis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bright_supergiant"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:B-type_supergiants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Cygni_variable"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/NGC_4755"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:Trishanku_Shir_(Beta_Crucis).png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:2MASS_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Crux"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Kreuz des S\u00fcdens",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0561\u057d\u057f\u0572",
+                    "lang": "hy"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella nella costellazione della Croce del Sud",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster in Zuiderkruis",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0786\u07b0\u0783\u07a6\u0786\u07b0\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile variable de la constellation de la Croix du Sud",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Crux",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041f\u0456\u0432\u0434\u0435\u043d\u043d\u043e\u0433\u043e \u0425\u0440\u0435\u0441\u0442\u0430",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Crux",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i  stj\u00e4rnbilden S\u00f6dra korset",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0d28\u0d15\u0d4d\u0d37\u0d24\u0d4d\u0d30\u0d02",
+                    "lang": "ml"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Crux"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Clear"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_mark"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:\u00b1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "A1 Ia",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radialV": [
+                {
+                    "type": "literal",
+                    "value": "\u221221.90",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 1.45,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 112,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "\u22127.29",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/ageMyr": [
+                {
+                    "type": "literal",
+                    "value": 7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 5.741,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": "+0.384",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Crux"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 79400,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 29,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0296,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 0.4534,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.94",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "\u22124.63",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotationalVelocity": [
+                {
+                    "type": "literal",
+                    "value": 17,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/uB": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.088",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "&minus;0.11",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Cygni_variable"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Crux_constellation_map.svg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 9150,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/DS_Cru": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/DS_Crucis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/DS_Crucis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Crux": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/DS_Crucis"
+                }
+            ]
+        }
+    }
+}

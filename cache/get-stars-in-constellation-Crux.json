@@ -1,0 +1,104 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Crux"
+    },
+    "output": [
+        {
+            "name": "Alpha Crucis",
+            "uri": "http://dbpedia.org/resource/Acrux"
+        },
+        {
+            "name": "BG Crucis",
+            "uri": "http://dbpedia.org/resource/BG_Crucis"
+        },
+        {
+            "name": "BU Crucis",
+            "uri": "http://dbpedia.org/resource/BU_Crucis"
+        },
+        {
+            "name": "Beta Crucis",
+            "uri": "http://dbpedia.org/resource/Mimosa_(star)"
+        },
+        {
+            "name": "DL Crucis",
+            "uri": "http://dbpedia.org/resource/DL_Crucis"
+        },
+        {
+            "name": "DS Crucis",
+            "uri": "http://dbpedia.org/resource/DS_Crucis"
+        },
+        {
+            "name": "DU Crucis",
+            "uri": "http://dbpedia.org/resource/DU_Crucis"
+        },
+        {
+            "name": "Delta Crucis",
+            "uri": "http://dbpedia.org/resource/Delta_Crucis"
+        },
+        {
+            "name": "Epsilon Crucis",
+            "uri": "http://dbpedia.org/resource/Epsilon_Crucis"
+        },
+        {
+            "name": "Eta Crucis",
+            "uri": "http://dbpedia.org/resource/Eta_Crucis"
+        },
+        {
+            "name": "Gamma Crucis",
+            "uri": "http://dbpedia.org/resource/Gacrux"
+        },
+        {
+            "name": "HD 106906",
+            "uri": "http://dbpedia.org/resource/HD_106906"
+        },
+        {
+            "name": "HD 108147",
+            "uri": "http://dbpedia.org/resource/HD_108147"
+        },
+        {
+            "name": "HR 4887",
+            "uri": "http://dbpedia.org/resource/HR_4887"
+        },
+        {
+            "name": "Iota Crucis",
+            "uri": "http://dbpedia.org/resource/Iota_Crucis"
+        },
+        {
+            "name": "Kappa Crucis",
+            "uri": "http://dbpedia.org/resource/Kappa_Crucis_(star)"
+        },
+        {
+            "name": "Lambda Crucis",
+            "uri": "http://dbpedia.org/resource/Lambda_Crucis"
+        },
+        {
+            "name": "Mu Crucis",
+            "uri": "http://dbpedia.org/resource/Mu_Crucis"
+        },
+        {
+            "name": "R Crucis",
+            "uri": "http://dbpedia.org/resource/R_Crucis"
+        },
+        {
+            "name": "S Crucis",
+            "uri": "http://dbpedia.org/resource/S_Crucis"
+        },
+        {
+            "name": "T Crucis",
+            "uri": "http://dbpedia.org/resource/T_Crucis"
+        },
+        {
+            "name": "Theta1 Crucis",
+            "uri": "http://dbpedia.org/resource/Theta1_Crucis"
+        },
+        {
+            "name": "Theta2 Crucis",
+            "uri": "http://dbpedia.org/resource/Theta2_Crucis"
+        },
+        {
+            "name": "Zeta Crucis",
+            "uri": "http://dbpedia.org/resource/Zeta_Crucis"
+        }
+    ]
+}

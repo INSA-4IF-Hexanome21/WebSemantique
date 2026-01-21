@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Delta Ursae Minoris"
+    },
+    "output": {
+        "name": "Delta Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Delta_Ursae_Minoris",
+        "ra_hours": 20.142299740337982,
+        "dec_deg": -83.35110072065135,
+        "distance": 1,
+        "position": {
+            "x": 0.06158697683411066,
+            "y": -0.09804687003502209,
+            "z": -0.9932743103296139
+        }
+    }
+}

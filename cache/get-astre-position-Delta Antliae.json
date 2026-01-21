@@ -1,0 +1,20 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Delta Antliae"
+    },
+    "output": {
+        "name": "Delta Antliae",
+        "uri": "http://dbpedia.org/resource/Delta_Antliae",
+        "ra_hours": 11.437463173783673,
+        "dec_deg": -88.88764174772832,
+        "distance": 1,
+        "radius": 1,
+        "temperature": 5000,
+        "position": {
+            "x": -0.0192029494967663,
+            "y": 0.0028486776883900698,
+            "z": -0.9998115481259717
+        }
+    }
+}
