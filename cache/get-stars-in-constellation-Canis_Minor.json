@@ -1,0 +1,24 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Canis_Minor"
+    },
+    "output": [
+        {
+            "name": "Beta Canis Minoris",
+            "uri": "http://dbpedia.org/resource/Beta_Canis_Minoris"
+        },
+        {
+            "name": "Gamma Canis Minoris",
+            "uri": "http://dbpedia.org/resource/Gamma_Canis_Minoris"
+        },
+        {
+            "name": "Procyon",
+            "uri": "http://dbpedia.org/resource/Procyon"
+        },
+        {
+            "name": "\u00c9toile de Luyten",
+            "uri": "http://dbpedia.org/resource/Luyten's_Star"
+        }
+    ]
+}

@@ -1,0 +1,631 @@
+{
+    "status": 1,
+    "input": {
+        "name": "2MASS J09393548\u22122448279"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/2MASS_J09393548\u22122448279": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/2MASS_J09393548\u22122448279": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/BrownDwarf"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q222425"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://de.dbpedia.org/resource/2MASS_J09393548-2448279"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://uk.dbpedia.org/resource/2MASS_0939-2448"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pl.dbpedia.org/resource/2MASS_J09393548-2448279"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/26y5j"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://nl.dbpedia.org/resource/2MASS_0939-2448"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u06f2\u0645\u0633_\u06f0\u06f9\u06f3\u06f9\u2013\u06f2\u06f4\u06f4\u06f8"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ko.dbpedia.org/resource/2MASS_J09393548-2448279"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "2MASS 0939-2448",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "2MASS J09393548-2448279",
+                    "lang": "ko"
+                },
+                {
+                    "type": "literal",
+                    "value": "2MASS J09393548-2448279",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "2MASS J09393548-2448279",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "2MASS 0939-2448",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "2MASS J09393548\u22122448279",
+                    "lang": "en"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/2MASS_0939-2448_legacy_dr10.jpg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_pog.png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Antlia_constellation_map.svg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/2MASS_J09393548\u22122448279?oldid=1295106340&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_2005"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Binary_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Brown_dwarfs"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TIC_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:2MASS_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:T-type_brown_dwarfs"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/2MASS_J09393548\u22122448279"
+                }
+            ],
+            "http://dbpedia.org/property/component": [
+                {
+                    "type": "literal",
+                    "value": 2,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 600,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                },
+                {
+                    "type": "literal",
+                    "value": 611,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/ageGyr": [
+                {
+                    "type": "literal",
+                    "value": 2,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/metal": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.3\u20130.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Antlia"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 4.6,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 187.3,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 4.88,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 2e-06,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag1Passband": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J_band_(infrared)"
+                }
+            ],
+            "http://dbpedia.org/property/appmag2Passband": [
+                {
+                    "type": "literal",
+                    "value": "H",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag": [
+                {
+                    "type": "literal",
+                    "value": 15.96,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 16.83,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 15.61,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/massMj": [
+                {
+                    "type": "literal",
+                    "value": 20,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/radiusRj": [
+                {
+                    "type": "literal",
+                    "value": 1.22,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 0.09,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "\u22121044.7 \u00b1 2.5",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "+573.4 \u00b1 2.3",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag3Passband": [
+                {
+                    "type": "literal",
+                    "value": "K",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Antlia_constellation_map.svg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "T8",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "gwiazdowy uk\u0142ad podw\u00f3jny",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Antlia",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Antlia",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Luftpumpe",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "yll",
+                    "lang": "sq"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0561\u057d\u057f\u0572",
+                    "lang": "hy"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u041d\u0430\u0441\u043e\u0441\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "syst\u00e8me binaire de naines brunes",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0d28\u0d15\u0d4d\u0d37\u0d24\u0d4d\u0d30\u0d02",
+                    "lang": "ml"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041d\u0430\u0441\u043e\u0441\u0430",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0787\u07ad\u0782\u07b0\u0793\u07b0\u078d\u07a8\u0787\u07a7 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna  i  stj\u00e4rnbilden Luftpumpen",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/WISE_0855\u22120714"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J_band_(infrared)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Rogue_planet"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Astronomical_unit"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Binary_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/WISE_1828+2650"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Wide-field_Infrared_Survey_Explorer"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Brown_dwarf"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Monthly_Notices_of_the_Royal_Astronomical_Society"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:2MASS_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Brown_dwarfs"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_2005"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sub-brown_dwarf"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/The_Astrophysical_Journal"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light-year"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:T-type_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Spectral_class"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TIC_objects"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:R"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Antlia"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:\u00b1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Nearest_star_systems"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Small"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Cite_journal"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_map"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Sky"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_nearest_stars_and_brown_dwarfs": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/2MASS_0939\u22122448": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/2MASS_0939-2448": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/2MASS_J09393548-2448279": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/2MASS_J09393548\u22122448279"
+                }
+            ]
+        }
+    }
+}

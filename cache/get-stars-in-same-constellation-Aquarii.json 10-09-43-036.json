@@ -1,0 +1,654 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Aquarii"
+    },
+    "output": {
+        "constellation": {
+            "name": "Aquarius",
+            "uri": "http://dbpedia.org/resource/Aquarius_(constellation)"
+        },
+        "stars": [
+            {
+                "name": "1 Aquarii",
+                "uri": "http://dbpedia.org/resource/1_Aquarii"
+            },
+            {
+                "name": "100 Aquarii",
+                "uri": "http://dbpedia.org/resource/100_Aquarii"
+            },
+            {
+                "name": "101 Aquarii",
+                "uri": "http://dbpedia.org/resource/101_Aquarii"
+            },
+            {
+                "name": "103 Aquarii",
+                "uri": "http://dbpedia.org/resource/103_Aquarii"
+            },
+            {
+                "name": "104 Aquarii",
+                "uri": "http://dbpedia.org/resource/104_Aquarii"
+            },
+            {
+                "name": "106 Aquarii",
+                "uri": "http://dbpedia.org/resource/106_Aquarii"
+            },
+            {
+                "name": "107 Aquarii",
+                "uri": "http://dbpedia.org/resource/107_Aquarii"
+            },
+            {
+                "name": "108 Aquarii",
+                "uri": "http://dbpedia.org/resource/108_Aquarii"
+            },
+            {
+                "name": "11 Aquarii",
+                "uri": "http://dbpedia.org/resource/11_Aquarii"
+            },
+            {
+                "name": "12 Aquarii",
+                "uri": "http://dbpedia.org/resource/12_Aquarii"
+            },
+            {
+                "name": "14 Aquarii",
+                "uri": "http://dbpedia.org/resource/14_Aquarii"
+            },
+            {
+                "name": "15 Aquarii",
+                "uri": "http://dbpedia.org/resource/15_Aquarii"
+            },
+            {
+                "name": "16 Aquarii",
+                "uri": "http://dbpedia.org/resource/16_Aquarii"
+            },
+            {
+                "name": "17 Aquarii",
+                "uri": "http://dbpedia.org/resource/17_Aquarii"
+            },
+            {
+                "name": "18 Aquarii",
+                "uri": "http://dbpedia.org/resource/18_Aquarii"
+            },
+            {
+                "name": "19 Aquarii",
+                "uri": "http://dbpedia.org/resource/19_Aquarii"
+            },
+            {
+                "name": "20 Aquarii",
+                "uri": "http://dbpedia.org/resource/20_Aquarii"
+            },
+            {
+                "name": "21 Aquarii",
+                "uri": "http://dbpedia.org/resource/21_Aquarii"
+            },
+            {
+                "name": "24 Aquarii",
+                "uri": "http://dbpedia.org/resource/24_Aquarii"
+            },
+            {
+                "name": "25 Aquarii",
+                "uri": "http://dbpedia.org/resource/25_Aquarii"
+            },
+            {
+                "name": "26 Aquarii",
+                "uri": "http://dbpedia.org/resource/26_Aquarii"
+            },
+            {
+                "name": "28 Aquarii",
+                "uri": "http://dbpedia.org/resource/28_Aquarii"
+            },
+            {
+                "name": "29 Aquarii",
+                "uri": "http://dbpedia.org/resource/29_Aquarii"
+            },
+            {
+                "name": "2MASS J21392676+0220226",
+                "uri": "http://dbpedia.org/resource/2MASS_J21392676+0220226"
+            },
+            {
+                "name": "3 Aquarii",
+                "uri": "http://dbpedia.org/resource/3_Aquarii"
+            },
+            {
+                "name": "30 Aquarii",
+                "uri": "http://dbpedia.org/resource/30_Aquarii"
+            },
+            {
+                "name": "32 Aquarii",
+                "uri": "http://dbpedia.org/resource/32_Aquarii"
+            },
+            {
+                "name": "35 Aquarii",
+                "uri": "http://dbpedia.org/resource/35_Aquarii"
+            },
+            {
+                "name": "38 Aquarii",
+                "uri": "http://dbpedia.org/resource/38_Aquarii"
+            },
+            {
+                "name": "39 Aquarii",
+                "uri": "http://dbpedia.org/resource/39_Aquarii"
+            },
+            {
+                "name": "4 Aquarii",
+                "uri": "http://dbpedia.org/resource/4_Aquarii"
+            },
+            {
+                "name": "40 Aquarii",
+                "uri": "http://dbpedia.org/resource/40_Aquarii"
+            },
+            {
+                "name": "41 Aquarii",
+                "uri": "http://dbpedia.org/resource/41_Aquarii"
+            },
+            {
+                "name": "42 Aquarii",
+                "uri": "http://dbpedia.org/resource/42_Aquarii"
+            },
+            {
+                "name": "44 Aquarii",
+                "uri": "http://dbpedia.org/resource/44_Aquarii"
+            },
+            {
+                "name": "45 Aquarii",
+                "uri": "http://dbpedia.org/resource/45_Aquarii"
+            },
+            {
+                "name": "47 Aquarii",
+                "uri": "http://dbpedia.org/resource/47_Aquarii"
+            },
+            {
+                "name": "49 Aquarii",
+                "uri": "http://dbpedia.org/resource/49_Aquarii"
+            },
+            {
+                "name": "5 Aquarii",
+                "uri": "http://dbpedia.org/resource/5_Aquarii"
+            },
+            {
+                "name": "50 Aquarii",
+                "uri": "http://dbpedia.org/resource/50_Aquarii"
+            },
+            {
+                "name": "51 Aquarii",
+                "uri": "http://dbpedia.org/resource/51_Aquarii"
+            },
+            {
+                "name": "53 Aquarii",
+                "uri": "http://dbpedia.org/resource/53_Aquarii"
+            },
+            {
+                "name": "56 Aquarii",
+                "uri": "http://dbpedia.org/resource/56_Aquarii"
+            },
+            {
+                "name": "58 Aquarii",
+                "uri": "http://dbpedia.org/resource/58_Aquarii"
+            },
+            {
+                "name": "60 Aquarii",
+                "uri": "http://dbpedia.org/resource/60_Aquarii"
+            },
+            {
+                "name": "61 Aquarii",
+                "uri": "http://dbpedia.org/resource/61_Aquarii"
+            },
+            {
+                "name": "64 Aquarii",
+                "uri": "http://dbpedia.org/resource/64_Aquarii"
+            },
+            {
+                "name": "66 Aquarii",
+                "uri": "http://dbpedia.org/resource/66_Aquarii"
+            },
+            {
+                "name": "67 Aquarii",
+                "uri": "http://dbpedia.org/resource/67_Aquarii"
+            },
+            {
+                "name": "68 Aquarii",
+                "uri": "http://dbpedia.org/resource/68_Aquarii"
+            },
+            {
+                "name": "7 Aquarii",
+                "uri": "http://dbpedia.org/resource/7_Aquarii"
+            },
+            {
+                "name": "70 Aquarii",
+                "uri": "http://dbpedia.org/resource/70_Aquarii"
+            },
+            {
+                "name": "74 Aquarii",
+                "uri": "http://dbpedia.org/resource/74_Aquarii"
+            },
+            {
+                "name": "77 Aquarii",
+                "uri": "http://dbpedia.org/resource/77_Aquarii"
+            },
+            {
+                "name": "78 Aquarii",
+                "uri": "http://dbpedia.org/resource/78_Aquarii"
+            },
+            {
+                "name": "8 Aquarii",
+                "uri": "http://dbpedia.org/resource/8_Aquarii"
+            },
+            {
+                "name": "81 Aquarii",
+                "uri": "http://dbpedia.org/resource/81_Aquarii"
+            },
+            {
+                "name": "82 Aquarii",
+                "uri": "http://dbpedia.org/resource/82_Aquarii"
+            },
+            {
+                "name": "83 Aquarii",
+                "uri": "http://dbpedia.org/resource/83_Aquarii"
+            },
+            {
+                "name": "86 Aquarii",
+                "uri": "http://dbpedia.org/resource/86_Aquarii"
+            },
+            {
+                "name": "88 Aquarii",
+                "uri": "http://dbpedia.org/resource/88_Aquarii"
+            },
+            {
+                "name": "89 Aquarii",
+                "uri": "http://dbpedia.org/resource/89_Aquarii"
+            },
+            {
+                "name": "91 Aquarii",
+                "uri": "http://dbpedia.org/resource/91_Aquarii"
+            },
+            {
+                "name": "94 Aquarii",
+                "uri": "http://dbpedia.org/resource/94_Aquarii"
+            },
+            {
+                "name": "96 Aquarii",
+                "uri": "http://dbpedia.org/resource/96_Aquarii"
+            },
+            {
+                "name": "97 Aquarii",
+                "uri": "http://dbpedia.org/resource/97_Aquarii"
+            },
+            {
+                "name": "98 Aquarii",
+                "uri": "http://dbpedia.org/resource/98_Aquarii"
+            },
+            {
+                "name": "99 Aquarii",
+                "uri": "http://dbpedia.org/resource/99_Aquarii"
+            },
+            {
+                "name": "AE Aquarii",
+                "uri": "http://dbpedia.org/resource/AE_Aquarii"
+            },
+            {
+                "name": "Alpha Aquarii",
+                "uri": "http://dbpedia.org/resource/Alpha_Aquarii"
+            },
+            {
+                "name": "BD\u221222 5866",
+                "uri": "http://dbpedia.org/resource/BD\u221222_5866"
+            },
+            {
+                "name": "Beta Aquarii",
+                "uri": "http://dbpedia.org/resource/Beta_Aquarii"
+            },
+            {
+                "name": "Chi Aquarii",
+                "uri": "http://dbpedia.org/resource/Chi_Aquarii"
+            },
+            {
+                "name": "DV Aquarii",
+                "uri": "http://dbpedia.org/resource/DV_Aquarii"
+            },
+            {
+                "name": "Delta Aquarii",
+                "uri": "http://dbpedia.org/resource/Delta_Aquarii"
+            },
+            {
+                "name": "EP Aquarii",
+                "uri": "http://dbpedia.org/resource/EP_Aquarii"
+            },
+            {
+                "name": "EW Aquarii",
+                "uri": "http://dbpedia.org/resource/EW_Aquarii"
+            },
+            {
+                "name": "EZ Aquarii",
+                "uri": "http://dbpedia.org/resource/EZ_Aquarii"
+            },
+            {
+                "name": "Epsilon Aquarii",
+                "uri": "http://dbpedia.org/resource/Epsilon_Aquarii"
+            },
+            {
+                "name": "Eta Aquarii",
+                "uri": "http://dbpedia.org/resource/Eta_Aquarii"
+            },
+            {
+                "name": "FO Aquarii",
+                "uri": "http://dbpedia.org/resource/FO_Aquarii"
+            },
+            {
+                "name": "Fomalhaut C",
+                "uri": "http://dbpedia.org/resource/Fomalhaut_C"
+            },
+            {
+                "name": "GALEX J2339\u20130424",
+                "uri": "http://dbpedia.org/resource/GALEX_J2339\u20130424"
+            },
+            {
+                "name": "Gamma Aquarii",
+                "uri": "http://dbpedia.org/resource/Gamma_Aquarii"
+            },
+            {
+                "name": "Gliese 849",
+                "uri": "http://dbpedia.org/resource/Gliese_849"
+            },
+            {
+                "name": "Gliese 867",
+                "uri": "http://dbpedia.org/resource/Gliese_867"
+            },
+            {
+                "name": "Gliese 876",
+                "uri": "http://dbpedia.org/resource/Gliese_876"
+            },
+            {
+                "name": "HD 199442",
+                "uri": "http://dbpedia.org/resource/HD_199442"
+            },
+            {
+                "name": "HD 200375",
+                "uri": "http://dbpedia.org/resource/HD_200375"
+            },
+            {
+                "name": "HD 202259",
+                "uri": "http://dbpedia.org/resource/HD_202259"
+            },
+            {
+                "name": "HD 205765",
+                "uri": "http://dbpedia.org/resource/HD_205765"
+            },
+            {
+                "name": "HD 206610",
+                "uri": "http://dbpedia.org/resource/HD_206610"
+            },
+            {
+                "name": "HD 208177",
+                "uri": "http://dbpedia.org/resource/HD_208177"
+            },
+            {
+                "name": "HD 210277",
+                "uri": "http://dbpedia.org/resource/HD_210277"
+            },
+            {
+                "name": "HD 210434",
+                "uri": "http://dbpedia.org/resource/HD_210434"
+            },
+            {
+                "name": "HD 211392",
+                "uri": "http://dbpedia.org/resource/HD_211392"
+            },
+            {
+                "name": "HD 211575",
+                "uri": "http://dbpedia.org/resource/HD_211575"
+            },
+            {
+                "name": "HD 212771",
+                "uri": "http://dbpedia.org/resource/HD_212771"
+            },
+            {
+                "name": "HD 213429",
+                "uri": "http://dbpedia.org/resource/HD_213429"
+            },
+            {
+                "name": "HD 214448",
+                "uri": "http://dbpedia.org/resource/HD_214448"
+            },
+            {
+                "name": "HD 214810",
+                "uri": "http://dbpedia.org/resource/HD_214810"
+            },
+            {
+                "name": "HD 215114",
+                "uri": "http://dbpedia.org/resource/HD_215114"
+            },
+            {
+                "name": "HD 215152",
+                "uri": "http://dbpedia.org/resource/HD_215152"
+            },
+            {
+                "name": "HD 216718",
+                "uri": "http://dbpedia.org/resource/HD_216718"
+            },
+            {
+                "name": "HD 218061",
+                "uri": "http://dbpedia.org/resource/HD_218061"
+            },
+            {
+                "name": "HD 219617",
+                "uri": "http://dbpedia.org/resource/HD_219617"
+            },
+            {
+                "name": "HD 219659",
+                "uri": "http://dbpedia.org/resource/HD_219659"
+            },
+            {
+                "name": "HD 220035",
+                "uri": "http://dbpedia.org/resource/HD_220035"
+            },
+            {
+                "name": "HD 220466",
+                "uri": "http://dbpedia.org/resource/HD_220466"
+            },
+            {
+                "name": "HD 220689",
+                "uri": "http://dbpedia.org/resource/HD_220689"
+            },
+            {
+                "name": "HD 221148",
+                "uri": "http://dbpedia.org/resource/HD_221148"
+            },
+            {
+                "name": "HD 222093",
+                "uri": "http://dbpedia.org/resource/HD_222093"
+            },
+            {
+                "name": "HD 222582",
+                "uri": "http://dbpedia.org/resource/HD_222582"
+            },
+            {
+                "name": "HD 223311",
+                "uri": "http://dbpedia.org/resource/HD_223311"
+            },
+            {
+                "name": "HK Aquarii",
+                "uri": "http://dbpedia.org/resource/HK_Aquarii"
+            },
+            {
+                "name": "HU Aquarii",
+                "uri": "http://dbpedia.org/resource/HU_Aquarii"
+            },
+            {
+                "name": "Iota Aquarii",
+                "uri": "http://dbpedia.org/resource/Iota_Aquarii"
+            },
+            {
+                "name": "K2-138",
+                "uri": "http://dbpedia.org/resource/K2-138"
+            },
+            {
+                "name": "K2-21",
+                "uri": "http://dbpedia.org/resource/K2-21"
+            },
+            {
+                "name": "K2-21b",
+                "uri": "http://dbpedia.org/resource/K2-21"
+            },
+            {
+                "name": "K2-21c",
+                "uri": "http://dbpedia.org/resource/K2-21"
+            },
+            {
+                "name": "K2-28",
+                "uri": "http://dbpedia.org/resource/K2-28"
+            },
+            {
+                "name": "K2-58",
+                "uri": "http://dbpedia.org/resource/K2-58"
+            },
+            {
+                "name": "K2-58b",
+                "uri": "http://dbpedia.org/resource/K2-58"
+            },
+            {
+                "name": "K2-58c",
+                "uri": "http://dbpedia.org/resource/K2-58"
+            },
+            {
+                "name": "K2-58d",
+                "uri": "http://dbpedia.org/resource/K2-58"
+            },
+            {
+                "name": "K2-72",
+                "uri": "http://dbpedia.org/resource/K2-72"
+            },
+            {
+                "name": "Kappa Aquarii",
+                "uri": "http://dbpedia.org/resource/Kappa_Aquarii"
+            },
+            {
+                "name": "LL Aquarii",
+                "uri": "http://dbpedia.org/resource/LL_Aquarii"
+            },
+            {
+                "name": "LP Aquarii",
+                "uri": "http://dbpedia.org/resource/LP_Aquarii"
+            },
+            {
+                "name": "LS IV-14 116",
+                "uri": "http://dbpedia.org/resource/LS_IV-14_116"
+            },
+            {
+                "name": "Lambda Aquarii",
+                "uri": "http://dbpedia.org/resource/Lambda_Aquarii"
+            },
+            {
+                "name": "Mu Aquarii",
+                "uri": "http://dbpedia.org/resource/Mu_Aquarii"
+            },
+            {
+                "name": "NGC 7522",
+                "uri": "http://dbpedia.org/resource/NGC_7522"
+            },
+            {
+                "name": "Nu Aquarii",
+                "uri": "http://dbpedia.org/resource/Nu_Aquarii"
+            },
+            {
+                "name": "Omega1 Aquarii",
+                "uri": "http://dbpedia.org/resource/Omega1_Aquarii"
+            },
+            {
+                "name": "Omega2 Aquarii",
+                "uri": "http://dbpedia.org/resource/Omega2_Aquarii"
+            },
+            {
+                "name": "Omicron Aquarii",
+                "uri": "http://dbpedia.org/resource/Omicron_Aquarii"
+            },
+            {
+                "name": "PHL 5038",
+                "uri": "http://dbpedia.org/resource/PHL_5038"
+            },
+            {
+                "name": "Phi Aquarii",
+                "uri": "http://dbpedia.org/resource/Phi_Aquarii"
+            },
+            {
+                "name": "Pi Aquarii",
+                "uri": "http://dbpedia.org/resource/Pi_Aquarii"
+            },
+            {
+                "name": "Psi2 Aquarii",
+                "uri": "http://dbpedia.org/resource/Psi2_Aquarii"
+            },
+            {
+                "name": "Psi3 Aquarii",
+                "uri": "http://dbpedia.org/resource/Psi3_Aquarii"
+            },
+            {
+                "name": "R Aquarii",
+                "uri": "http://dbpedia.org/resource/R_Aquarii"
+            },
+            {
+                "name": "Rho Aquarii",
+                "uri": "http://dbpedia.org/resource/Rho_Aquarii"
+            },
+            {
+                "name": "Sigma Aquarii",
+                "uri": "http://dbpedia.org/resource/Sigma_Aquarii"
+            },
+            {
+                "name": "Sneden's Star",
+                "uri": "http://dbpedia.org/resource/Sneden's_Star"
+            },
+            {
+                "name": "TRAPPIST-1",
+                "uri": "http://dbpedia.org/resource/TRAPPIST-1"
+            },
+            {
+                "name": "Tau1 Aquarii",
+                "uri": "http://dbpedia.org/resource/Tau1_Aquarii"
+            },
+            {
+                "name": "Tau2 Aquarii",
+                "uri": "http://dbpedia.org/resource/Tau2_Aquarii"
+            },
+            {
+                "name": "Theta Aquarii",
+                "uri": "http://dbpedia.org/resource/Theta_Aquarii"
+            },
+            {
+                "name": "U Aquarii",
+                "uri": "http://dbpedia.org/resource/U_Aquarii"
+            },
+            {
+                "name": "Upsilon Aquarii",
+                "uri": "http://dbpedia.org/resource/Upsilon_Aquarii"
+            },
+            {
+                "name": "WASP-47",
+                "uri": "http://dbpedia.org/resource/WASP-47"
+            },
+            {
+                "name": "WASP-6",
+                "uri": "http://dbpedia.org/resource/WASP-6"
+            },
+            {
+                "name": "WASP-69",
+                "uri": "http://dbpedia.org/resource/WASP-69"
+            },
+            {
+                "name": "WASP-69b",
+                "uri": "http://dbpedia.org/resource/WASP-69"
+            },
+            {
+                "name": "WASP-75",
+                "uri": "http://dbpedia.org/resource/WASP-75"
+            },
+            {
+                "name": "Xi Aquarii",
+                "uri": "http://dbpedia.org/resource/Xi_Aquarii"
+            },
+            {
+                "name": "Zeta Aquarii",
+                "uri": "http://dbpedia.org/resource/Zeta_Aquarii"
+            }
+        ]
+    }
+}

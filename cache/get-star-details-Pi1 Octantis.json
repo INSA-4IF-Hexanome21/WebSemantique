@@ -1,0 +1,571 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Pi1 Octantis"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/Pi1_Octantis": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pi1_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Bayer_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pi1_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Octans": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pi1_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Pi1_Octantis": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u5357\u6975\u5ea7\u03c0"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pt.dbpedia.org/resource/Pi1_Octantis"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/7vkb"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pi1_Octantis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q10349299"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/Pi1_Octantis"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "\u03c01 Octantis",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "Pi1 Octantis",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pi1 Octantis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Pi1 Octantis",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u5357\u6975\u5ea7\u03c0",
+                    "lang": "zh"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Octans"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:K-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Gould_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:G-type_giants"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Pi1_Octantis?oldid=1292938796&ns=0"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Pi1_Octantis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Metallicity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Radius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Mass_of_the_Sun"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sun"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light_year"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Projected_rotational_velocity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Effective_temperature"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:G-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Octans"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Romanization_of_Greek"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Naked_eye"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Gould_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Luminosity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/International_Celestial_Reference_System"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J2000.0"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Octans"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Giant_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Circumpolar_constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Radial_velocity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:K-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bayer_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u041e\u043a\u0442\u0430\u043d\u0442\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "gwiazda",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041e\u043a\u0442\u0430\u043d\u0442\u0430",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Octans",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Octans",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i Oktantens stj\u00e4rnbild",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0787\u07ae\u0786\u07b0\u0793\u07a6\u0782\u07b0\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Oktant",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "stjerne",
+                    "lang": "da"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0561\u057d\u057f\u0572",
+                    "lang": "hy"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella",
+                    "lang": "it"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:\u00b1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Other_stars_by_Bayer_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:!"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Octans"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "G8/K0 III",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radialV": [
+                {
+                    "type": "literal",
+                    "value": 13.6,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 2.7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 11.62,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "+0.24",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 5.64,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": "+0.95",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Octans"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 76.2,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 2.74,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0349,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 8.419,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "+52.520",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "+18.954",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rotationalVelocity": [
+                {
+                    "type": "literal",
+                    "value": "<1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/uB": [
+                {
+                    "type": "literal",
+                    "value": "+0.74",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.01",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 5002,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Pi_Octantis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pi1_Octantis"
+                }
+            ]
+        }
+    }
+}

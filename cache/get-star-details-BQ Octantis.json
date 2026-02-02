@@ -1,0 +1,546 @@
+{
+    "status": 1,
+    "input": {
+        "name": "BQ Octantis"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/BQ_Octantis": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Octans": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Octans": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/BQ_Octantis": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://ca.dbpedia.org/resource/BQ_de_l'Octant"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/BQ_Octantis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.012njfkd"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18816053"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/oSze"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "BQ Octantis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "BQ de l'Octant",
+                    "lang": "ca"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Slow_irregular_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Asymptotic-giant-branch_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Octans"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:S-type_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Population_I_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/BQOctLightCurve.png"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/BQ_Octantis?oldid=1312177809&ns=0"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/BQ_Octantis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Octans"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Variable_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Red_giant"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Asymptotic_giant_branch"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/General_Catalogue_of_Variable_Stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Semiregular_variable"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/All_Sky_Automated_Survey"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Octans_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:S-type_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Celestial_pole"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sigma_Octantis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Dredge-up"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Photometry_(astronomy)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Naked_eye"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Slow_irregular_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Asymptotic-giant-branch_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_spectrum"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Slow_irregular_variable"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Objects_with_variable_star_designations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S-type_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light_curve"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/S-process_element"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:BQOctLightCurve.png"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pole_star"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Octans",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u041e\u043a\u0442\u0430\u043d\u0442\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0646\u062c\u0645 \u0641\u064a \u0643\u0648\u0643\u0628\u0629 \u0627\u0644\u062b\u0645\u0646",
+                    "lang": "ar"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0561\u057d\u057f\u0572",
+                    "lang": "hy"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i stj\u00e4rnbilden Oktanten",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0d28\u0d15\u0d4d\u0d37\u0d24\u0d4d\u0d30\u0d02",
+                    "lang": "ml"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Oktant",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041e\u043a\u0442\u0430\u043d\u0442\u0430",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0787\u07ae\u0786\u07b0\u0793\u07a6\u0782\u07b0\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Octans",
+                    "lang": "in"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Octans"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 0.31,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 197,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 6.66,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Octans"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 3767,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 2.7,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0296,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 1.8237,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "+0.10",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/type": [
+                {
+                    "type": "literal",
+                    "value": "S5,1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Semiregular_variable_star"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/BQOctLightCurve.png?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 3520,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Polar_alignment": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/BQ_Oct": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HD_110994": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/BQ_Octantis"
+                }
+            ]
+        }
+    }
+}

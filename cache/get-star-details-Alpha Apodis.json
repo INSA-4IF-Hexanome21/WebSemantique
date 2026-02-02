@@ -1,0 +1,1116 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Alpha Apodis"
+    },
+    "output": {
+        "http://dbpedia.org/resource/HR_5470": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/PPM_372410": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Alpha_Aps": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u0391_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u0391_Aps": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/FK5_542": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/GC_19834": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/IRAS_14415-7850": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HD_129078": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIC_72370": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIP_72370": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/CPD-78_893": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/CPD_-78_893": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/CPD_\u221278_893": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/CPD\u221278_893": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/SAO_257193": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://en.wikipedia.org/wiki/Alpha_Apodis": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Delta_Octantis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Bayer_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Zeta_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Delta_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Apus": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Alpha_Apodis": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pl.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://it.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://es.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/56g9T"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ast.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ja.dbpedia.org/resource/\u3075\u3046\u3061\u3087\u3046\u5ea7\u30a2\u30eb\u30d5\u30a1\u661f"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://cs.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ca.dbpedia.org/resource/Alfa_de_l'Au_del_Parad\u00eds"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://nl.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ko.dbpedia.org/resource/\uadf9\ub77d\uc870\uc790\ub9ac_\uc54c\ud30c"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/\u0410\u043b\u044c\u0444\u0430_\u0420\u0430\u0439\u0441\u043a\u043e\u0439_\u041f\u0442\u0438\u0446\u044b"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u0622\u0644\u0641\u0627_\u0645\u0631\u063a_\u0628\u0647\u0634\u062a\u06cc"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q969885"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u7570\u96c0\u516b"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://de.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pt.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://af.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://et.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sk.dbpedia.org/resource/Alfa_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ro.dbpedia.org/resource/Alpha_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.0838ln"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "\u03b1 Apodis",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "Alpha Apodis",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alfa Apodis",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alfa Apodis",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alpha Apodis",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "\uadf9\ub77d\uc870\uc790\ub9ac \uc54c\ud30c",
+                    "lang": "ko"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alfa Apodis",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alpha Apodis",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alfa de l'Au del Parad\u00eds",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alpha Apodis",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alfa Apodis",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u7570\u96c0\u516b",
+                    "lang": "zh"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alpha Apodis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Alfa Apodis",
+                    "lang": "cs"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u3075\u3046\u3061\u3087\u3046\u5ea7\u30a2\u30eb\u30d5\u30a1\u661f",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0410\u043b\u044c\u0444\u0430 \u0420\u0430\u0439\u0441\u043a\u043e\u0439 \u041f\u0442\u0438\u0446\u044b",
+                    "lang": "ru"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_circle.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Apus_IAU.svg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Alpha_Apodis?oldid=1292186759&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:K-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Gould_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Stars_with_proper_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Apus"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": "\u22121.67",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 3.83,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": "+1.43",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radialV": [
+                {
+                    "type": "literal",
+                    "value": "\u22121.1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 4090,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/uB": [
+                {
+                    "type": "literal",
+                    "value": "+1.68",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apus"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.1133,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 6.5509,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 1072,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/equinox": [
+                {
+                    "type": "literal",
+                    "value": "J2000.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.3",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J2000.0"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "\u221216.299",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "\u22125.133",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/rI": [
+                {
+                    "type": "literal",
+                    "value": "+0.53",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Apus_IAU.svg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "K3IIICN0.5",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Apus",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella gigante naranja",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u0420\u0430\u0439\u0441\u043a\u0430\u044f \u041f\u0442\u0438\u0446\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Paradiesvogel",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "gwiazda w gwiazdozbiorze Ptaka Rajskiego",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "t\u00e4ht",
+                    "lang": "et"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Apus",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0646\u062c\u0645 \u0641\u064a \u0643\u0648\u0643\u0628\u0629 \u0637\u0627\u0626\u0631 \u0627\u0644\u0641\u0631\u062f\u0648\u0633",
+                    "lang": "ar"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile la plus brillante de la constellation de l'Oiseau de paradis",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "stjerne",
+                    "lang": "da"
+                },
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i Paradisf\u00e5gelns stj\u00e4rnbild",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella nella costellazione dell'Uccello del Paradiso",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0787\u07ad\u0795\u07a6\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u0420\u0430\u0439\u0441\u044c\u043a\u043e\u0433\u043e \u041f\u0442\u0430\u0445\u0430",
+                    "lang": "uk"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Circini"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Apus_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Fifth_Fundamental_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/J2000.0"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Circumpolar_constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Chinese_language"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Centauri"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apus_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:Cercle_rouge_100%25.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light-years"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Cape_Photographic_Durchmusterung"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Circumpolar_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_radius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Smithsonian_Astrophysical_Observatory_Star_Catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Delta_Octantis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Earth"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Photosphere"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Eta_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hipparcos_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Henry_Draper_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Epsilon_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_luminosity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Giant_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:Apus_IAU.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_evolution"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Johann_Bayer"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:K-type_giants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/International_Celestial_Reference_System"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Effective_temperature"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Parallax"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Delta_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Chinese_constellations"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Beta_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bright_Star_Catalogue"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Zeta_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Uranometria"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Gamma_Apodis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Main_sequence"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Apus"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_mark"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Notelist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Efn"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:\u00b1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Langx"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Solar_radius_calculator"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Epsilon_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Eta_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Gamma_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Apus": {
+            "http://dbpedia.org/property/brighteststarname": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/IAU_designated_constellations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Iota_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Beta_Apodis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Apus_in_Chinese_astronomy": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alpha_Apodis"
+                }
+            ]
+        }
+    }
+}

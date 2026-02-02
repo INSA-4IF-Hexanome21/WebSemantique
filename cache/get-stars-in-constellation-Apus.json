@@ -1,0 +1,24 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Apus"
+    },
+    "output": [
+        {
+            "name": "Alpha Apodis",
+            "uri": "http://dbpedia.org/resource/Alpha_Apodis"
+        },
+        {
+            "name": "Beta Apodis",
+            "uri": "http://dbpedia.org/resource/Beta_Apodis"
+        },
+        {
+            "name": "Gamma Apodis",
+            "uri": "http://dbpedia.org/resource/Gamma_Apodis"
+        },
+        {
+            "name": "HD 137388",
+            "uri": "http://dbpedia.org/resource/HD_137388"
+        }
+    ]
+}

@@ -1,0 +1,878 @@
+{
+    "status": 1,
+    "input": {
+        "name": "XO-1"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/XO-1": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_proper_names_of_stars": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Corona_Borealis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Harlan_J._Smith_Telescope": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/XO-1": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/XO-1_(\u00e9toile)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://es.dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ast.dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/XO-1_(\u6046\u661f)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ja.dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://de.dbpedia.org/resource/XO-1_(Stern)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pl.dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/2bguh"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ko.dbpedia.org/resource/XO-1_(\ud56d\uc131)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ca.dbpedia.org/resource/XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://lb.dbpedia.org/resource/XO-1_(St\u00e4r)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.0d867s"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q279407"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "XO-1 / Moldoveanu",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1 (Stern)",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "ca"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1 (\u00e9toile)",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1 (\ud56d\uc131)",
+                    "lang": "ko"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "XO-1 (\u6046\u661f)",
+                    "lang": "zh"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Artist's_Concept_of_Transiting_Planet_XO-1b.jpg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/XO-1?oldid=1292263294&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Corona_Borealis"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:G-type_main-sequence_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Stars_with_proper_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TESS_Objects_of_Interest"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Planetary_transit_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Planetary_systems_with_one_confirmed_planet"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:TIC_objects"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/XO-1"
+                }
+            ],
+            "http://dbpedia.org/property/absmagV": [
+                {
+                    "type": "literal",
+                    "value": 5.02,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 11.19,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/rotationalVelocity": [
+                {
+                    "type": "literal",
+                    "value": 1.1,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 5738,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/ageGyr": [
+                {
+                    "type": "literal",
+                    "value": 1,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Corona_Borealis"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.0136,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 6.1489,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/simbad": [
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 4.5,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/mass": [
+                {
+                    "type": "literal",
+                    "value": 1.027,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 0.86,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.06 \u00b1 0.07",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/exoplanet": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1b"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000.0",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag4Passband": [
+                {
+                    "type": "literal",
+                    "value": "H",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag5Passband": [
+                {
+                    "type": "literal",
+                    "value": "K",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/nsted": [
+                {
+                    "type": "literal",
+                    "value": "XO-1",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radius": [
+                {
+                    "type": "literal",
+                    "value": 0.94,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/variable": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Variable_star"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Artist's_Concept_of_Transiting_Planet_XO-1b.jpg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "G1V",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/credit": [
+                {
+                    "type": "literal",
+                    "value": "NASA, ESA and G. Bacon",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "stj\u00e4rna i stj\u00e4rnbilden Norra kronan",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u041f\u0456\u0432\u043d\u0456\u0447\u043d\u043e\u0457 \u041a\u043e\u0440\u043e\u043d\u0438",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Corona Borealis",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Corona Borealis",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella nella costellazione della Corona Boreale",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u0432\u0435\u0437\u0434\u0430 \u0432 \u0441\u043e\u0437\u0432\u0435\u0437\u0434\u0438\u0438 \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041a\u043e\u0440\u043e\u043d\u044b",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile naine jaune de la constellation de la Couronne bor\u00e9ale",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "ster in Noorderkroon",
+                    "lang": "nl"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u304b\u3093\u3080\u308a\u5ea7\u306e\u6052\u661f",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrella enana amarilla",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "gwiazda w gwiazdozbiorze Korony P\u00f3\u0142nocnej",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0786\u07ae\u0783\u07af\u0782\u07a7 \u0784\u07ae\u0783\u07ac\u0787\u07a7\u078d\u07a8\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageExternalLink": [
+                {
+                    "type": "uri",
+                    "value": "http://media4.obspm.fr/exoplanets/base/etoile.php%3Fnom=XO-1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.spacedaily.com/reports/Astronomers_Catch_Planet_By_Unusual_Means.html"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/G-type_main-sequence_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Mass"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Variable_star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Carbon_dioxide"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Romania"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Harlan_J._Smith_Telescope"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO_Telescope"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Peter_R._McCullough"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Corona_Borealis_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/File:Artist's_Concept_of_Transiting_Planet_XO-1b.jpg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Methods_of_detecting_extrasolar_planets"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Methane"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hobby-Eberly_Telescope"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Astronomer"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Wide_Angle_Search_for_Planets"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Radius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO_Project"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/International_Astronomical_Union"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Light-year"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Hubble_Space_Telescope"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Extrasolar_planet"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Near_Infrared_Camera_and_Multi-Object_Spectrometer"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:G-type_main-sequence_stars"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Moldoveanu_Peak"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sun"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Planetary_systems_with_one_confirmed_planet"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Planetary_transit_variables"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1b"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/McDonald_Observatory"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/List_of_transiting_extrasolar_planets"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/NameExoWorlds"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Jupiter"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Negoiu_Peak"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/University_of_Texas"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Corona_Borealis"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Sky"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:For"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:\u00b1"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Orbitbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Cite_web"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:OrbitboxPlanet"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:OrbitboxPlanet_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Corona_Borealis"
+                }
+            ],
+            "http://dbpedia.org/property/caption": [
+                {
+                    "type": "literal",
+                    "value": "This artist's impression shows a dramatic close-up of the extrasolar planet XO-1b passing in front of a Sun-like star 600 light-years from Earth. The Jupiter-sized planet is in a tight four-day orbit around the star.",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag2Passband": [
+                {
+                    "type": "literal",
+                    "value": "V",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmag3Passband": [
+                {
+                    "type": "literal",
+                    "value": "J",
+                    "lang": "en"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Magnitude"
+                }
+            ],
+            "http://dbpedia.org/property/appmag": [
+                {
+                    "type": "literal",
+                    "value": 9.527,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 11.85,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 11.19,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 9.601,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                {
+                    "type": "literal",
+                    "value": 9.939,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/appmag1Passband": [
+                {
+                    "type": "literal",
+                    "value": "B",
+                    "lang": "en"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Corona_Borealis": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/XO-1b": {
+            "http://dbpedia.org/property/star": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/XO_Telescope": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Moldoveanu_Peak": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_proper_names_of_exoplanets": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/XO1": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/XO_1": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Moldoveanu_(star)": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/XO-1"
+                }
+            ]
+        }
+    }
+}

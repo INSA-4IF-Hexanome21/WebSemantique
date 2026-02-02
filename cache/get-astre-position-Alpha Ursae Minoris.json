@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Alpha Ursae Minoris"
+    },
+    "output": {
+        "name": "Alpha Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Polaris",
+        "ra_hours": 0.9296735346582041,
+        "dec_deg": -63.97444574353071,
+        "distance": 1,
+        "position": {
+            "x": 0.42584007691410497,
+            "y": 0.105740584017455,
+            "z": -0.898598440787339
+        }
+    }
+}

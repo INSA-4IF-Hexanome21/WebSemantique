@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "\u00c9toile polaire"
+    },
+    "output": {
+        "name": "Ordre royal de l'\u00c9toile polaire",
+        "uri": "http://dbpedia.org/resource/Order_of_the_Polar_Star",
+        "ra_hours": 16.514951132295156,
+        "dec_deg": -24.309603865877165,
+        "distance": 1,
+        "position": {
+            "x": -0.345454259820401,
+            "y": -0.8433217271765574,
+            "z": -0.4116671214025804
+        }
+    }
+}

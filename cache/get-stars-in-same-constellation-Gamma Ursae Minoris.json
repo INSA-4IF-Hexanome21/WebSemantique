@@ -1,0 +1,142 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Gamma Ursae Minoris"
+    },
+    "output": {
+        "constellation": {
+            "name": "Ursa Minor",
+            "uri": "http://dbpedia.org/resource/Ursa_Minor"
+        },
+        "stars": [
+            {
+                "name": "11 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/11_Ursae_Minoris"
+            },
+            {
+                "name": "4 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/4_Ursae_Minoris"
+            },
+            {
+                "name": "5 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/5_Ursae_Minoris"
+            },
+            {
+                "name": "8 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/8_Ursae_Minoris"
+            },
+            {
+                "name": "Beta Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Beta_Ursae_Minoris"
+            },
+            {
+                "name": "Calvera (X-ray source)",
+                "uri": "http://dbpedia.org/resource/Calvera_(X-ray_source)"
+            },
+            {
+                "name": "Delta Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Delta_Ursae_Minoris"
+            },
+            {
+                "name": "Epsilon Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Epsilon_Ursae_Minoris"
+            },
+            {
+                "name": "Eta Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Eta_Ursae_Minoris"
+            },
+            {
+                "name": "Gamma Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Gamma_Ursae_Minoris"
+            },
+            {
+                "name": "H1504+65",
+                "uri": "http://dbpedia.org/resource/H1504+65"
+            },
+            {
+                "name": "HD 120084",
+                "uri": "http://dbpedia.org/resource/HD_120084"
+            },
+            {
+                "name": "HD 133002",
+                "uri": "http://dbpedia.org/resource/HD_133002"
+            },
+            {
+                "name": "HD 150706",
+                "uri": "http://dbpedia.org/resource/HD_150706"
+            },
+            {
+                "name": "LP 40-365",
+                "uri": "http://dbpedia.org/resource/LP_40-365"
+            },
+            {
+                "name": "Lambda Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Lambda_Ursae_Minoris"
+            },
+            {
+                "name": "Pi1 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Pi1_Ursae_Minoris"
+            },
+            {
+                "name": "Pi2 Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Pi2_Ursae_Minoris"
+            },
+            {
+                "name": "Polaris",
+                "uri": "http://dbpedia.org/resource/Polaris"
+            },
+            {
+                "name": "R Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/R_Ursae_Minoris"
+            },
+            {
+                "name": "RR Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/RR_Ursae_Minoris"
+            },
+            {
+                "name": "RU Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/RU_Ursae_Minoris"
+            },
+            {
+                "name": "RW Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/RW_Ursae_Minoris"
+            },
+            {
+                "name": "S Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/S_Ursae_Minoris"
+            },
+            {
+                "name": "SS Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/SS_Ursae_Minoris"
+            },
+            {
+                "name": "T Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/T_Ursae_Minoris"
+            },
+            {
+                "name": "Theta Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Theta_Ursae_Minoris"
+            },
+            {
+                "name": "W Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/W_Ursae_Minoris"
+            },
+            {
+                "name": "WD 1337+705",
+                "uri": "http://dbpedia.org/resource/WD_1337+705"
+            },
+            {
+                "name": "WISE 1506+7027",
+                "uri": "http://dbpedia.org/resource/WISE_1506+7027"
+            },
+            {
+                "name": "Z Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Z_Ursae_Minoris"
+            },
+            {
+                "name": "Zeta Ursae Minoris",
+                "uri": "http://dbpedia.org/resource/Zeta_Ursae_Minoris"
+            }
+        ]
+    }
+}

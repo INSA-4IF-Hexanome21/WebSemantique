@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Epsilon Ursae Minoris"
+    },
+    "output": {
+        "name": "Epsilon Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Epsilon_Ursae_Minoris",
+        "ra_hours": 1.657386782286796,
+        "dec_deg": -39.30826337175746,
+        "distance": 1,
+        "position": {
+            "x": 0.7020469779128071,
+            "y": 0.3252957564900975,
+            "z": -0.6334924716309024
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Z Ursae Minoris"
+    },
+    "output": {
+        "name": "Z Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Z_Ursae_Minoris",
+        "ra_hours": 19.340087638959854,
+        "dec_deg": 5.594664642575012,
+        "distance": 1,
+        "position": {
+            "x": 0.34204410931958323,
+            "y": -0.93461301267652,
+            "z": 0.09749022420474804
+        }
+    }
+}

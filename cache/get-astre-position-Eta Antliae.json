@@ -1,0 +1,20 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Eta Antliae"
+    },
+    "output": {
+        "name": "Eta Antliae",
+        "uri": "http://dbpedia.org/resource/Eta_Antliae",
+        "ra_hours": 6.63376696826026,
+        "dec_deg": 77.8564394993686,
+        "distance": 1,
+        "radius": 1,
+        "temperature": 5000,
+        "position": {
+            "x": -0.034743279244753865,
+            "y": 0.2074729559530321,
+            "z": 0.9776235866096072
+        }
+    }
+}

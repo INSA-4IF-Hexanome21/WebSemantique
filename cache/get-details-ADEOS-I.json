@@ -1,0 +1,2805 @@
+{
+    "status": 1,
+    "input": {
+        "name": "ADEOS-I"
+    },
+    "output": [
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ISS-RapidScat"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I_(satellite)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Flight_dynamics"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Scatterometer"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/linguistics/gold/hypernym"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nadir"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fr.dbpedia.org/resource/ADEOS-I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/launchContractor"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mitsubishi_Heavy_Industries"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Advanced_Earth_Observation_Satellite"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Time_interval"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q2133344"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Occultation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth_observation_satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Use_dmy_dates"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Goddard_Space_Flight_Center"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ministry_of_the_Environment_(Japan)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/H-II"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Polarization_and_Directionality_of_the_Earth's_Reflectance"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q14927"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/orbitReference"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Geocentric_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth_Observing_System"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/launchVehicle"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/H-II"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Radiometer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/manufacturer"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mitsubishi_Electric"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://web.archive.org/web/20100927134649/http:/ilrs.gsfc.nasa.gov/satellite_missions/list_of_satellites/ade2_general.html%7Carchive-date=27"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Advanced_Earth_Observation_Satellite"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Space-based_measurements_of_carbon_dioxide"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/SpaceMission/missionDuration"
+            },
+            "o": {
+                "type": "literal",
+                "value": "1095.75",
+                "datatype": "http://dbpedia.org/datatype/day"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Global_warming"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://gl.dbpedia.org/resource/ADEOS_1"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/CNES"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sea_surface_temperature"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Citation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://schema.org/Event"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q1656682"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jet_Propulsion_Laboratory"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/manufacturer"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mitsubishi_Electric"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sun-synchronous_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/launchSite"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Yoshinobu_Launch_Complex"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tanegashima_Space_Center"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Coordinated_Universal_Time"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Methane"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://global.dbpedia.org/id/Vpns"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Solar_panels_on_spacecraft"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Fishing_industry"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/File:ADEOS_I_satellite.png"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Spacecraft_launched_in_1996"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_II"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/launchDate"
+            },
+            "o": {
+                "type": "literal",
+                "value": "--08-17",
+                "datatype": "http://www.w3.org/2001/XMLSchema#gMonthDay"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Aerosol"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Doppler_radar"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_II"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/orbitPeriod"
+            },
+            "o": {
+                "type": "literal",
+                "value": "6060.0",
+                "datatype": "http://dbpedia.org/datatype/second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NASA_Earth_Science"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/operator"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/National_Space_Development_Agency_of_Japan"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/cosparId"
+            },
+            "o": {
+                "type": "literal",
+                "value": "1996-046A"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/QuikSCAT"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ocean_color"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_JAXA_launches"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Water_vapor"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Greenhouse_gas"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://rdf.freebase.com/ns/m.0dgq8m1"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Advanced_Land_Observation_Satellite"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Decibel"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Derelict_satellites_orbiting_Earth"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Spacecraft_launched_in_1996"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/namesList"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Midori",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth_Observation_Center"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ku_band"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NASDA"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Charged_coupled_device"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Derelict_satellites_orbiting_Earth"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/missionDuration"
+            },
+            "o": {
+                "type": "literal",
+                "value": "--08-17",
+                "datatype": "http://www.w3.org/2001/XMLSchema#gMonthDay"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ozone_layer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Stratosphere"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Phytoplankton"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.sat-index.co.uk/failures/index.html%3Fhttp:/www.sat-index.co.uk/failures/midori2.html%7Caccess-date=25"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "ADEOS I",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Short_description"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mitsubishi_Heavy_Industries"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://kuroshio.eorc.jaxa.jp/ADEOS/index.html%7Caccess-date=23"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Swathe"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nitric_acid"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Scatterometer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Trace_gas"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Water"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Types_of_volcanic_eruptions"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Geocentric_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://yago-knowledge.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/H-ii_adeos.gif"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/power"
+            },
+            "o": {
+                "type": "literal",
+                "value": "4.5",
+                "datatype": "http://dbpedia.org/datatype/kilowatt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/launchDate"
+            },
+            "o": {
+                "type": "literal",
+                "value": "1996-08-17",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_H-II_series_and_H3_launches"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/ns/prov#wasDerivedFrom"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/ADEOS_I?oldid=1246213262&ns=0"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/launchRocket"
+            },
+            "o": {
+                "type": "literal",
+                "value": "H-II F4",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Photodiode"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Event"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.daviddarling.info/encyclopedia/A/ADEOS.html%7Clast=Darling"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Meteor_(satellite)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Diffraction_grating"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/nextMission"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_II"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/satcat"
+            },
+            "o": {
+                "type": "literal",
+                "value": "24277"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/ADEOS_I_satellite.png"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ministry_of_International_Trade_and_Industry"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hr.dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Environmental_monitoring"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Deforestation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Total_Ozone_Mapping_Spectrometer"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Spectrometer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/SpaceMission"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Seasat"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adeos"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageDisambiguates"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/SocietalEvent"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Temperature"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/satcat"
+            },
+            "o": {
+                "type": "literal",
+                "value": 24277,
+                "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Depletion_of_the_ozone_layer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rad_(unit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Environmental_monitoring"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/operator"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/National_Space_Development_Agency_of_Japan"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.sat-index.co.uk/failures/index.html%3Fhttp:/www.sat-index.co.uk/failures/midori1.html%7Caccess-date=18"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ocean_color"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nimbus_7"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/thumbnail"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/H-ii_adeos.gif?width=300"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sediment"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/dimensions"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Solar paddle:",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/missionType"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Environmental_monitoring"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/POLDER"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Refbegin"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/alternativeName"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Advanced Earth Observing Satellite",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Refend"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Reflist"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Watt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/cosparId"
+            },
+            "o": {
+                "type": "literal",
+                "value": 1996,
+                "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/imageCaption"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Launch of ADEOS I aboard an H-II launch vehicle",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Japanese_space_program"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/apsis"
+            },
+            "o": {
+                "type": "literal",
+                "value": "gee",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://es.dbpedia.org/resource/Advanced_Earth_Observation_Satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Radar"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/programme"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth_observation_satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Japanese_language"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/imageSize"
+            },
+            "o": {
+                "type": "literal",
+                "value": 300,
+                "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/missionDuration"
+            },
+            "o": {
+                "type": "literal",
+                "value": 94672800,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pyroelectricity"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#Thing"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/orbitInclination"
+            },
+            "o": {
+                "type": "literal",
+                "value": 98.6,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Yoshinobu_Launch_Complex"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ilrs.gsfc.nasa.gov/satellite_missions/list_of_satellites/ade2_general.html"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Total_Ozone_Mapping_Spectrometer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Global_Change_Observation_Mission"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth_observation_satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/National_Space_Development_Agency_of_Japan"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hertz"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adeos"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/primaryTopic"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Metre_per_second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sulfur_dioxide"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/missionDuration"
+            },
+            "o": {
+                "type": "literal",
+                "value": "9.46728E7",
+                "datatype": "http://dbpedia.org/datatype/second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nitrous_oxide"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://suzaku.eorc.jaxa.jp/GLI2/adeos/Project/index.html%7Caccess-date=23"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Oxide"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/missionType"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Earth_observation_satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/nextMission"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_II"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/namesList"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Advanced Earth Observing Satellite",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Whisk_broom_scanner"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Retroreflector"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/orbitRegime"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sun-synchronous_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://de.dbpedia.org/resource/ADEOS-I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/lastContact"
+            },
+            "o": {
+                "type": "literal",
+                "value": "--06-30",
+                "datatype": "http://www.w3.org/2001/XMLSchema#gMonthDay"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Optoelectronic"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Earth_observation_satellites_of_Japan"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Portal"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "o": {
+                "type": "literal",
+                "value": "ADEOS I",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Infobox_spaceflight"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Infobox_spaceflight/Instruments"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Alaska_Satellite_Facility"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/alternativeName"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Midori",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I_(satellite)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "ADEOS I",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Cvt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Japanese_space_program"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Earth_observation_satellites_of_Japan"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pt.dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/enteredService"
+            },
+            "o": {
+                "type": "literal",
+                "value": "1997-01-01",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Spacecraft_launched_by_H-II_rockets"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/POLDER"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/launchSite"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tanegashima_Space_Center"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NASA"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Seasat"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://id.dbpedia.org/resource/ADEOS_I"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Use_American_English"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Spacecraft_launched_by_H-II_rockets"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ja.dbpedia.org/resource/\u307f\u3069\u308a_(\u4eba\u5de5\u885b\u661f)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/ADEOS_I"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mitsubishi_Electric"
+            }
+        }
+    ]
+}

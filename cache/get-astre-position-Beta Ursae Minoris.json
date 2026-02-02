@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Beta Ursae Minoris"
+    },
+    "output": {
+        "name": "Beta Ursae Minoris",
+        "uri": "http://dbpedia.org/resource/Beta_Ursae_Minoris",
+        "ra_hours": 13.60550830161105,
+        "dec_deg": -63.512642765754535,
+        "distance": 1,
+        "position": {
+            "x": -0.4071795518804664,
+            "y": -0.18199204663041277,
+            "z": -0.8950327968815982
+        }
+    }
+}

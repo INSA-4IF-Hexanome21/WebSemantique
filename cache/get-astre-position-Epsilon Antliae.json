@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Epsilon Antliae"
+    },
+    "output": {
+        "name": "Epsilon Antliae",
+        "uri": "http://dbpedia.org/resource/Epsilon_Antliae",
+        "ra_hours": 0.4268269546688792,
+        "dec_deg": 9.60866196917199,
+        "distance": 1,
+        "position": {
+            "x": 0.9798215510630776,
+            "y": 0.10994623043568398,
+            "z": 0.16691780757405253
+        }
+    }
+}

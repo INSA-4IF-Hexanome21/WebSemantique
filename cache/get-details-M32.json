@@ -1,0 +1,3311 @@
+{
+    "status": 1,
+    "input": {
+        "name": "M32"
+    },
+    "output": [
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Messier_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Accretion_(astrophysics)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Ngc5"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:UGC_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Infobox_Galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://vi.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Light-year"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Messier32",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://yago-knowledge.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://uk.dbpedia.org/resource/\u041c\u0435\u0441\u0441\u044c\u0454_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://tr.dbpedia.org/resource/NGC_221"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Dwarf_elliptical_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ar.dbpedia.org/resource/\u0645\u0633\u064a\u064a\u0647_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:UGC_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:WikiSky"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/linguistics/gold/hypernym"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://th.dbpedia.org/resource/\u0e40\u0e21\u0e0b\u0e35\u0e40\u0e22_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/z"
+            },
+            "o": {
+                "type": "literal",
+                "value": "\u2212200 \u00b1 6 km/s",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://uz.dbpedia.org/resource/M_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Andromeda_(constellation)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Short_description"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Reflist"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/PGC_2555"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_59"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:LEDA_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fi.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Location"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Lenticular_galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Andromeda_(constellation)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Principal_Galaxies_Catalogue_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/notes"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda_Galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Solar_System"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://mk.dbpedia.org/resource/\u041c\u0435\u0441\u0458\u0435_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://az.dbpedia.org/resource/M_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:LEDA_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/2MASX_J00424182+4051546"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/names"
+            },
+            "o": {
+                "type": "literal",
+                "value": "M 32, NGC 221, UGC 452, PGC 2555, Arp 168, LEDA 2555",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/size"
+            },
+            "o": {
+                "type": "literal",
+                "value": "8000.0",
+                "datatype": "http://dbpedia.org/datatype/lightYear"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galactic_tide"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Principal_Galaxies_Catalogue_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Arp_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Parsec"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dwarf_elliptical_galaxy_M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/thumbnail"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/M32_Francione_inverted.jpg?width=300"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/So\u0142tan_argument"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_most_massive_black_holes"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Local_Group"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Portal_bar"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://simple.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_110"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Constellation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://bs.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sv.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pt.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Atlas_of_Peculiar_Galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ce.dbpedia.org/resource/NGC_221"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://eo.dbpedia.org/resource/M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/PGC_2555"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Gravitational_microlensing"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Arp_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://de.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NGC221"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://et.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_nearest_galaxies"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/APG_168"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/appmagV"
+            },
+            "o": {
+                "type": "literal",
+                "value": 8.08,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q318"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dwarf_elliptical_galaxy_M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_black_holes"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/constellationName"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda_(constellation)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/APG_168"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Convert"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/CelestialBody"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/sizeV"
+            },
+            "o": {
+                "type": "literal",
+                "value": "390.0",
+                "datatype": "http://dbpedia.org/datatype/second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_Messier_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Effective_radius"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Battlelords_of_the_23rd_Century"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Atlas_of_Peculiar_Galaxies"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_Object_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fa.dbpedia.org/resource/\u0645\u0633\u06cc\u0647_\u06f3\u06f2"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:DEC"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NGC221"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Place"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda_Galaxy"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/RX_J0042.6+4052"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:RA"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Messier 32",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q13720"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda_(constellation)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Z_535-16"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Solar_mass"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guillaume_Le_Gentil"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/knownFor"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fr.dbpedia.org/resource/M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://be.dbpedia.org/resource/M32_(\u0430\u0431\u2019\u0435\u043a\u0442_\u041c\u0435\u0441\u044c\u0435)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Star_formation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_Object_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://messier.seds.org/m/m032.html"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Elliptical_Galaxy_M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/K79_1B"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/1_E22_m"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/IRAS_00399+4035"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/primaryTopic"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://web.archive.org/web/20110722021346/http:/blackholes.stardate.org/directory/factsheet.php%3Fp=M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NGC_4482"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#Thing"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Elliptical_Galaxy_M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galactic_tide"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/IRAS_00399+4035"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ru.dbpedia.org/resource/M_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guillaume_Le_Gentil"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/epoch"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Epoch_(astronomy)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Supermassive_black_hole"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Arp_168"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://af.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda's_satellite_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://rdf.freebase.com/ns/m.03tmnt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_object"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Dwarf_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/RX_J0042.6+4052"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Cite_web"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://eu.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/type"
+            },
+            "o": {
+                "type": "literal",
+                "value": "cE2",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_Andromeda's_satellite_galaxies"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/K79_1B"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Z_535-16"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://es.dbpedia.org/resource/Galaxia_el\u00edptica_M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_1749"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://cs.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Andromeda_(constellation)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Andromeda_galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guillaume_Le_Gentil"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/knownFor"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Supermassive_black_hole"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Sky"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sagittarius_A*"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://el.dbpedia.org/resource/\u039c\u03b5\u03c3\u03b9\u03ad_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hu.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sr.dbpedia.org/resource/\u041c\u0435\u0441\u0458\u0435_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Dwarf_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:NGC_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_Guillaume_Le_Gentil"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://no.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lt.dbpedia.org/resource/Mesj\u0117_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ro.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/File:M32_Francione_inverted.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lb.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Surface_brightness_fluctuation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Z_0039.9+4036"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/File:M32_from_Hubble.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Elliptical_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galaxy_formation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/UGC_452"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ca.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Uppsala_General_Catalogue"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NGC_4489"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_1749"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Planetary_nebula"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Local_Group"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:NGC_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_Guillaume_Le_Gentil"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/32_(number)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Arp_168"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dwarf_Elliptical_Galaxy_M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_object"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/M31_09-01-2011.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/LEDA_2555"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Local_Group"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://schema.org/Place"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://it.dbpedia.org/resource/M32_(astronomia)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nl.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/MCG+07-02-015"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/M32_Francione_inverted.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/notes"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Satellite galaxy of the",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/LEDA_2555"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://global.dbpedia.org/id/NoHX"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tip_of_the_red_giant_branch"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/distLy"
+            },
+            "o": {
+                "type": "literal",
+                "value": 2.49,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/M32_from_Hubble.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Brady_Haran"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hubble_Space_Telescope"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Warrick_Couch"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://my.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/File:M31_09-01-2011.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "M 32,NGC221,UGC452,PGC2555,Arp168, LEDA 2555",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/M32p"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ark_12"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Z_0039.9+4036"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/M32p"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kilometer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ko.dbpedia.org/resource/\uba54\uc2dc\uc5d0_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dwarf_elliptical_galaxy"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sl.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NGC_221"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://mg.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pl.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dwarf_Elliptical_Galaxy_M32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Black_hole"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Messier_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/NGC_221"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.deepskyvideos.com/videos/messier/M32_dwarf_elliptical_galaxy.html%7Cwork=Deep"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://tt.dbpedia.org/resource/NGC_221"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://zh.dbpedia.org/resource/M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/UGC_452"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/MCG+07-02-015"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ja.dbpedia.org/resource/M32_(\u5929\u4f53)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sk.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://he.dbpedia.org/resource/M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Spiral_galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://id.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Commons_category"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Messier 32",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hr.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Andromeda_Subgroup"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ark_12"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda_(constellation)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Andromeda_Galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sh.dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Satellite_galaxy"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/ns/prov#wasDerivedFrom"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Messier_32?oldid=1285437303&ns=0"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/caption"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Dwarf Satellite Galaxy Messier 32",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Andromeda_Subgroup"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/File:Messier_32.png"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Epoch_(astronomy)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/New_General_Catalogue"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Messier_objects"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://mzn.dbpedia.org/resource/\u0645\u0633\u06cc\u0647_\u06f3\u06f2"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://bg.dbpedia.org/resource/M32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/2MASX_J00424182+4051546"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Dwarf_elliptical_galaxies"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Messier_32"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Principal_Galaxies_Catalogue"
+            }
+        }
+    ]
+}

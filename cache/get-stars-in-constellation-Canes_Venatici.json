@@ -1,0 +1,32 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Canes_Venatici"
+    },
+    "output": [
+        {
+            "name": "24 Canum Venaticorum",
+            "uri": "http://dbpedia.org/resource/24_Canum_Venaticorum"
+        },
+        {
+            "name": "Alpha Canum Venaticorum",
+            "uri": "http://dbpedia.org/resource/Cor_Caroli"
+        },
+        {
+            "name": "Beta Canum Venaticorum",
+            "uri": "http://dbpedia.org/resource/Beta_Canum_Venaticorum"
+        },
+        {
+            "name": "R Canum Venaticorum",
+            "uri": "http://dbpedia.org/resource/R_Canum_Venaticorum"
+        },
+        {
+            "name": "RS Canum Venaticorum",
+            "uri": "http://dbpedia.org/resource/RS_Canum_Venaticorum"
+        },
+        {
+            "name": "Y Canum Venaticorum",
+            "uri": "http://dbpedia.org/resource/La_Superba"
+        }
+    ]
+}

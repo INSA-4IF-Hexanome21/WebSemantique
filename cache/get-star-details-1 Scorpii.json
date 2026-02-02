@@ -1,0 +1,790 @@
+{
+    "status": 1,
+    "input": {
+        "name": "1 Scorpii"
+    },
+    "output": {
+        "http://en.wikipedia.org/wiki/Iota1_Scorpii": {
+            "http://xmlns.com/foaf/0.1/primaryTopic": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_brightest_natural_objects_in_the_sky": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Table_of_stars_with_Bayer_designations": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Kappa_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Iota1_Scorpii": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Place"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.w3.org/2002/07/owl#Thing"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/CelestialBody"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/ontology/Location"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://schema.org/Place"
+                }
+            ],
+            "http://www.w3.org/2002/07/owl#sameAs": [
+                {
+                    "type": "uri",
+                    "value": "http://nl.dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sk.dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ru.dbpedia.org/resource/\u0419\u043e\u0442\u0430\u00b9_\u0421\u043a\u043e\u0440\u043f\u0438\u043e\u043d\u0430"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pl.dbpedia.org/resource/Jota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://rdf.freebase.com/ns/m.07ws9d"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ja.dbpedia.org/resource/\u3055\u305d\u308a\u5ea7\u30a4\u30aa\u30bf1\u661f"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://it.dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://yago-knowledge.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://es.dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://sv.dbpedia.org/resource/Jota_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fr.dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2711568"
+                },
+                {
+                    "type": "uri",
+                    "value": "https://global.dbpedia.org/id/2Y32j"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://zh.dbpedia.org/resource/\u5c3e\u5bbf\u516d"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://ast.dbpedia.org/resource/Iota1_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://fa.dbpedia.org/resource/\u06cc\u0648\u062a\u0627\u00b9_\u06a9\u0698\u062f\u0645"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://pt.dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/name": [
+                {
+                    "type": "literal",
+                    "value": "\u03b91 Scorpii",
+                    "lang": "en"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "type": "literal",
+                    "value": "Iota1 Scorpii",
+                    "lang": "it"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u3055\u305d\u308a\u5ea7\u30a4\u30aa\u30bf1\u661f",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "Jota Scorpii",
+                    "lang": "sv"
+                },
+                {
+                    "type": "literal",
+                    "value": "Iota1 Scorpii",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u5c3e\u5bbf\u516d",
+                    "lang": "zh"
+                },
+                {
+                    "type": "literal",
+                    "value": "Iota1 Scorpii",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "Jota1 Scorpii",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "Iota1 Scorpii",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0419\u043e\u0442\u0430\u00b9 \u0421\u043a\u043e\u0440\u043f\u0438\u043e\u043d\u0430",
+                    "lang": "ru"
+                },
+                {
+                    "type": "literal",
+                    "value": "Iota1 Scorpii",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Iota1 Scorpii",
+                    "lang": "nl"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/depiction": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Scorpius_constellation_map.svg"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Red_circle.svg"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasDerivedFrom": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Iota1_Scorpii?oldid=1277795915&ns=0"
+                }
+            ],
+            "http://purl.org/dc/terms/subject": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:F-type_supergiants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Scorpius"
+                }
+            ],
+            "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+                {
+                    "type": "uri",
+                    "value": "http://en.wikipedia.org/wiki/Iota1_Scorpii"
+                }
+            ],
+            "http://dbpedia.org/property/ageMyr": [
+                {
+                    "type": "literal",
+                    "value": 17,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                },
+                {
+                    "type": "literal",
+                    "value": "",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/appmagV": [
+                {
+                    "type": "literal",
+                    "value": 3.03,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/bV": [
+                {
+                    "type": "literal",
+                    "value": "+0.51",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/radialV": [
+                {
+                    "type": "literal",
+                    "value": "\u221226.00",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/temperature": [
+                {
+                    "type": "literal",
+                    "value": 6910,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/uB": [
+                {
+                    "type": "literal",
+                    "value": "+0.26",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/constell": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Scorpius"
+                }
+            ],
+            "http://dbpedia.org/property/pError": [
+                {
+                    "type": "literal",
+                    "value": 0.15,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/parallax": [
+                {
+                    "type": "literal",
+                    "value": 1.69,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/gravity": [
+                {
+                    "type": "literal",
+                    "value": 0.5,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "http://dbpedia.org/property/luminosity": [
+                {
+                    "type": "literal",
+                    "value": 35070,
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://dbpedia.org/property/epoch": [
+                {
+                    "type": "literal",
+                    "value": "J2000",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoDec": [
+                {
+                    "type": "literal",
+                    "value": "\u22126.24",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/property/propMoRa": [
+                {
+                    "type": "literal",
+                    "value": "+0.01",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/thumbnail": [
+                {
+                    "type": "uri",
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Scorpius_constellation_map.svg?width=300"
+                }
+            ],
+            "http://dbpedia.org/property/class": [
+                {
+                    "type": "literal",
+                    "value": "F2 Ia",
+                    "lang": "en"
+                }
+            ],
+            "http://dbpedia.org/ontology/description": [
+                {
+                    "type": "literal",
+                    "value": "estrella en la constelaci\u00f3n del Escorpi\u00f3n",
+                    "lang": "es"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0790\u07b0\u0786\u07af\u0783\u0795\u07a8\u0787\u07a6\u0790\u07b0 \u0782\u07a6\u0786\u07a6\u078c\u07aa\u078e\u07a6\u0787\u07a8\u0788\u07a7 \u078c\u07a6\u0783\u07a8\u0787\u07ac\u0787\u07b0",
+                    "lang": "dv"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u3055\u305d\u308a\u5ea7\u306e\u6052\u661f",
+                    "lang": "ja"
+                },
+                {
+                    "type": "literal",
+                    "value": "star in the constellation Scorpius",
+                    "lang": "en"
+                },
+                {
+                    "type": "literal",
+                    "value": "Stern im Sternbild Skorpion",
+                    "lang": "de"
+                },
+                {
+                    "type": "literal",
+                    "value": "Akrep tak\u0131my\u0131ld\u0131z\u0131ndaki bir y\u0131ld\u0131z",
+                    "lang": "tr"
+                },
+                {
+                    "type": "literal",
+                    "value": "gwiazda w gwiazdozbiorze Skorpiona",
+                    "lang": "pl"
+                },
+                {
+                    "type": "literal",
+                    "value": "r\u00e9alta",
+                    "lang": "ga"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0561\u057d\u057f\u0572 \u053f\u0561\u0580\u056b\u0573 \u0570\u0561\u0574\u0561\u057d\u057f\u0565\u0572\u0578\u0582\u0569\u0575\u0578\u0582\u0576\u0578\u0582\u0574",
+                    "lang": "hy"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u00e9toile binaire spectroscopique de la constellation du Scorpion",
+                    "lang": "fr"
+                },
+                {
+                    "type": "literal",
+                    "value": "estrela",
+                    "lang": "pt"
+                },
+                {
+                    "type": "literal",
+                    "value": "\u0437\u043e\u0440\u044f \u0432 \u0441\u0443\u0437\u0456\u0440'\u0457 \u0421\u043a\u043e\u0440\u043f\u0456\u043e\u043d\u0430",
+                    "lang": "uk"
+                },
+                {
+                    "type": "literal",
+                    "value": "bintang yang terletak di rasi bintang Skorpio",
+                    "lang": "in"
+                },
+                {
+                    "type": "literal",
+                    "value": "stella nella costellazione dello Scorpione",
+                    "lang": "it"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_luminosity"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Earth"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Arcseconds"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Bayer_designation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota_Scorpii"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Margin_of_error"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Effective_temperature"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:F-type_supergiants"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apparent_visual_magnitude"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Hipparcos_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bayer_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Bright_Star_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Scorpius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Luminosity_class"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Scorpius_(constellation)"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Durchmusterung_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Solar_mass"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Henry_Draper_Catalogue_objects"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Angular_separation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Supergiant"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Latinisation_of_names"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Parallax"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stellar_classification"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Astronomical_Unit"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Projected_separation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Constellation"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Apollyon"
+                }
+            ],
+            "http://dbpedia.org/property/wikiPageUsesTemplate": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Hatnote"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_begin"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_image"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:DEC"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Odlist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Val"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:RA"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Short_description"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_end"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Solar_radius_calculator"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Stars_of_Scorpius"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Convert"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Reflist"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Nbsp"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_observe"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Location_mark"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_reference"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_detail"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_astrometry"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_character"
+                },
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Template:Starbox_catalog"
+                }
+            ],
+            "http://dbpedia.org/property/metalFe": [
+                {
+                    "type": "literal",
+                    "value": "\u22120.13 to \u22120.11",
+                    "lang": "en"
+                }
+            ],
+            "http://purl.org/linguistics/gold/hypernym": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Star"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Epsilon_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Jyeshtha_(nakshatra)": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Upsilon_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Theta_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Mu1_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Lambda_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/List_of_stars_in_Scorpius": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Mula_(nakshatra)": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/\u03991_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Iota_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Scorpius_in_Chinese_astronomy": {
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Iota1_Sco": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/Iota\u00b9_Scorpii": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        },
+        "http://dbpedia.org/resource/HIP_87073": {
+            "http://dbpedia.org/ontology/wikiPageRedirects": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ],
+            "http://dbpedia.org/ontology/wikiPageWikiLink": [
+                {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Iota1_Scorpii"
+                }
+            ]
+        }
+    }
+}

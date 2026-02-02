@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Beta Crucis"
+    },
+    "output": {
+        "name": "Beta Crucis",
+        "uri": "http://dbpedia.org/resource/Mimosa_(star)",
+        "ra_hours": 20.23257469103285,
+        "dec_deg": -74.3344662092666,
+        "distance": 1,
+        "position": {
+            "x": 0.148990013486779,
+            "y": -0.22519652184295658,
+            "z": -0.962854351618688
+        }
+    }
+}

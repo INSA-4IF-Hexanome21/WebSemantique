@@ -1,0 +1,3166 @@
+{
+    "status": 1,
+    "input": {
+        "name": "Adrast\u00e9e (lune)"
+    },
+    "output": [
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ja.dbpedia.org/resource/\u30a2\u30c9\u30e9\u30b9\u30c6\u30a2_(\u885b\u661f)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://als.dbpedia.org/resource/Adrastea_(Mond)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/satelliteOf"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pnb.dbpedia.org/resource/\u0627\u0688\u0631\u0627\u0633\u0679\u06cc\u0627"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://no.dbpedia.org/resource/Adrastea_(m\u00e5ne)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ru.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u0435\u044f_(\u0441\u043f\u0443\u0442\u043d\u0438\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://be.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u044d\u044f_(\u0441\u043f\u0430\u0434\u0430\u0440\u043e\u0436\u043d\u0456\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Discovery_of_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://simple.dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Discovery_of_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Adrast\u00e9e_FDS_20630.png"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Porosity"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/linguistics/gold/hypernym"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Second"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Timeline_of_Galileo_(spacecraft)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galileo_(spacecraft)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://my.dbpedia.org/resource/\u1021\u1014\u103a\u1012\u101b\u102c\u1005\u1010\u102e\u1038\u101a\u102c_(\u1002\u103c\u102d\u102f\u101f\u103a\u101b\u1036\u101c)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Planet"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ananke_(mythology)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://mk.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u0435\u0458\u0430_(\u043c\u0435\u0441\u0435\u0447\u0438\u043d\u0430)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://solarsystem.nasa.gov"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://bn.dbpedia.org/resource/\u0985\u09cd\u09af\u09be\u09a1\u09cd\u09b0\u09be\u09b8\u09cd\u099f\u09bf\u09af\u09bc\u09be_(\u09aa\u09cd\u09b0\u09be\u0995\u09c3\u09a4\u09bf\u0995_\u0989\u09aa\u0997\u09cd\u09b0\u09b9)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/S/1979_J_1"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://es.dbpedia.org/resource/Adrastea_(sat\u00e9lite)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pt.dbpedia.org/resource/Adrasteia"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tidal_deceleration"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://web.archive.org/web/20130317224600/http:/solarsystem.nasa.gov/planets/profile.cfm%3FObject=Jup_Adrastea"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galileo_project"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/S/1979_J_1"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Zeus"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sl.dbpedia.org/resource/Adrasteja_(luna)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://war.dbpedia.org/resource/Adrastea_(bulan)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://uk.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u0435\u044f_(\u0441\u0443\u043f\u0443\u0442\u043d\u0438\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hr.dbpedia.org/resource/Adrasteja_(mjesec)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Amalthea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/5_Astraea"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://tr.dbpedia.org/resource/Adrastea_(uydu)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.cbat.eps.harvard.edu/iauc/03400/03454.html"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.cbat.eps.harvard.edu/iauc/03800/03872.html"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://la.dbpedia.org/resource/Adrastea_(satelles)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://schema.org/Place"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Orbital_eccentricity"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rings_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_1979"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/David_Jewitt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Astronomical_objects_discovered_in_1979"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/depiction"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/adrastea.jpg"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Natural_satellite"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://br.dbpedia.org/resource/Adrastea_(loarenn)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Roman_god"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fr.dbpedia.org/resource/Adrast\u00e9e_(lune)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ananke_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Exploration_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Inclination"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galileo_spacecraft"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://da.dbpedia.org/resource/Adrastea_(m\u00e5ne)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Name_conflicts_with_minor_planets"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ar.dbpedia.org/resource/\u0623\u062f\u0631\u0627\u0633\u062a\u064a\u0627"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://id.dbpedia.org/resource/Adrastea_(satelit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Orbital_resonance"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dark_Jovian"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tidal_acceleration"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://az.dbpedia.org/resource/Adrasteya_(peyk)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lb.dbpedia.org/resource/Adrastea_(Mound)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Shepherd_moon"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/CelestialBody"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://cs.dbpedia.org/resource/Adrastea_(m\u011bs\u00edc)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Efn"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_natural_satellites"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Moons_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:E-sp"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Natural_satellite"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Cite_encyclopedia"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fa.dbpedia.org/resource/\u0622\u062f\u0631\u0633\u062a\u06cc\u0627_(\u0642\u0645\u0631)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rings_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/inclination"
+            },
+            "o": {
+                "type": "literal",
+                "value": 0.03,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:For"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Voyager_2"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://eu.dbpedia.org/resource/Adrastea_(satelitea)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://azb.dbpedia.org/resource/\u0622\u062f\u0631\u0627\u0633\u062a\u06cc\u0627_(\u0642\u0645\u0631)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ga.dbpedia.org/resource/Adrastea"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Inner_moon"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/temperature"
+            },
+            "o": {
+                "type": "literal",
+                "value": 122,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageDisambiguates"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Timeline_of_discovery_of_Solar_System_planets_and_their_moons"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ko.dbpedia.org/resource/\uc544\ub4dc\ub77c\uc2a4\ud14c\uc544_(\uc704\uc131)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Synchronous_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_David_C._Jewitt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Roche_limit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Adrastea (moon)",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ro.dbpedia.org/resource/Adrastea_(satelit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Good_article"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://de.dbpedia.org/resource/Adrastea_(Mond)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_David_C._Jewitt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://fi.dbpedia.org/resource/Adrastea_(kuu)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://global.dbpedia.org/id/eWeW"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Planet/temperature"
+            },
+            "o": {
+                "type": "literal",
+                "value": "122.0",
+                "datatype": "http://dbpedia.org/datatype/kelvin"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Location"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sr.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u0435\u0458\u0430_(\u0441\u0430\u0442\u0435\u043b\u0438\u0442)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/orbitalPeriod"
+            },
+            "o": {
+                "type": "literal",
+                "value": 25770,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/dimensions"
+            },
+            "o": {
+                "type": "literal",
+                "value": 20,
+                "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sk.dbpedia.org/resource/Adrastea_(mesiac)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Short_description"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tidal_locking"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://af.dbpedia.org/resource/Adrastea_(maan)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://he.dbpedia.org/resource/\u05d0\u05d3\u05e8\u05e1\u05d8\u05d0\u05d4"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Planet/averageSpeed"
+            },
+            "o": {
+                "type": "literal",
+                "value": "31.378",
+                "datatype": "http://dbpedia.org/datatype/kilometrePerSecond"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://mr.dbpedia.org/resource/\u0905\u0926\u094d\u0930\u093e\u0938\u094d\u0924\u093f\u092f\u093e_(\u0909\u092a\u0917\u094d\u0930\u0939)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Lucky_Starr_and_the_Moons_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sv.dbpedia.org/resource/Adrastea"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Reflist"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cassini\u2013Huygens"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/primaryTopic"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Place"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/caption"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Image of Adrastea taken by Galileo spacecraft between November 1996 and June 1997",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hill_sphere"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/avgSpeed"
+            },
+            "o": {
+                "type": "literal",
+                "value": "31.378",
+                "datatype": "http://dbpedia.org/datatype/kilometrePerSecond"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Greek_god"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/David_C._Jewitt"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ice"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ml.dbpedia.org/resource/\u0d05\u0d21\u0d4d\u0d30\u0d3e\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d3f\u0d2f"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/J_XV_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/discoverer"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/G._Edward_Danielson"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_(mythology)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Inner_satellites_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q634"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hy.dbpedia.org/resource/\u0531\u0564\u0580\u0561\u057d\u057f\u0565\u0561_(\u0561\u0580\u0562\u0561\u0576\u0575\u0561\u056f)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/J_XV_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Starhunter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lt.dbpedia.org/resource/Adrast\u0117ja_(palydovas)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Clear"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Notes"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/G._Edward_Danielson"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tidal_locking"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.astro.umd.edu/~hamilton/research/preprints/BurSimSho03.pdf"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://pl.dbpedia.org/resource/Adrastea_(ksi\u0119\u017cyc)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discoverer"
+            },
+            "o": {
+                "type": "literal",
+                "value": "David C. Jewitt",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://bg.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u0435\u044f_(\u0441\u043f\u044a\u0442\u043d\u0438\u043a)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:SfnRef"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://lv.dbpedia.org/resource/Adrasteja_(pavadonis)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/JunoCam"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://zh.dbpedia.org/resource/\u6728\u536b\u5341\u4e94"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://vi.dbpedia.org/resource/Adrastea_(v\u1ec7_tinh)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://cv.dbpedia.org/resource/\u0410\u0434\u0440\u0430\u0441\u0442\u0435\u044f_(\u00e7\u0443\u043b\u0442\u0430\u0448)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(mythology)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nl.dbpedia.org/resource/Adrastea_(maan)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nn.dbpedia.org/resource/Jupiterm\u00e5nen_Adrastea"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/Planet/orbitalPeriod"
+            },
+            "o": {
+                "type": "literal",
+                "value": "0.2982638888888889",
+                "datatype": "http://dbpedia.org/datatype/day"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrasteia"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://nds.dbpedia.org/resource/Adrastea_(Maand)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/discoverer"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/David_C._Jewitt"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Solarquest"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tidally_locked"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Metis_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_G._Edward_Danielson"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://purl.org/dc/terms/subject"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Moons_with_a_prograde_orbit"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Light_scattering"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/rotation"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tidal_locking"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:IPAc-en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://bs.dbpedia.org/resource/Adrasteja_(satelit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Sfn"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://it.dbpedia.org/resource/Adrastea_(astronomia)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Spoken_Wikipedia"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/averageSpeed"
+            },
+            "o": {
+                "type": "literal",
+                "value": 112960.8,
+                "datatype": "http://www.w3.org/2001/XMLSchema#double"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Category:Discoveries_by_G._Edward_Danielson"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(satellite)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Moons_of_Jupiter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Synchronous_rotation"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XV_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discoverer"
+            },
+            "o": {
+                "type": "literal",
+                "value": "",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Val"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Infobox_planet"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageExternalLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "https://web.archive.org/web/20110725035158/http:/www.cbat.eps.harvard.edu/iauc/03400/03454.html"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Solar_System"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Backscatter"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(satellite)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/namedAfter"
+            },
+            "o": {
+                "type": "literal",
+                "value": "\u1f08\u03b4\u03c1\u03ac\u03c3\u03c4\u03b5\u03b9\u03b1 Adrasteia",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cosmopterix_adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Naming_of_moons"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XV_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Voyager_1"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Voyager_2"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Exploration_of_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Outline_of_Jupiter"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/ns/prov#wasDerivedFrom"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Adrastea_(moon)?oldid=1261737395&ns=0"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hi.dbpedia.org/resource/\u0910\u0921\u094d\u0930\u093e\u0938\u094d\u091f\u0940\u092f\u093e_(\u0909\u092a\u0917\u094d\u0930\u0939)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://sh.dbpedia.org/resource/Adrasteja_(mjesec)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_in_fiction"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Thebe_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Exploration_of_Adrastea"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://gl.dbpedia.org/resource/Adrastea_(l\u00faa)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XV"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Metis_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://ca.dbpedia.org/resource/Adrastea_(sat\u00e8l\u00b7lit)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/axialTilt"
+            },
+            "o": {
+                "type": "literal",
+                "value": "zero",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://rdf.freebase.com/ns/m.0_fp"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jupiter_XV"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/List_of_Solar_System_objects_by_size"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Spacecraft"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://en.wikipedia.org/wiki/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/File:Adrast\u00e9e_FDS_20630.png"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Convert"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://eo.dbpedia.org/resource/Adrasteo_(luno)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://www.wikidata.org/entity/Q16757"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://yago-knowledge.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/wikiPageUsesTemplate"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Template:Cite_journal"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/thumbnail"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://commons.wikimedia.org/wiki/Special:FilePath/adrastea.jpg?width=300"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Adrastea",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discovered"
+            },
+            "o": {
+                "type": "literal",
+                "value": "1979-07-08",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/discoverer"
+            },
+            "o": {
+                "type": "literal",
+                "value": "G. Edward Danielson",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://hu.dbpedia.org/resource/Adrastea"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/S/1979_J1"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageRedirects"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Juno_(spacecraft)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/singleTemperature"
+            },
+            "o": {
+                "type": "literal",
+                "value": "\u2248&thinsp;122 K",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://xmlns.com/foaf/0.1/name"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Adrastea",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/property/adjectives"
+            },
+            "o": {
+                "type": "literal",
+                "value": "Adrastean",
+                "lang": "en"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/S/1979_J1"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/wikiPageWikiLink"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://www.w3.org/2002/07/owl#sameAs"
+            },
+            "o": {
+                "type": "uri",
+                "value": "http://el.dbpedia.org/resource/\u0391\u03b4\u03c1\u03ac\u03c3\u03c4\u03b5\u03b9\u03b1_(\u03b4\u03bf\u03c1\u03c5\u03c6\u03cc\u03c1\u03bf\u03c2)"
+            }
+        },
+        {
+            "s": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adrastea_(moon)"
+            },
+            "p": {
+                "type": "uri",
+                "value": "http://dbpedia.org/ontology/discovered"
+            },
+            "o": {
+                "type": "literal",
+                "value": "1979-07-08",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        }
+    ]
+}
